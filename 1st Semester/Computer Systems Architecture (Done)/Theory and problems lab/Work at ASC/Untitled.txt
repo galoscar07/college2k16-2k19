@@ -1,0 +1,9 @@
+#TODO:
+	1.  Read a number and put it into a register
+	2.  Read from file (readed file) and print
+	3.  Read a number and put it into a file
+	4.  Read from file (given file) and print
+	5.  Read from file (readed file) and put into a register
+	6.  Read from file (give file) and put into a register
+	7.  Read a number and change it's base (base 2) and print
+	8.  Read a number and change it's base (base 2) and put into a file

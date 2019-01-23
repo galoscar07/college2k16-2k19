@@ -1,0 +1,75 @@
+
+***Execution Stack***
+Opening: /Users/oscar/Documents/College/3rd Semester/Advanced Programming Methods/Laboratory/C#LabAssignment/sharplab/View/file1.txt;Reading from: f;print(g);Closing file;
+***Symbol Table***
+
+***Out***
+
+***File Table***
+
+--------------------------------------------------------
+
+***Execution Stack***
+Reading from: f;print(g);Closing file;
+***Symbol Table***
+f->1;
+***Out***
+
+***File Table***
+1 /Users/oscar/Documents/College/3rd Semester/Advanced Programming Methods/Laboratory/C#LabAssignment/sharplab/View/file1.txt
+
+--------------------------------------------------------
+
+***Execution Stack***
+Reading from: f;print(g);Closing file;
+***Symbol Table***
+f->1;
+***Out***
+
+***File Table***
+1 /Users/oscar/Documents/College/3rd Semester/Advanced Programming Methods/Laboratory/C#LabAssignment/sharplab/View/file1.txt
+
+--------------------------------------------------------
+
+***Execution Stack***
+print(g);Closing file;
+***Symbol Table***
+f->1;g->2;
+***Out***
+
+***File Table***
+1 /Users/oscar/Documents/College/3rd Semester/Advanced Programming Methods/Laboratory/C#LabAssignment/sharplab/View/file1.txt
+
+--------------------------------------------------------
+
+***Execution Stack***
+print(g);Closing file;
+***Symbol Table***
+f->1;g->2;
+***Out***
+
+***File Table***
+1 /Users/oscar/Documents/College/3rd Semester/Advanced Programming Methods/Laboratory/C#LabAssignment/sharplab/View/file1.txt
+
+--------------------------------------------------------
+
+***Execution Stack***
+Closing file;
+***Symbol Table***
+f->1;g->2;
+***Out***
+2;
+***File Table***
+1 /Users/oscar/Documents/College/3rd Semester/Advanced Programming Methods/Laboratory/C#LabAssignment/sharplab/View/file1.txt
+
+--------------------------------------------------------
+
+***Execution Stack***
+
+***Symbol Table***
+f->1;g->2;
+***Out***
+2;
+***File Table***
+
+--------------------------------------------------------

@@ -1,0 +1,129 @@
+Laboratory 5 - bit operations
+
+Shift operations
+
+shl - shift left
+shr - shift right
+sal - shift arithmetic left
+sar - shift arithmetic right
+
+shl destination, number
+- destination can be a register or a memory location of 1 or 2 bytes
+- number can be 1 or register cl (the value of cl must not exceed 31)
+
+Effect:
+The bits stored in destination are shifted number positions to the left. The rightmost bits are filled with 0. The last dissapearing bit is kept in CF.
+
+Exemple:
+mov al, 00110011
+mov cl, 2
+shl al, cl ; -> al = 11001100, CF = 0
+
+shr destination, number
+- destination can be a register or a memory location of 1 or 2 bytes
+- number can be 1 or register cl (the value of cl must not exceed 31)
+
+Effect:
+The bits stored in destination are shifted number positions to the right. The leftmost bits are filled with 0. The last dissapearing bit is kept in CF.
+
+Exemple:
+mov al, 01011110
+mov cl, 2
+shr al, cl ; -> al = 00010111, CF = 1
+
+sar destination, number
+- destination can be a register or a memory location of 1 or 2 bytes
+- number can be 1 or register cl (the value of cl must not exceed 31)
+
+Effect:
+The bits stored in destination are shifted number positions to the right. The leftmost bits are filled with the sign bit. The last dissapearing bit is kept in CF.
+
+Exemple:
+mov al, 11011110
+mov cl, 2
+sar al, cl ; -> al = 11110111, CF = 1
+
+sal: identical to shl
+
+
+Bit rotations
+
+rol - rotate left
+ror - rotate right
+rcl - rotate through carry left
+rcr - rotate through carry right 
+
+rol destination, number
+- destination can be a register or a memory location of 1 or 2 bytes
+- number can be 1 or register cl (the value of cl must not exceed 31)
+
+Effect:
+The bits stored in destination are rotated number positions to the left. A bit that goes out on the left side will be automatically added to the right. The last rotated bit is kept in CF.
+
+Exemple:
+mov al, 00110011
+mov cl, 2
+rol al, cl ; -> al = 11001100, CF = 0
+
+ror destination, number
+- destination can be a register or a memory location of 1 or 2 bytes
+- number can be 1 or register cl (the value of cl must not exceed 31)
+
+Effect:
+The bits stored in destination are rotated number positions to the right. A bit that goes out on the right side will be automatically added to the left. The last rotated bit is kept in CF.
+
+Exemple:
+mov al, 00111110
+mov cl, 2
+ror al, cl ; -> al = 10001111, CF = 1
+
+rcl destination, number
+- destination can be a register or a memory location of 1 or 2 bytes
+- number can be 1 or register cl (the value of cl must not exceed 31)
+
+Effect:
+The bits stored in destination are rotated number positions to the left. A bit that goes out on the left side will be kept in CF. The previous value of CF will be automatically added on the right hand side of destination
+
+Exemple:
+stc; CF = 1 (set carry)
+mov al, 00110011
+mov cl, 2
+rcl al, cl ; -> al = 11001110, CF = 0
+
+rcr destination, number
+- destination can be a register or a memory location of 1 or 2 bytes
+- number can be 1 or register cl (the value of cl must not exceed 31)
+
+Effect:
+The bits stored in destination are rotated number positions to the right. A bit that goes out on the right side will be kept in CF. The previous value of CF will be automatically added on the left hand side of destination
+
+Exemple:
+stc; CF = 1 (set carry)
+mov al, 00110011
+mov cl, 2
+rcr al, cl ; -> al = 11001100, CF = 1
+
+
+Logical operations
+
+and - logical AND
+or - logical OR
+xor - logical EXCLUSIVE OR
+not - logical invert
+
+and destination, source
+or destination, source
+xor destination, source
+not destination
+- destination can be a register or a memory location of 1 or 2 bytes
+- source can be a 1 or 2 bytes register, memory location or constant
+- both operands should have the same dimension
+- operands can not be both memory locations
+
+Effect:
+destination = destination and source
+destination = destination or source
+destination = destination xor source
+destination = not destination
+
+Obs.: shift and rotate operations also affect OF. For more information, please refer to Norton Guide.

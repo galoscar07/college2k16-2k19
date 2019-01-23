@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="3" failures="0" finished="true" name="Test Run: 6" tests="0" total_time="Finished in: 0.00 secs."/>
+<test location="/Users/oscar/Downloads/seminar05/appstart.py" status="error" test="appstart" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Applications/Eclipse.app/Contents/Eclipse/plugins/org.python.pydev_5.3.0.201610121612/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/Users/oscar/Downloads/seminar05/appstart.py", line 6, in <module>
+    from seminar05.repository.numberRepo import NumberRepository
+ImportError: No module named 'seminar05'
+ERROR: Module: appstart could not be imported (file: /Users/oscar/Downloads/seminar05/appstart.py).
+]]></stderr>
+</test>
+<test location="/Users/oscar/Downloads/seminar05/repository/numberRepo.py" status="error" test="repository.numberRepo" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Applications/Eclipse.app/Contents/Eclipse/plugins/org.python.pydev_5.3.0.201610121612/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/Users/oscar/Downloads/seminar05/repository/numberRepo.py", line 6, in <module>
+    from seminar05.domain.complex import Complex
+ImportError: No module named 'seminar05'
+ERROR: Module: repository.numberRepo could not be imported (file: /Users/oscar/Downloads/seminar05/repository/numberRepo.py).
+]]></stderr>
+</test>
+<test location="/Users/oscar/Downloads/seminar05/ui/menu.py" status="error" test="ui.menu" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Applications/Eclipse.app/Contents/Eclipse/plugins/org.python.pydev_5.3.0.201610121612/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/Users/oscar/Downloads/seminar05/ui/menu.py", line 6, in <module>
+    from seminar05.domain.complex import Complex
+ImportError: No module named 'seminar05'
+ERROR: Module: ui.menu could not be imported (file: /Users/oscar/Downloads/seminar05/ui/menu.py).
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="seminar05 seminar05"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>

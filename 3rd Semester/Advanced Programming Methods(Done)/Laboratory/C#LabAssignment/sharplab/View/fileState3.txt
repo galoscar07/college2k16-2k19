@@ -1,0 +1,60 @@
+
+***Execution Stack***
+a=(2-2);IF(a) THEN(v=2)ELSE(v=4);print(v);
+***Symbol Table***
+
+***Out***
+
+***File Table***
+
+--------------------------------------------------------
+
+***Execution Stack***
+IF(a) THEN(v=2)ELSE(v=4);print(v);
+***Symbol Table***
+a->0;
+***Out***
+
+***File Table***
+
+--------------------------------------------------------
+
+***Execution Stack***
+IF(a) THEN(v=2)ELSE(v=4);print(v);
+***Symbol Table***
+a->0;
+***Out***
+
+***File Table***
+
+--------------------------------------------------------
+
+***Execution Stack***
+v=4;print(v);
+***Symbol Table***
+a->0;
+***Out***
+
+***File Table***
+
+--------------------------------------------------------
+
+***Execution Stack***
+print(v);
+***Symbol Table***
+a->0;v->4;
+***Out***
+
+***File Table***
+
+--------------------------------------------------------
+
+***Execution Stack***
+
+***Symbol Table***
+a->0;v->4;
+***Out***
+4;
+***File Table***
+
+--------------------------------------------------------

@@ -1,0 +1,10 @@
+#div1 {
+    background-color: #4CAF50;
+    padding: 10px;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+h1 {
+    text-shadow: 2px 2px #FF0000;
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="something.xsl"?>
+<collection>
+    <object>
+        <type>image</type>
+        <string>https://picsum.photos/200/300?image=0</string>
+    </object>
+    
+    <object>
+        <type>text</type>
+        <string>lorem</string>
+    </object>
+    
+    <object>
+        <type>site</type>
+        <string>http://www.facebook.com</string>
+    </object>
+    
+    <object>
+        <type>site</type>
+        <string>http://www.instagram.com</string>
+    </object>
+    
+    <object>
+        <type>text</type>
+        <string>ipsum</string>
+    </object>
+    
+    <object>
+        <type>image</type>
+        <string>https://picsum.photos/200/300?image=1</string>
+    </object>
+    
+    <object>
+        <type>image</type>
+        <string>https://picsum.photos/200/300?image=2</string>
+    </object>
+    
+    <object>
+        <type>site</type>
+        <string>http://www.google.ro</string>
+    </object>
+    
+    <object>
+        <type>text</type>
+        <string>akhsdbfbasdlabsiyfuhiwfe</string>
+    </object>
+</collection>

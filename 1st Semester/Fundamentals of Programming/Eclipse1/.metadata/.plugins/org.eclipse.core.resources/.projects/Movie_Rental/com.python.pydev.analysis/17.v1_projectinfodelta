@@ -1,0 +1,12 @@
+INSTUPsrc.store.repository.testRepository
+/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/repository/testRepository.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&2|6|2|1&&2|7|2|1&&2|8|2|1&&2|9|2|1
+test_getAll=8
+TestRepository=1
+test_findById=6
+test_save=7
+TestRepository.setUp=5
+setUp=3
+__repository=4
+src.store.repository.testRepository=2
+test_delete=9

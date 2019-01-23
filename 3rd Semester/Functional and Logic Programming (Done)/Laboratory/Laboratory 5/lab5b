@@ -1,0 +1,7 @@
+(defun assoc(l s)
+(cond
+((null l) nil)
+((null s) nil)
+((/=(/= length(l) 0)) (t(cons(cons(car(l) car(s))) assoc(cdr(l) cdr(s)))))
+)
+)

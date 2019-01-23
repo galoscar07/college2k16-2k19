@@ -1,0 +1,10 @@
+0,52,"Light taupe",2000,7,"https://us.burberry.com/unisex-tropical-gabardine-car-coat-with-exaggerated-cuffs-p45533041",116
+1,38,"Black",1695,3,"https://us.burberry.com/the-kensington-short-heritage-trench-coat-p39066881",188
+2,36,"Stone",1670,5,"https://us.burberry.com/the-kensington-short-heritage-trench-coat-p39110561",188
+3,34,"Honey",1799.99,3,"https://us.burberry.com/the-kensington-short-heritage-trench-coat-p39110571",188
+4,38,"Navy",2177,10,"https://us.burberry.com/the-kensington-short-heritage-trench-coat-p39802111",188
+5,52,"Light taupe",1795,0,"https://us.burberry.com/unisex-tropical-gabardine-car-coat-with-exaggerated-cuffs-p45533041",116
+6,40,"Black",1995,3,"https://us.burberry.com/long-cotton-gabardine-car-coat-p39428511",98
+7,38,"Bright Olive",1995,12,"https://us.burberry.com/oversize-storm-shield-tropical-gabardine-trench-coat-p40504731",110
+8,40,"Canvas Blue",1995,7,"https://us.burberry.com/tropical-gabardine-cotton-trench-coat-p40504741",105
+9,38,"Antique taupe pink",1795,3,"https://us.burberry.com/unisex-tropical-gabardine-car-coat-p45533051",116

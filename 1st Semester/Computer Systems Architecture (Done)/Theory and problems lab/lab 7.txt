@@ -1,0 +1,98 @@
+Instructions working on strings of bytes/words/doublewords
+
+Instructions working on strings have default operands (parameters). 
+Types of string instructions:
+
+which use a source string and a destination string (MOVSB, MOVSW, CMPSB, CMPSW)
+which use only a source string (LODSB, LODSW)
+which use only a destination string (STOSB, STOSW, SCASB, SCASW)
+You will remember them more easily:)
+
+Move String = MOVS
+Compare String = CMPS
+Load String = LODS
+Store String = STOS
+Scan String = SCAS
+
+A string is characterized by: 
+- the type of the elements(bytes or words) => is given by the last letter of the instruction that is used (B=byte, W=word), both strings having the same type 
+- the address of the first element => is a FAR memory address which is memorised in: 
+        - in DS:SI - for the source string
+        - in ES:DI - for the destination string 
+- the parsing direction => is given by the value of the DF flag (0 - from small addresses to large addresses, 1 - from large addresses to small addresses. See CLD, STD) 
+- the number of elements => when needed is placed in CX 
+
+Instructions for data transfer 
+
+LODSB	The byte from the address <DS:SI> is loaded in AL
+If DF=0 then inc(SI), else dec(SI)
+LODSW	The word from the address <DS:SI> is loaded in AX
+If DF=0 then SI:=SI+2, else SI:=SI-2
+STOSB	Store AL into the byte from the address <ES:DI>
+If DF=0 then inc(DI), else dec(DI)
+STOSW	Store AX into the word from the address <ES:DI>
+If DF=0 then DI:=DI+2, else DI:=DI-2
+MOVSB	Store the byte from the address <DS:SI> to the address <ES:DI>
+If DF=0 then inc(SI), inc(DI), else dec(SI), dec(DI)
+MOVSW	Store the word from the address <DS:SI> to the address <ES:DI>
+If DF=0 then SI:=SI+2, DI:=DI+2, else SI:=SI-2, DI:=DI-2
+
+
+Example: We have a source string of words. Copy this string into another string. We assume we know the length of this string. 
+
+	mov CX, dim_sir 
+	mov SI, OFFSET sir_sursa 
+	mov AX, SEG sir_sursa 
+	mov DS, AX 
+	mov DI, OFFSET sir_dest 
+	mov AX, SEG sir_dest 
+	mov ES, AX 
+	CLD 
+	Again: 
+		LODSW 
+		STOSW 
+		LOOP Again 
+
+
+Instructions for data comparisons in strings
+
+SCASB	CMP AL, <ES:DI>
+If DF=0 then inc(DI), else dec(DI)
+SCASW	CMP AX, <ES:DI>
+If DF=0 then DI:=DI+2, else DI:=DI-2
+CMPSB	CMP <DS:SI>, <ES:DI>
+If DF=0 then inc(SI), inc(DI), else dec(SI), dec(DI)
+CMPSW	CMP <DS:SI>, <ES:DI>
+If DF=0 then SI:=SI+2, DI:=DI+2, else SI:=SI-2, DI:=DI-2
+
+
+Example:A string of bytes is given. Find the last occurrence of the character "0" in this string. 
+
+	;... the address of the destination string is loaded here 
+	MOV AL, '0' 
+	MOV CX, lung_sir 
+	STD 
+	Cont_caut:		 ;continue the search... 
+		SCASB 
+		JE Gasit 
+		LOOP Cont_caut 
+	... 
+	Gasit: 
+		INC DI		 ;go back to the character found before DI was decremented
+
+
+Repetitive execution of a string instruction 
+
+repetitive_prefix string_instruction 
+
+equivalent to 
+
+Again:
+	string_instruction 
+	LOOP Again 
+... where repetitive_prefix can be REP, equivalent to REPE (Repeat While Equal), REPZ (Repeat While Zero) - which repeat the execution of instructions SCAS or CMPS until CX becomes 0 or when an unmatch occurs ( => ZF=0) 
+... or it can be REPNE (Repeat While Not Equal) or REPNZ (Repeat While Not Zero) - which repeat the execution of instructions SCAS or CMPS until CX becomes 0 or when a match occurs ( => ZF=1) 
+
+Observations:
+- string instructions don not change the flags as a result of modifications to SI, DI or CX
+- LODS, STOS, MOVS - do not change any flag, while SCAS and CMPS change the flags because they compare data.

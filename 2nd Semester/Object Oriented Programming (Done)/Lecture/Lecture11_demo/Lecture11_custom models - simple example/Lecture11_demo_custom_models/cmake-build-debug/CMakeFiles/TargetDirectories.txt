@@ -1,0 +1,4 @@
+/Users/galoscar/Documents/College/Semester 2/Object Oriented Programming/Lecture/Lecture11_demo/Lecture11_custom models - simple example/Lecture11_demo_custom_models/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/galoscar/Documents/College/Semester 2/Object Oriented Programming/Lecture/Lecture11_demo/Lecture11_custom models - simple example/Lecture11_demo_custom_models/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/galoscar/Documents/College/Semester 2/Object Oriented Programming/Lecture/Lecture11_demo/Lecture11_custom models - simple example/Lecture11_demo_custom_models/cmake-build-debug/CMakeFiles/Lecture11_demo_custom_models.dir
+/Users/galoscar/Documents/College/Semester 2/Object Oriented Programming/Lecture/Lecture11_demo/Lecture11_custom models - simple example/Lecture11_demo_custom_models/cmake-build-debug/CMakeFiles/Lecture11_demo_custom_models_automoc.dir

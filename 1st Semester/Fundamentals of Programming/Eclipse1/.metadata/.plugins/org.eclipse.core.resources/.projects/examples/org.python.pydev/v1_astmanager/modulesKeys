@@ -1,0 +1,14 @@
+MODULES_MANAGER_V2
+__init__|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/__init__.py
+appCoord|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/appCoord.py
+controllers.__init__|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/controllers/__init__.py
+controllers.controllers|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/controllers/controllers.py
+domain.__init__|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/domain/__init__.py
+domain.entities|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/domain/entities.py
+domain.validators|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/domain/validators.py
+repository.__init__|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/repository/__init__.py
+repository.file|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/repository/file.py
+repository.inmemory|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/repository/inmemory.py
+ui.__init__|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/ui/__init__.py
+ui.console|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/ui/console.py
+ui.gui|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/ui/gui.py

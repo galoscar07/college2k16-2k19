@@ -1,0 +1,56 @@
+Laboratory 3 - arithmetic instructions
+
+1. ADD dest, source
+dest = dest + source
+- both operands should have the same type: byte or word
+- at least one of the operands should be a register or a constant value
+
+2. ADC dest, source
+dest = dest + source + CF
+- the value of the carry flag (CF) is added to the sum of the two operands
+
+3. SUB dest, source
+dest = dest - source
+- both operands should have the same type: byte or word
+- at least one of the operands should be a register or a constant value
+
+4. SBB dest, source
+dest = dest - source - CF
+- the value of the carry flag (CF) is substracted from (dest - source)
+
+5. MUL source
+if source = byte, then ax=al*source
+if source = word, then dx:ax=ax*source
+
+if source is byte, then the byte from al will be multiplied by the byte source and the result will be a word and will be put in ax (byte*byte = word).
+if source is word, then the word from ax will be multiplied by the word source and the result will be a doubleword and will be put in dx:ax (word*word = doubleword).
+The two operands are considered to be unsigned numbers. Even if the multiplication is a bynary operation, only one operand is specified because the other one is always fixed (al or ax) as well as the location of the result (always in ax or dx:ax).
+
+6. IMUL source
+- similar to MUL, only that the operands are considered to be signed numbers.
+
+7. DIV source
+if source is byte, then al = ax div source, ah = ax mod source
+if source is word, then ax = dx:ax div source, dx = dx:ax mod source
+
+if source is byte, then the word from ax will be divided by the byte source, the quotient will be in al and the remainder in ah (word/byte = byte).
+if source is word, then the doubleword from dx:ax will be divided by the word source, the quotient will be in ax and the remainder in dx (dubluword/word = word).
+The two operands are considered to be unsigned numbers. Even if the division is a bynary operation, only one operand is specified because the other one is always fixed (ax or dx:ax) as well as the location of the result (always in al or ax).
+
+8. IDIV source
+- similar to DIV, only that the operands are considered to be signed numbers.
+
+9. INC op
+op=op+1
+- the operand op could be a register or a memory variable and could be a byte or a word
+
+10. DEC op
+op=op-1
+- the operand op could be a register or a memory variable and could be a byte or a word
+
+11. NEG op
+op=0-op
+- the operand op could be a register or a memory variable and could be a byte or a word
+
+
+For more details please use Norton Guide (http://www.cs.ubbcluj.ro/~vancea/asc/NG.ZIP)

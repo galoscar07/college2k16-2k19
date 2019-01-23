@@ -1,0 +1,331 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>sparsematrix.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+//  SparseMatrix.cpp
+//  BattleShip
+//
+//  Created by Oscar on 07/06/2018.
+//  Copyright © 2018 Oscar. All rights reserved.
+//
+
+#include "SparseMatrix.h"
+#include &lt;exception&gt;
+#include &lt;assert.h&gt;
+#include &lt;iostream&gt;
+
+// ----------------------------------------------------------- SORTED MAP ---------------------------------------------------------------------
+<span style = "background-color:#dfd">SparseMatrix::SparseMatrix(int noLines, int noColumns) {
+	this-&gt;root = NULL;
+	this-&gt;noC = noColumns;
+	this-&gt;noL = noLines;
+}</span>
+
+<span style = "background-color:#dfd">SparseMatrix::~SparseMatrix() {</span>
+
+<span style = "background-color:#dfd">}</span>
+
+<span style = "background-color:#dfd">bool SparseMatrix::relation(TElement a, TElement b) {
+	if (a.line &gt; b.line) return true;
+	else if (a.line == b.line)
+		if (a.column &gt; b.column) return true;
+	return false;
+}</span>
+
+<span style = "background-color:#dfd">int SparseMatrix::noLines() {
+	return this-&gt;noL;
+}</span>
+
+<span style = "background-color:#dfd">int SparseMatrix::noColumns() {
+	return this-&gt;noC;
+}</span>
+
+<span style = "background-color:#dfd">string SparseMatrix::element(int line, int column) {
+	TElement something;
+	something.line = line;
+	something.column = column;
+	something.value = "0";</span>
+
+<span style = "background-color:#dfd">	Node* currentNode = this-&gt;root;
+	while (currentNode != NULL) {
+		if (currentNode-&gt;info.column == column &amp;&amp; currentNode-&gt;info.line == line) break;
+		if (!relation(currentNode-&gt;info, something)) {
+			currentNode = currentNode-&gt;right;</span>
+		}
+<span style = "background-color:#dfd">		else {
+			currentNode = currentNode-&gt;left;</span>
+		}
+<span style = "background-color:#dfd">	}
+	if (currentNode == NULL) {
+		return "0";</span>
+	}
+<span style = "background-color:#dfd">	return currentNode-&gt;info.value;
+}</span>
+
+<span style = "background-color:#dfd">void SparseMatrix::add(Node** n, TElement something) {
+	if (*n == NULL) {
+		*n = new Node;
+		(*n)-&gt;info = something;
+		(*n)-&gt;left = NULL;
+		(*n)-&gt;right = NULL;</span>
+	}
+<span style = "background-color:#dfd">	else if (this-&gt;relation((*n)-&gt;info, something)) {
+		this-&gt;add(&amp;(*n)-&gt;left, something);</span>
+	}
+<span style = "background-color:#dfd">	else {
+		this-&gt;add(&amp;(*n)-&gt;right, something);</span>
+	}
+<span style = "background-color:#dfd">}</span>
+
+<span style = "background-color:#dfd">void SparseMatrix::update(int line, int column, string value) {
+	TElement something;
+	something.line = line;
+	something.column = column;
+	something.value = "0";
+	Node* currentNode = this-&gt;root;
+	while (currentNode != NULL) {
+		if (currentNode-&gt;info.column == column &amp;&amp; currentNode-&gt;info.line == line) break;
+		if (!relation(currentNode-&gt;info, something)) {
+			currentNode = currentNode-&gt;right;</span>
+		}
+<span style = "background-color:#dfd">		else {</span>
+<span style = "background-color:#fdd">			currentNode = currentNode-&gt;left;</span>
+		}
+<span style = "background-color:#dfd">	}
+	if (currentNode-&gt;info.column == column &amp;&amp; currentNode-&gt;info.line == line) {
+		currentNode-&gt;info.value = value;</span>
+	}
+<span style = "background-color:#dfd">}</span>
+
+<span style = "background-color:#dfd">Node* SparseMatrix::minimum(Node* n) {
+	Node* currentNode = n;
+	while (currentNode-&gt;left != NULL) {</span>
+<span style = "background-color:#fdd">		currentNode = currentNode-&gt;left;
+	}</span>
+<span style = "background-color:#dfd">	return currentNode;
+}</span>
+
+<span style = "background-color:#dfd">Node* SparseMatrix::remove(Node * n, int line) {
+	int isRoot = 0;
+	if (n == NULL)</span>
+<span style = "background-color:#fdd">		return n;</span>
+<span style = "background-color:#dfd">	else if (line &lt; n-&gt;info.line)</span>
+<span style = "background-color:#fdd">		n-&gt;left = this-&gt;remove(n-&gt;left, line);</span>
+<span style = "background-color:#dfd">	else if (line &gt; n-&gt;info.line)
+		n-&gt;right = this-&gt;remove(n-&gt;right, line);
+	else {
+		if (n-&gt;left == NULL &amp;&amp; n-&gt;right == NULL) {</span>
+<span style = "background-color:#fdd">			if (n == this-&gt;root)
+				this-&gt;root = NULL;
+			delete n;
+			n = NULL;</span>
+		}
+<span style = "background-color:#dfd">		else if (n-&gt;right == NULL) {
+			if (n == this-&gt;root) isRoot = 1;
+			Node* aux = n;
+			n = n-&gt;left;
+			delete aux;
+			if (isRoot == 1)</span>
+<span style = "background-color:#fdd">				this-&gt;root = n;</span>
+<span style = "background-color:#dfd">		}
+		else if (n-&gt;left == NULL) {
+			if (n == this-&gt;root) isRoot = 1;
+			Node* aux = n;
+			n = n-&gt;right;
+			delete aux;
+			if (isRoot == 1)</span>
+<span style = "background-color:#fdd">				this-&gt;root = n;</span>
+		}
+<span style = "background-color:#dfd">		else {
+			if (n == this-&gt;root) isRoot = 1;
+			Node* aux = this-&gt;minimum(n-&gt;right);
+			n-&gt;info = aux-&gt;info;
+			n-&gt;right = remove(n-&gt;right, aux-&gt;info.line);
+			if (isRoot == 1)
+				this-&gt;root = n;</span>
+		}
+	}
+<span style = "background-color:#dfd">	return n;</span>
+
+<span style = "background-color:#dfd">}</span>
+
+
+<span style = "background-color:#dfd">void SparseMatrix::modify(int line, int column, string value) {
+	string oldValue;
+	oldValue = element(line, column);
+	TElement something;
+	something.line = line;
+	something.column = column;
+	something.value = value;
+	if (oldValue == "0") {
+		if (value == "0")
+			return;</span>
+<span style = "background-color:#fdd">		else {</span>
+<span style = "background-color:#dfd">			add(&amp;this-&gt;root, something);</span>
+		}
+	}
+<span style = "background-color:#dfd">	else {
+		if (value == "0")
+			remove(this-&gt;root, line);
+		else {
+			update(line, column, value);</span>
+		}
+	}
+
+<span style = "background-color:#dfd">}</span>
+
+
+<span style = "background-color:#dfd">Iterator SparseMatrix::iterator() {
+	Iterator it{ this };
+	return it;
+}</span>
+
+
+
+
+// ----------------------------------------------------------------- ITERATOR ------------------------------------------------------------------
+
+<span style = "background-color:#dfd">Iterator::~Iterator() {</span>
+
+<span style = "background-color:#dfd">}</span>
+
+<span style = "background-color:#dfd">Iterator::Iterator(SparseMatrix* sparMat) {
+	this-&gt;sm = sparMat;
+	Node *nod = this-&gt;sm-&gt;root;
+	while (nod != NULL) {
+		this-&gt;s.push(nod);
+		nod = nod-&gt;left;
+	}
+	if (!this-&gt;s.empty()) {
+		this-&gt;currentNode = this-&gt;s.top();</span>
+	}
+<span style = "background-color:#dfd">	else {
+		this-&gt;currentNode = NULL;</span>
+	}
+<span style = "background-color:#dfd">}</span>
+
+<span style = "background-color:#dfd">TElement Iterator::getCurrent() {
+	return this-&gt;currentNode-&gt;info;
+}</span>
+
+<span style = "background-color:#dfd">bool Iterator::valid() {
+	if (this-&gt;currentNode == NULL) {
+		return false;</span>
+	}
+<span style = "background-color:#fdd">	else {</span>
+<span style = "background-color:#dfd">		return true;</span>
+	}
+<span style = "background-color:#dfd">}</span>
+
+<span style = "background-color:#dfd">void Iterator::next() {
+	Node* nod = this-&gt;s.top();
+	this-&gt;s.pop();
+	if (nod-&gt;right != NULL) {
+		nod = nod-&gt;right;
+		while (nod != NULL) {
+			this-&gt;s.push(nod);
+			nod = nod-&gt;left;
+		}</span>
+	}
+<span style = "background-color:#dfd">	if (!this-&gt;s.empty()) {
+		this-&gt;currentNode = this-&gt;s.top();</span>
+	}
+<span style = "background-color:#dfd">	else {
+		this-&gt;currentNode = NULL;</span>
+	}
+<span style = "background-color:#dfd">}</span>
+
+// ---------------------------------------------------- Tests -----------------------------------------------------------------------------
+<span style = "background-color:#dfd">bool rel(TElement a, TElement b) {
+	if (a.line &gt; b.line) return true;
+	else if (a.line == b.line)
+		if (a.column &gt; b.column) return true;
+	return false;
+}</span>
+
+<span style = "background-color:#dfd">void TestApplication::testAll() {
+	testNoLines();
+	testNoColumns();
+	testElement();
+	testModify();
+	testRelation();
+	testIterator();
+}</span>
+
+<span style = "background-color:#dfd">void TestApplication::testNoLines() {
+	SparseMatrix sm{ 1,3 };
+	assert(sm.noLines() == 1);
+}
+void TestApplication::testNoColumns() {
+	SparseMatrix sm{ 1,3 };
+	assert(sm.noColumns() == 3);
+}
+void TestApplication::testElement() {
+	SparseMatrix sm{ 4,4 };
+	sm.modify(4, 4, "S");
+	sm.modify(3, 1, "S");
+	sm.modify(4, 1, "S");
+	sm.modify(5, 1, "S");
+	assert(sm.element(4, 4) == "S");
+	assert(sm.element(3, 1) == "S");
+	assert(sm.element(4, 1) == "S");
+	assert(sm.element(5, 1) == "S");</span>
+
+<span style = "background-color:#dfd">}
+void TestApplication::testModify() {
+	SparseMatrix sm{ 10,10 };
+	sm.modify(3, 1, "Buna");
+	sm.modify(2, 1, "Holla");
+	sm.modify(4, 1, "Buna ce mai zici");
+	sm.modify(4, 1, "Ce???");
+	assert(sm.element(4, 1) == "Ce???");
+	sm.modify(6, 2, "okrrr");
+	sm.modify(5, 1, "no");
+	sm.modify(6, 1, "si ...");
+	sm.modify(6, 1, "0");
+	sm.modify(4, 1, "0");
+	sm.modify(3, 1, "0");
+	sm.modify(6, 2, "0");</span>
+
+<span style = "background-color:#dfd">}
+void TestApplication::testRelation() {
+	TElement test1, test2;
+	test1.line = 2;
+	test2.line = 1;
+	test1.column = 3;
+	test2.column = 2;
+	test1.value = "0";
+	test2.value = "0";
+	assert(rel(test1, test2) == true);
+	test2.line = 2;
+	assert(rel(test1, test2) == true);
+	test1.column = 1;
+	assert(rel(test1, test2) == false);</span>
+
+<span style = "background-color:#dfd">}
+void TestApplication::testIterator() {
+	SparseMatrix sm{ 5,5 };
+	Iterator it2 = sm.iterator();
+	assert(it2.valid() == false);
+	sm.modify(3, 1, "S");
+	sm.modify(4, 1, "S");
+	sm.modify(2, 1, "S");
+	Iterator it = sm.iterator();
+	assert(it.valid() == true);
+	assert(it.getCurrent().line == 2);
+	it.next();
+	assert(it.getCurrent().line == 3);
+	it.next();
+	it.next();
+	assert(it.valid() == false);
+}</span></pre>
+	</body>
+</html>

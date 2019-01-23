@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<title>Problem 1a)</title>
+<body>
+<h1>What is JSON</h1>
+<p>  JSON: JavaScript Object Notation.
+    <br>JSON is a syntax for storing and exchanging data.
+    <br>JSON is text, written with JavaScript object notation. JSON is a way to store information in an organized, easy-to-access manner. In a nutshell, it gives us a human-readable collection of data that we can access in a really logical manner.</p>
+    <p>As a simple example, information about me might be written in JSON as follows:
+
+    <br>var jason = {
+	   <br>"age" : "24",
+	   <br>"hometown" : "Missoula, MT",
+	   <br>"gender" : "male"
+    <br>};
+    <br>This creates an object that we access using the variable jason. By enclosing the variable's value in curly braces, we're indicating that the value is an object. Inside the object, we can declare any number of properties using a "name": "value" pairing, separated by commas. To access the information stored in jason, we can simply refer to the name of the property we need. For instance, to access information about me, we could use the following snippets:
+    <br>
+    <br>document.write('Jason is ' jason.age); // Output: Jason is 24
+        <br>document.write('Jason is a ' jason.gender); // Output: Jason is a male </p>
+</body>
+</html>

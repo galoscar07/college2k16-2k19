@@ -1,0 +1,302 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Basket.cpp
+Basket.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Basket.h
+assert.h
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Basket.h
+Coat.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Coat.h
+vector
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/BasketQt.cpp
+BasketQt.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/BasketQt.h
+QMessageBox
+-
+RepositoryExceptions.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/RepositoryExceptions.h
+algorithm
+-
+random
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/BasketQt.h
+QtWidgets/QMainWindow
+-
+QtWidgets/qradiobutton.h
+-
+Controller.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Controller.h
+QListWidget
+-
+QFormLayout
+-
+QLineEdit
+-
+QPushButton
+-
+QLabel
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/CSVBasket.cpp
+CSVBasket.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/CSVBasket.h
+FileBasket.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/FileBasket.h
+fstream
+-
+RepositoryExceptions.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/RepositoryExceptions.h
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/CSVBasket.h
+FileBasket.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/FileBasket.h
+string
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Coat.cpp
+Coat.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Coat.h
+Utils.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Utils.h
+sstream
+-
+iostream
+-
+vector
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Coat.h
+iostream
+-
+string
+-
+sstream
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Controller.cpp
+Controller.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Controller.h
+iostream
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Controller.h
+Repository.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Repository.h
+FileBasket.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/FileBasket.h
+assert.h
+-
+vector
+-
+Validators.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Validators.h
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/FileBasket.cpp
+FileBasket.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/FileBasket.h
+string
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/FileBasket.h
+Basket.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Basket.h
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/HTMLBasket.cpp
+CSVBasket.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/CSVBasket.h
+FileBasket.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/FileBasket.h
+fstream
+-
+RepositoryExceptions.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/RepositoryExceptions.h
+HTMLBasket.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/HTMLBasket.h
+iostream
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/HTMLBasket.h
+FileBasket.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/FileBasket.h
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Repository.cpp
+Repository.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Repository.h
+RepositoryExceptions.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/RepositoryExceptions.h
+string
+-
+fstream
+-
+vector
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Repository.h
+Coat.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Coat.h
+vector
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/RepositoryExceptions.cpp
+RepositoryExceptions.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/RepositoryExceptions.h
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/RepositoryExceptions.h
+exception
+-
+string
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Ui.cpp
+Ui.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Ui.h
+RepositoryExceptions.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/RepositoryExceptions.h
+Validators.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Validators.h
+iostream
+-
+string
+-
+vector
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Ui.h
+Controller.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Controller.h
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Utils.cpp
+Utils.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Utils.h
+Utils.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Utils.h
+sstream
+-
+string
+-
+vector
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Utils.h
+string
+-
+vector
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Validators.cpp
+Validators.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Validators.h
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Validators.h
+string
+-
+Coat.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Coat.h
+vector
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/cmake-build-debug/Proper_Trench_Coats_Lab_11_12_automoc.cpp
+Proper_Trench_Coats_Lab_11_12_automoc.dir/moc_BasketQt_DS6M3OCILBVAW3.cpp
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/cmake-build-debug/Proper_Trench_Coats_Lab_11_12_automoc.dir/moc_BasketQt_DS6M3OCILBVAW3.cpp
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/cmake-build-debug/Proper_Trench_Coats_Lab_11_12_automoc.dir/moc_BasketQt_DS6M3OCILBVAW3.cpp
+../../BasketQt.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/BasketQt.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/main.cpp
+Ui.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Ui.h
+CSVBasket.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/CSVBasket.h
+HTMLBasket.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/HTMLBasket.h
+FileBasket.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/FileBasket.h
+Repository.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Repository.h
+Validators.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Validators.h
+Controller.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/Controller.h
+iostream
+-
+BasketQt.h
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/BasketQt.h
+QtWidgets/QApplication
+-
+
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/QFormLayout
+qformlayout.h
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/qformlayout.h
+
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/QLabel
+qlabel.h
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/qlabel.h
+
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/QLineEdit
+qlineedit.h
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/qlineedit.h
+
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/QListWidget
+qlistwidget.h
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/qlistwidget.h
+
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/QMessageBox
+qmessagebox.h
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/qmessagebox.h
+
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/QPushButton
+qpushbutton.h
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/qpushbutton.h
+
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/qformlayout.h
+QtWidgets/QLayout
+-
+
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/qlabel.h
+QtWidgets/qframe.h
+-
+
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/qlineedit.h
+QtWidgets/qframe.h
+-
+QtGui/qtextcursor.h
+-
+QtCore/qstring.h
+-
+QtCore/qmargins.h
+-
+
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/qlistwidget.h
+QtWidgets/qlistview.h
+-
+QtCore/qvariant.h
+-
+QtCore/qvector.h
+-
+QtCore/qitemselectionmodel.h
+-
+
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/qmessagebox.h
+QtWidgets/qdialog.h
+-
+
+/Users/galoscar/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers/qpushbutton.h
+QtWidgets/qabstractbutton.h
+-
+

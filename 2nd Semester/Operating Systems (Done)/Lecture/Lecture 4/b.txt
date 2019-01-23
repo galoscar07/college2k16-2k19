@@ -1,0 +1,22 @@
+#!/bin/bash
+
+for E in $*; do
+    for F in *.$E; do
+        if [ ! -f $F ] || [ ! -r $F ]; then
+            continue
+        fi
+
+        if ! file $F | grep -q "ASCII text"; then
+            continue
+        fi
+
+        if [ `cat $F | wc -l` -lt 7 ]; then
+            continue
+        fi
+
+        echo
+        echo $F
+        echo ========================
+        tail -n +5 $F | head -3
+    done
+done

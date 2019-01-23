@@ -1,0 +1,110 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>ui.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+//  Ui.cpp
+//  BattleShip
+//
+//  Created by Oscar on 07/06/2018.
+//  Copyright © 2018 Oscar. All rights reserved.
+//
+
+#include "Ui.h"
+#include &lt;iostream&gt;
+
+<span style = "background-color:#fdd">void Ui::displayFromIt() {
+	this-&gt;configurationBoard();
+	Iterator it = this-&gt;sm.iterator();
+	while (it.valid() == true) {
+		cout &lt;&lt; "line: " &lt;&lt; it.getCurrent().line &lt;&lt; " column: " &lt;&lt; it.getCurrent().column &lt;&lt; " value: " &lt;&lt; it.getCurrent().value &lt;&lt; endl;
+		it.next();
+	}
+}</span>
+
+<span style = "background-color:#fdd">void Ui::run() {
+	cout &lt;&lt; "Rules:" &lt;&lt; endl;
+	cout &lt;&lt; "1. There are 2 ships made out of 3 spaces, 1 made of one, and 1 made of four" &lt;&lt; endl;
+	cout &lt;&lt; "2. If you miss then the character _ will be displayed" &lt;&lt; endl;
+	cout &lt;&lt; "3. If you hit a ship the character * will be displayed" &lt;&lt; endl;
+	cout &lt;&lt; "Let the games begins" &lt;&lt; endl;
+	this-&gt;configurationBoard();
+	int hits = 0;
+	while (1) {</span>
+		int line;
+<span style = "background-color:#fdd">		cout &lt;&lt; "Give a line: " &lt;&lt; endl;
+		line = this-&gt;readIntegerNumber("");</span>
+		int column;
+<span style = "background-color:#fdd">		cout &lt;&lt; "Give a column" &lt;&lt; endl;
+		column = this-&gt;readIntegerNumber("");
+		if (line &lt; 1 || line &gt; 10 || column &gt; 10 || column &lt; 1) cout &lt;&lt; "Wrong input! Please insert values between [1,10]." &lt;&lt; endl;
+		else {
+			if (this-&gt;sm.element(line, column) == "S") {
+				if (this-&gt;sm1.element(line, column) == "0") {
+					this-&gt;sm1.modify(line, column, "*");
+					hits++;</span>
+				}
+<span style = "background-color:#fdd">				else cout &lt;&lt; "You already hit this boat ..." &lt;&lt; endl;</span>
+			}
+<span style = "background-color:#fdd">			else this-&gt;sm1.modify(line, column, "_");
+			this-&gt;printMatrixSM();</span>
+		}
+<span style = "background-color:#fdd">		if (hits == 11)
+			break;
+	}
+	cout &lt;&lt; "Congratulation" &lt;&lt; endl;</span>
+
+<span style = "background-color:#fdd">}</span>
+
+<span style = "background-color:#fdd">void Ui::configurationBoard() {
+	this-&gt;sm.modify(4, 4, "S");
+	this-&gt;sm.modify(3, 1, "S");
+	this-&gt;sm.modify(4, 1, "S");
+	this-&gt;sm.modify(5, 1, "S");
+	this-&gt;sm.modify(8, 3, "S");
+	this-&gt;sm.modify(8, 3, "S");
+	this-&gt;sm.modify(8, 4, "S");
+	this-&gt;sm.modify(8, 5, "S");
+	this-&gt;sm.modify(1, 8, "S");
+	this-&gt;sm.modify(2, 8, "S");
+	this-&gt;sm.modify(3, 8, "S");
+	this-&gt;sm.modify(4, 8, "S");
+}</span>
+
+<span style = "background-color:#fdd">void Ui::printMatrixSM() {
+	for (int i = 1; i &lt;= 10; i++) {
+		for (int j = 1; j &lt;= 10; j++) {
+			cout &lt;&lt; this-&gt;sm1.element(i, j) &lt;&lt; " ";
+		}
+		cout &lt;&lt; endl;
+	}
+}</span>
+
+
+<span style = "background-color:#fdd">int Ui::readIntegerNumber(const char message[]) {</span>
+	char s[16];
+<span style = "background-color:#fdd">	int res = 0;
+	int flag = 0;
+	int r = 0;</span>
+
+<span style = "background-color:#fdd">	while (flag == 0)</span>
+	{
+<span style = "background-color:#fdd">		printf("%s", message);</span>
+		//scanf("%s", s);
+
+		//r = sscanf(s, "%d", &amp;res);
+<span style = "background-color:#fdd">		flag = (r == 1);
+		if (flag == 0)
+			printf("Error reading number!\n");
+	}
+	return res;
+}</span></pre>
+	</body>
+</html>

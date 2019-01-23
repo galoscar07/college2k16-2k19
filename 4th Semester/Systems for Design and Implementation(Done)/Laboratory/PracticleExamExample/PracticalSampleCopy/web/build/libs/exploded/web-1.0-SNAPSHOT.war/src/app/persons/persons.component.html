@@ -1,0 +1,11 @@
+<div *ngIf="persons.length == 0">
+  <label>Name:</label>
+  <input type="text" #keyword/>
+  <button id="buttonLoad" (click)="loadAll(keyword.value)">Load</button>
+</div>
+
+<ul>
+  <li *ngFor="let person of persons">
+    {{person.id}} {{person.ssn}} {{person.name}}
+  </li>
+</ul>

@@ -1,0 +1,97 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/.metadata/.plugins/org.eclipse.core.resources/.projects/examples/com.python.pydev.analysis/v2_indexcache
+ui.gui|1479900044000000000|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/ui/gui.py
+repository.__init__|1352931432000000000|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/repository/__init__.py
+repository.file|1480692002000000000|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/repository/file.py
+domain.validators|1480691982000000000|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/domain/validators.py
+ui.console|1480692027000000000|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/ui/console.py
+controllers.__init__|1352931450000000000|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/controllers/__init__.py
+controllers.controllers|1480692018000000000|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/controllers/controllers.py
+domain.__init__|1352373414000000000|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/domain/__init__.py
+ui.__init__|1352490026000000000|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/ui/__init__.py
+appCoord|1480691970000000000|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/appCoord.py
+repository.inmemory|1480692010000000000|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/repository/inmemory.py
+__init__|1479899096000000000|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/__init__.py
+domain.entities|1479899722000000000|/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/domain/entities.py
+-- END DISKCACHE
+-- START DICTIONARY
+30
+25=RepositorException.__init__
+22=ValidationException
+20=Address
+23=StudentValidator
+17=DuplicatedIDException
+10=ConsoleUI
+29=StudentGUI.startUI
+16=RepositorException
+30=StudentGUI.__init__
+18=StudentRepository
+3=appCoord
+15=StudentController
+4=repository.inmemory
+9=Student.__init__
+12=ConsoleUI.__init__
+7=ui.gui
+24=ValidationException.__init__
+8=repository.file
+11=Address.__init__
+21=StudentGUI
+5=domain.validators
+26=StudentController.__init__
+13=Student
+19=StudentFileRepository
+28=StudentRepository.removeAll
+2=ui.console
+6=controllers.controllers
+14=StudentFileRepository.__init__
+1=domain.entities
+27=StudentRepository.__init__
+-- END DICTIONARY
+-- START TREE 1
+9
+add|1|Address!9@
+con|1|ConsoleUI!17@
+ctr|1|ctr!27@
+dup|1|DuplicatedIDException!33@
+rep|2|RepositorException!33@repo!27@
+stu|7|StudentRepository!33@StudentValidator!41@StudentController!49@StudentGUI!57@StudentCRUDException!41@Student!9@StudentFileRepository!65@
+tes|2|testValidateStudent!42@testStore!66@
+ui|1|ui!27@
+val|2|val!27@ValidationException!41@
+-- END TREE
+-- START TREE 2
+32
+__a|1|__adr!9&11@
+__c|3|__createdStudent!10&18@__city!11&11@__ctr!12&19@
+__e|1|__eq__!13&10@
+__f|1|__fName!14&67@
+__i|12|__init__!15&50@__init__!16&34@__init__!17&34@__init__!18&34@__id!9&11@__init__!19&66@__init__!10&18@__init__!20&10@__init__!13&10@__init__!21&58@__init__!22&42@__init__!23&42@
+__l|2|__loadFromFile!19&66@__listStudents!21&58@
+__m|2|__msgs!24&43@__msg!25&35@
+__n|2|__name!9&11@__nr!11&11@
+__r|3|__repo!26&51@__readUserCommand!10&18@__removeStudent!10&18@
+__s|10|__str__!20&10@__str__!13&10@__street!11&11@__str__!22&42@__storeToFile!19&66@__studs!27&35@__studs!28&35@__str__!16&34@__searchStudent!10&18@__storePressed!21&58@
+__u|1|__updateStudent!10&18@
+__v|1|__val!26&51@
+but|1|button!29&59@
+cit|1|citytf!29&59@
+cre|1|create!15&50@
+ctr|1|ctrl!30&59@
+fin|1|find!18&34@
+fra|1|frame!29&59@
+get|10|getCity!20&10@getAdr!13&10@getName!13&10@getNr!20&10@getId!13&10@getStreet!20&10@getMsgs!22&42@getMsg!16&34@getAll!18&34@getNrStudents!15&50@
+idt|1|idtf!29&59@
+lis|1|listBtn!29&59@
+nam|1|nametf!29&59@
+nrt|1|nrtf!29&59@
+rem|5|remove!18&34@removeAll!19&66@remove!19&66@removeAll!18&34@remove!15&50@
+sea|1|search!15&50@
+siz|1|size!18&34@
+sta|2|startUI!21&58@startUI!10&18@
+sto|3|storeBtn!29&59@store!19&66@store!18&34@
+str|1|streettf!29&59@
+tk|1|tk!29&59@
+upd|3|update!15&50@update!18&34@update!19&66@
+val|1|validate!23&42@
+-- END TREE

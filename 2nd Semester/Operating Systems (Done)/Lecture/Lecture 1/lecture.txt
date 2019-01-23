@@ -1,0 +1,16 @@
+sed "s/\(.\)/\1\n/g" /etc/passwd | sort | uniq -c|sort -n -r|head
+
+Expresii Regulare
+-----------------
+. orice caracter
+\ schimba sensul caracterului urmator intre special si normal
+[] intre paranetze drepte apare o lista de caractere optionale
+^ inceput de linie sau negarea liste de caractere optionale
+$ sfarsit de linie
+* expresia precendenta de 0 sau mai multe ori
+\+ expresia precedenta de 1 sau mai multe ori
+? expresia precedenta de 0 sau 1 ori
+\{m,n\} expresia precedenta de cel putin m ori si de cel mult n ori
+\< inceput de cuvant
+\> sfarsit de cuvant
+() grupeaza caracterele intr-o expresie

@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{E858D956-F063-49EB-B138-C5B2DCF51C00}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignemnt9/Controllers/AddController.cs">
+    <Files>
+      <File FileName="Assignemnt9/Controllers/AddController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assignemnt9 PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

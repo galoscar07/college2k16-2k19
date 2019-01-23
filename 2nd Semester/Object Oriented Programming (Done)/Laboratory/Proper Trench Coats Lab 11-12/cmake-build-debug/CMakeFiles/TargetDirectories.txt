@@ -1,0 +1,4 @@
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/cmake-build-debug/CMakeFiles/Proper_Trench_Coats_Lab_11_12.dir
+/Users/galoscar/Documents/College/2nd Semester/Object Oriented Programming (Done)/Laboratory/Proper Trench Coats Lab 11-12/cmake-build-debug/CMakeFiles/Proper_Trench_Coats_Lab_11_12_automoc.dir

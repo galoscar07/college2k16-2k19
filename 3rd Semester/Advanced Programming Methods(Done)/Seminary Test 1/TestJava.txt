@@ -1,0 +1,119 @@
+Model:
+public Interface Expression {
+	int eval();
+	String toString();
+}
+
+public class ConstantExpression implements Expression {
+	private int value;
+	public ConstantExpression(int v){ value = v; }
+	@Override
+	int eval(){ return value; }
+	@Override
+	public String toString(){}
+}
+
+public class NegExpression implements Expression{
+	public int value;
+	public NegExpression(int v){ value = v; }
+	@Override
+	public int eval(){ return 1-value; }
+	@Override
+	public String toString(){}
+}
+
+public class ConjunctionExpr implements Expression {
+	private Expression exp1, exp2;
+	public ConjunctionExpr(Expression e1, Expression e2){
+		exp1 = e1; exp2 = e2;
+	}
+	@Override 
+	public int eval(){ 
+		if (exp1.eval() + exp2.eval() == 2)
+			return 1;
+		return 0;
+	@Override
+	public String toString(){
+		// ...
+	}
+}
+
+public class DisjunctionExpr implements Expression {
+	private Expression exp1, exp2;
+	public DisjunctionExpr(Expression e1, Expression e2){
+		exp1 = e1; exp2 = e2;
+	}
+	@Override
+	public int eval(){
+		if (exp1.eval() + exp2.eval() == 0)
+			return 0;
+		return 1;
+	}
+	@Override
+	public String toString(){
+		// ...
+	}
+}
+Repo:
+
+public interface IRepository{
+	void add(Expression e);
+	Expression getNext();
+	boolean isFinished();
+}
+
+public class Repository implements IRepository{
+	private ArrayList<Expression> expressions;
+	private static int current = 0;
+	public Repository(){ expressions = new ArrayList<>(); }
+	public void add(Expression e){ expressions.add(e); }
+	public Expression getNext(){
+		return expressions.get(current++);
+	}
+	public boolean isFinished(){
+		return (current == expressions.size());
+	}
+}
+Controller:
+
+public class Controller { 
+	private IRepository repo;
+	public Controller(IRepository r){ repo = r; } 
+	public void oneStep(){
+		System.out.println(this.repo.getNext().eval());
+	}
+	
+	public void allStep(){
+		while (!this.repo.isFinished())
+			oneStep();
+	}
+}
+
+View:
+public class View{
+	public static void main(String args[]){
+		IRepository repo = new Repository();
+		Expression e1 = new DisjunctionExpr(
+			new ConstantExpression(0),
+			new ConstantExpression(1)
+		)
+		Expression e2 = new ConjunctionExpr(
+			new ConstantExpression(0),
+			new ConstantExpression(1)
+		)
+		Expression e3 = new NegExpression(new ConstantExpression(1));
+		Expression e4 = new ConjunctionExpr(
+			new DisjunctionExpr(
+				new ConstantExpression(0),
+				new ConstantExpression(1)
+			)
+			new DisjunctionExpr(
+				new ConstantExpression(1),
+				new ConstantExpression(1)
+			)
+		)
+		repo.add(e1); repo.add(e2); repo.add(e3); repo.add(e4);
+		Controller ctrl = new Controller(repo);
+		ctrl.allStep();
+	}
+}

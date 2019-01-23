@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="6" failures="0" finished="true" name="Test Run: 7" tests="0" total_time="Finished in: 0.01 secs."/>
+<test location="/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/appCoord.py" status="error" test="appCoord" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Applications/Eclipse.app/Contents/Eclipse/plugins/org.python.pydev_5.3.0.201610121612/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/appCoord.py", line 1, in <module>
+    from studentsGUI.domain.validators import StudentValidator
+ImportError: No module named 'studentsGUI'
+ERROR: Module: appCoord could not be imported (file: /Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/appCoord.py).
+]]></stderr>
+</test>
+<test location="/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/controllers/controllers.py" status="error" test="controllers.controllers" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Applications/Eclipse.app/Contents/Eclipse/plugins/org.python.pydev_5.3.0.201610121612/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/controllers/controllers.py", line 1, in <module>
+    from examples.studentsGUI.domain.entities import Student, Address
+ImportError: No module named 'examples'
+ERROR: Module: controllers.controllers could not be imported (file: /Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/controllers/controllers.py).
+]]></stderr>
+</test>
+<test location="/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/domain/validators.py" status="error" test="domain.validators" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Applications/Eclipse.app/Contents/Eclipse/plugins/org.python.pydev_5.3.0.201610121612/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/domain/validators.py", line 1, in <module>
+    from examples.studentsGUI.domain.entities import Address, Student
+ImportError: No module named 'examples'
+ERROR: Module: domain.validators could not be imported (file: /Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/domain/validators.py).
+]]></stderr>
+</test>
+<test location="/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/repository/file.py" status="error" test="repository.file" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Applications/Eclipse.app/Contents/Eclipse/plugins/org.python.pydev_5.3.0.201610121612/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/repository/file.py", line 1, in <module>
+    from examples.studentsGUI.repository.inmemory import StudentRepository
+ImportError: No module named 'examples'
+ERROR: Module: repository.file could not be imported (file: /Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/repository/file.py).
+]]></stderr>
+</test>
+<test location="/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/repository/inmemory.py" status="error" test="repository.inmemory" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Applications/Eclipse.app/Contents/Eclipse/plugins/org.python.pydev_5.3.0.201610121612/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/repository/inmemory.py", line 1, in <module>
+    from examples.studentsGUI.domain.validators import StudentCRUDException
+ImportError: No module named 'examples'
+ERROR: Module: repository.inmemory could not be imported (file: /Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/repository/inmemory.py).
+]]></stderr>
+</test>
+<test location="/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/ui/console.py" status="error" test="ui.console" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Applications/Eclipse.app/Contents/Eclipse/plugins/org.python.pydev_5.3.0.201610121612/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/ui/console.py", line 1, in <module>
+    from examples.studentsGUI.repository.inmemory import DuplicatedIDException
+ImportError: No module named 'examples'
+ERROR: Module: ui.console could not be imported (file: /Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/ui/console.py).
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="examples studentsGUI"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>

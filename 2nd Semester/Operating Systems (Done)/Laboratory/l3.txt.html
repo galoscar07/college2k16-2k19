@@ -1,0 +1,76 @@
+<p><strong><span style="text-decoration: underline;">Programare shell</span></strong>:<br /> Orice comanda shell se poate rula in linia de comanda sau se poate scrie intr-un fisier de comenzi shell (script shell) urmand a fi rulata odata cu executia fisierului. Un script shell nu este altceva decat un fisier ASCII text care are drept de executie (folositi comanda: chmod 755 nume_fisier) si contine doar comenzi shell. Intr-un script shell comenzile sunt separate prin: ;, &amp;&amp;, ||, [linie noua] <br /> Comentariile se introduc in fisierele shell prin caracterul # (diez) si continua pe tot restul liniei. Este indicat (nu obligatoriu) ca scriptul shell sa inceapa cu comentariul special #!/bin/bash. Scripturile shell sunt echivalentele Unix a fisierelor de comenzi .bat de sub MS-DOS.</p>
+<p><strong><span style="text-decoration: underline;">Exemplu</span></strong>:<br /> Sa se construiasca un fisier de comenzi care primeste ca parametru d (un nume de director) si n (un numar). Pentru fiecare fisier pentru care userul are drepturi de citire si executie, din directorul dat ca parametru si din subdirectoarele acestuia, sa se afiseze primele n linii. <br /><br /></p>
+<pre>fisierul shell1.sh: 
+----------------------------------------------------------------------------------
+
+#!/bin/bash
+
+# verificam daca exista 2 parametrii in linia de comanda; $# -&gt; numarul parametrilor din linia de comanda
+if [ ! $# -eq 2 ]
+then echo usage: shell1.sh dir nr
+     exit 1
+fi
+
+# verificam daca primul parametru este nume de director
+if [ ! -d $1 ]
+then echo $1 nu este director\!
+     exit 1
+fi
+
+
+# comanda 'find $1 -perm -u=rx -type f' va afisa toate fisierele
+# din directorul $1 si din subdirectoarele sale pentru care user-ul (u)
+# are drept de citire (r) si de executie (x).
+# obs: comanda se mai putea scrie si in felul urmator: find $1 -perm -500 -type f
+# o alta alternativa pentru comanda find ar fi comanda test cu optiunile -f, -r, -x
+
+# apostroafele inverse care inchid de-o pate si de alta comanda find, fac ca comanda din
+# interiorul lor (adica find in cazul nostru) sa fie inlocuita cu iesirea
+# ei standard (incercati sa rulati direct la linia de comanda
+# 'find $1 -perm -u=rx -type f' si veti vedea care este iesirea standard a
+# comenzii). astfel, in comanda for, la fiecare iteratie variabila shell 'fis'
+# va lua ca valori, pe rand, fiecare linie a iesirii standard a comenzii find
+# anterioare.
+
+for fis in `find $1 -perm -u=rx -type f`
+do
+        echo $fis			# afisam numele fisierului
+        head -$2 $fis			# afisam primele $2 linii din fisier
+done
+
+------------------------------------------------------------------------------------
+IMPORTANT: Dupa ce scrieti fisierul de comenzi shell nu uitati sa-i dati drept de 
+	   executie (cu chmod 755 nume_fisier)!!!
+	   De asemenea rulati fisierul de comenzi in felul urmator:
+	   [user@linux user]$./shell1.sh [parametrii] 
+	   (Puteti sa-l rulati si fara '.'-ul de dupa '$' daca aveti in variabila 
+	   PATH directorul curent (adica '.')
+</pre>
+<p><strong><span style="text-decoration: underline;">Comenzi necesare</span></strong>:</p>
+<ul>
+<li>structuri de control shell: if, case, for, while, until, true, false, break, continue</li>
+<li>comenzi utile in context shell: shift, read, readonly, sleep, exit, echo, test (echivalent cu "[ ..]"), export, expr, basename, ` (apostroafele inverse)</li>
+<li>comenzi de lucru cu fisiere (+directoare): ls, pwd, cat, find, locate, file, more, less, rm, mkdir, rmdir, cp, mv, cd, chmod, chown, ln, touch, du, cut, sort, uniq, cmp, diff, head, tail, wc, split</li>
+<li>comenzi pt aflarea de informatii despre useri: finger, w, who, ps, last, id, users</li>
+<li>comenzi pentru retea: netstat, ping, hostname, host, ftp, ftpwho</li>
+<li>alte comezi: clear, date, mail, uptime, df, fg, bg <br />Semnificatia fiecarei comenzi de mai sus se va verifica cu comanda man.<br /> De asemenea trebuie sa stiti despre redirectari (&lt;,&gt;,&lt;&lt;,&gt;&gt;) si legarea in pipe (|) - semnificatiile acestora sunt aceleasi ca si in cazul sistemului de operare DOS.</li>
+</ul>
+<p><span style="text-decoration: underline;"><strong>Probleme:</strong></span></p>
+<p>1. Sa se determine toti utilizatorii (studenti) de pe serverul linux.scs.ubbcluj.ro care au pagina web stiind ca directoarele lor personale se afla structurate pe ani si apoi pe grupe (in interiorul fiecarui an) in directorul /home/scs. (Un utilizator are pagina de web daca in directorul sau personal exista un director numit "public_html")</p>
+<p>2. Sa se scrie un script shell care determina toate fisierele din directorul curent si din subdirectoarele acestuia care au drept de scriere pentru others. (Din punct de vedere al accesului la un fisier, utilizatorii se impart in 3 categorii: proprietar, grup si altii (others). Fiecare utilizator din aceste grupuri poate avea 3 drepturi asupra fisierului respectiv: citire-r, scriere-w si executie-x.)</p>
+<p>3. Sa se scrie un script shell care pentru toate fisierele text dintr-un director dat ca parametru si din subdirectoarele acestuia, va sterge ultima linie din acestea.</p>
+<p>4. Sa se scrie un script shell care primeste ca parametru un nume de director. Scriptul va sterge fiecare fisier sursa C din directorul respectiv si va tipari sortat fiecare fisier ASCII text (nu numai cele care au extensia .txt) din acest director.</p>
+<p>5. Sa se scrie un script shell care tot citeste nume de utilizatori de la intrarea standard (nu ca parametrii!). Pentru fiecare utilizator citit, el va afisa ultimele 3 conectari (logari) ale acestuia (in luna curenta), iar daca acesta nu s-a conectat deloc in luna curenta va afisa mesajul "userul x nu s-a conectat niciodata".</p>
+<p>6. Sa se scrie un script shell care va tipari numele de utilizator, numele complet al utilizatorului (full user name) si directorul personal al tuturor utilizatorilor din sistem - nu numai a celor conectati. (Utilizatorii unui sistem unix sunt retinuti in fisierul /etc/passwd)</p>
+<p>7. Sa se scrie un script shell care primeste ca parametru un nume de director si va determina numarul total de linii din toate fisierele text din acest director si din toate subdirectoarele acestuia. Se presupune ca orice director va contine doar fisiere text.</p>
+<p>8. Sa se scrie un script shell care primeste ca parametrii un fisier cu utilizatori si un altul care contine un text oarecare. Scriptul va trimite un mail fiecarui utilizator din primul fisier, acest mail avand ca si continut textul din cel de-al doilea fisier.</p>
+<p>9. Sa se scrie un script shell care numara procesele unui anumit utilizator dat ca parametru in linia de comanda.</p>
+<p>10. Sa se scrie un script shell care sa afiseze numele complet si statia de pe care s-a logat fiecare utilizator conectat la sistem.</p>
+<p>11. Sa se scrie un script shell care imi listeaza continutul directorului curent. Se vor face trei afisari: una sortata dupa numele fisierelor, alta dupa timpul ultimului acces la ele si cea de-a treia, dupa dimensiunea in bytes a acestora.</p>
+<p>12. Sa se scrie un script shell care va redenumi toate fisierele ".txt" din directorul curent si din toate subdirectoarele acestuia, dandu-le extensia ".ascii".</p>
+<p>13. Sa se scrie un script shell care imi verifica daca un numar este prim sau nu.</p>
+<p>14. Se va srie un script shell care compara continutul a doua fisiere text si va tipari primele 5 linii diferite.</p>
+<p>15. Sa se scrie un fisier de comenzi care primeste ca parametri perechi formate dintr-un nume de fisier si un numar k. Pentru fiecare pereche se vor afisa numele fisierului, numarul k si apoi primele k linii din fisier.</p>
+<hr />
+<p><span style="text-decoration: underline;">Obs. finala:</span></p>
+<ul>Desi la laborator vi se cere sa rezolvati o singura problema, va este foarte util (pt laboratoarele viitoare) daca incercati sa rezolvati cel putin 5 probleme din set.</ul>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="oscar-core_main" target="1.8" />
+      <module name="oscar-core_test" target="1.8" />
+      <module name="oscar-web_main" target="1.8" />
+      <module name="oscar-web_test" target="1.8" />
+      <module name="oscar_main" target="1.8" />
+      <module name="oscar_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

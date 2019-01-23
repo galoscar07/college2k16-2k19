@@ -1,0 +1,20 @@
+MODULES_MANAGER_V2
+src.__init__|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/__init__.py
+src.store.__init__|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/__init__.py
+src.store.appstart|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/appstart.py
+src.store.controller.ClientController|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/controller/ClientController.py
+src.store.controller.MovieController|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/controller/MovieController.py
+src.store.controller.RentalController|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/controller/RentalController.py
+src.store.controller.__init__|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/controller/__init__.py
+src.store.controller.testController|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/controller/testController.py
+src.store.domain.__init__|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/domain/__init__.py
+src.store.domain.entities|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/domain/entities.py
+src.store.domain.testEntities|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/domain/testEntities.py
+src.store.domain.testValidators|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/domain/testValidators.py
+src.store.domain.validators|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/domain/validators.py
+src.store.repository.__init__|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/repository/__init__.py
+src.store.repository.repository|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/repository/repository.py
+src.store.repository.testRepository|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/repository/testRepository.py
+src.store.ui.__init__|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/ui/__init__.py
+src.store.ui.menu|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/ui/menu.py
+src.store.ui.testUi|/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/ui/testUi.py

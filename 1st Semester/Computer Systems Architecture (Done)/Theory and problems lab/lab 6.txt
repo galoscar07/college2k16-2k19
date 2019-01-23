@@ -1,0 +1,29 @@
+Laboratory 6 - string operations
+
+Operands comparisons
+
+CMP d,s
+it compares the value of the operands (the operands are not modified) - fictive substraction d - s
+it modifies the flags OF, SF, ZF, AF, PF and CF
+
+TEST d,s
+fictive logical operation d AND s
+it modifies the flags OF, CF, SF, ZF, PF
+
+
+Conditional jumps
+
+When we want to compare two signed numbers, we should use "less than" and "greater than", and when we want to compare unsigned numbers, we should use "below" and "above". 
+
+Conditional jump instructions
+
+
+Loop instructions
+
+[instruction] label
+
+Assembly language 80x86 has special instructions for performing loops: LOOP, LOOPE, LOOPNE and JCXZ
+
+LOOP instruction has the effect of reexecuting the block of instructions starting at label, while the value of register CX is different than 0. First it decrements the register CX, then it makes the test and possibly the jump. The jump is "short" (max. 127 bytes). 
+
+LOOPE instruction (LOOP while Equal) is different than LOOP regading the end condition, the loop ending whether if CX=0 or if ZF=1. When using LOOPNE (LOOP while Not Equal) the loop ends if CX=0 or ZF=0. 

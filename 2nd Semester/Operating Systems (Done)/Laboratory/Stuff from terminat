@@ -1,0 +1,890 @@
+Operating systems
+
+Last login: Tue Mar  7 13:46:46 on ttys001
+Gals-MacBook-Pro:~ galoscar$ ssh goie2123@linux.scs.ubbcluj.ro
+ssh: Could not resolve hostname linux.scs.ubbcluj.ro: nodename nor servname provided, or not known
+Gals-MacBook-Pro:~ galoscar$ ssh goie2123@linux.scs.ubbcluj.ro
+ssh: Could not resolve hostname linux.scs.ubbcluj.ro: nodename nor servname provided, or not known
+Gals-MacBook-Pro:~ galoscar$ ssh goie2123@linux.scs.ubbcluj.ro
+goie2123@linux.scs.ubbcluj.ro's password:
+Last login: Tue Mar  7 13:47:40 2017 from 172.30.118.196
+-bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+[goie2123@linux ~]$ ls
+mail  os
+[goie2123@linux ~]$ cd os
+[goie2123@linux os]$ ls
+lab1
+[goie2123@linux os]$ cd lab1
+[goie2123@linux lab1]$ ls
+123  haha  hello  hello.c
+[goie2123@linux lab1]$ vi program1.c
+[goie2123@linux lab1]$ grep goie2123 /etc/passwd
+goie2123:x:36106:600:Gal F.O. Oscar:/home/scs/licenta/an1/gr913/goie2123:/bin/bash
+[goie2123@linux lab1]$ man grep
+[goie2123@linux lab1]$ man message
+[goie2123@linux lab1]$ message gsie2130 Mueeeeeee
+-bash: message: command not found
+[goie2123@linux lab1]$ man mesg
+[goie2123@linux lab1]$ man write
+[goie2123@linux lab1]$ write gsie2130 Buna buna :))
+-bash: syntax error near unexpected token `)'
+[goie2123@linux lab1]$ write gsie2130 Buna Buna
+usage: write user [tty]
+
+[goie2123@linux lab1]$ grep alin /etc/passwd --color
+
+
+rusu:x:11965:575:Catalin Rusu:/home/cs/cadre/rusu:/bin/bash
+pdmr0352:x:34072:600:Pintilie L.N. Diana Catalina:/home/scs/licenta/an1/gr111/pdmr0352:/bin/bash
+pmmr0354:x:34074:600:Porfire N Madalina Nicoleta:/home/scs/licenta/an1/gr111/pmmr0354:/bin/bash
+ramr0324:x:34105:600:Risteiu C. Alexandra Madalina:/home/scs/licenta/an2/gr121/ramr0324:/bin/bash
+tmmr0328:x:34109:600:Trandafir S. Madalina Valentina:/home/scs/licenta/an2/gr121/tmmr0328:/bin/bash
+ccmr0275:x:34113:600:Chifor N. Calina Maria:/home/scs/licenta/an3/gr131/ccmr0275:/bin/bash
+gmdr0227:x:34185:600:Gal C. Madalina Irina:/home/scs/master/an2/gr153/gmdr0227:/bin/bash
+aiir2032:x:34205:600:Abrudan I Ioana Madalina:/home/scs/licenta/an1/gr211/aiir2032:/bin/bash
+agir2034:x:34207:600:Alba I Grigore Catalin:/home/scs/licenta/an1/gr211/agir2034:/bin/bash
+bpir2041:x:34214:600:Balan A Paul Catalin:/home/scs/licenta/an1/gr211/bpir2041:/bin/bash
+mcir2140:x:34287:600:Mates I Catalin:/home/scs/licenta/an1/gr213/mcir2140:/bin/bash
+fcir2101:x:34289:600:Florea T Calin Marian:/home/scs/licenta/an1/gr214/fcir2101:/bin/bash
+fcir2102:x:34290:600:Fodor C Ciprian Calin:/home/scs/licenta/an1/gr214/fcir2102:/bin/bash
+mcir2136:x:34311:600:Malin A Cristina:/home/scs/licenta/an1/gr214/mcir2136:/bin/bash
+mfir2142:x:34317:600:Maxim GC Flavia Calina:/home/scs/licenta/an1/gr215/mfir2142:/bin/bash
+pmir2165:x:34338:600:Pasca N Madalin Ionut:/home/scs/licenta/an1/gr215/pmir2165:/bin/bash
+plir2170:x:34345:600:Pinte A Laurentiu Catalin:/home/scs/licenta/an1/gr216/plir2170:/bin/bash
+sair2191:x:34362:600:Sfechis I Alin Catalin:/home/scs/licenta/an1/gr216/sair2191:/bin/bash
+fair2100:x:34374:600:Faur V Adrian Catalin:/home/scs/licenta/an1/gr217/fair2100:/bin/bash
+vbir2217:x:34391:600:Vidrean C.D. Bogdan Calin:/home/scs/licenta/an1/gr217/vbir2217:/bin/bash
+bair1811:x:34409:600:Balint A.V. Alex Razvan:/home/scs/licenta/an2/gr221/bair1811:/bin/bash
+bdir1816:x:34415:600:Bica DD Daniela Madalina:/home/scs/licenta/an2/gr221/bdir1816:/bin/bash
+bair1820:x:34416:600:Bodea V Andrei Calin:/home/scs/licenta/an2/gr221/bair1820:/bin/bash
+cvir2018:x:34419:600:Cindea V. Valentina Madalina:/home/scs/licenta/an2/gr221/cvir2018:/bin/bash
+zcir2030:x:34426:600:Zugravu P. Catalina Georgiana:/home/scs/licenta/an2/gr221/zcir2030:/bin/bash
+hcir1879:x:34449:600:Hotea V Catalin:/home/scs/licenta/an2/gr222/hcir1879:/bin/bash
+zmir1997:x:34454:600:Zbranca E. Madalina Raluca:/home/scs/licenta/an2/gr222/zmir1997:/bin/bash
+rcir1951:x:34480:600:Radoiu M Catalin Mihai:/home/scs/licenta/an2/gr223/rcir1951:/bin/bash
+cmir1838:x:34486:600:Cioca C. Mihaela Catalina:/home/scs/licenta/an2/gr224/cmir1838:/bin/bash
+msir1899:x:34514:600:Maries C Sergiu Catalin:/home/scs/licenta/an2/gr225/msir1899:/bin/bash
+mbir1905:x:34519:600:Mihaila GHE Bogdan Madalin:/home/scs/licenta/an2/gr225/mbir1905:/bin/bash
+nbir1914:x:34526:600:Nasca V.A. Bogdan Catalin:/home/scs/licenta/an2/gr225/nbir1914:/bin/bash
+siir1957:x:34580:600:Salagean I. Ioan Calin:/home/scs/licenta/an2/gr227/siir1957:/bin/bash
+bcir1606:x:34603:600:Baciu N Catalin:/home/scs/licenta/an3/gr231/bcir1606:/bin/bash
+bair1608:x:34606:600:Balint G Andra:/home/scs/licenta/an3/gr231/bair1608:/bin/bash
+cgir1628:x:34632:600:Calin D Gabriel Iulian:/home/scs/licenta/an3/gr232/cgir1628:/bin/bash
+pbir1529:x:34652:600:Pater F Beniamin Catalin:/home/scs/licenta/an3/gr232/pbir1529:/bin/bash
+idir1690:x:34695:600:Irimia S Daniel Catalin:/home/scs/licenta/an3/gr234/idir1690:/bin/bash
+ipir1691:x:34696:600:Ivascu C.M. Petra Calina:/home/scs/licenta/an3/gr234/ipir1691:/bin/bash
+ldir1698:x:34701:600:Lupse T Dan Calin:/home/scs/licenta/an3/gr234/ldir1698:/bin/bash
+miir1714:x:34720:600:Muresan C.T. Ionut Catalin:/home/scs/licenta/an3/gr235/miir1714:/bin/bash
+ocir1720:x:34722:600:Oltean C.V. Cristian Catalin:/home/scs/licenta/an3/gr235/ocir1720:/bin/bash
+tmir1778:x:34770:600:Todoran N Madalina Crina:/home/scs/licenta/an3/gr236/tmir1778:/bin/bash
+dapc1214:x:34775:600:Dinis V. Alexandru Catalin:/home/scs/master/an1/gr241/dapc1214:/bin/bash
+tcbd1265:x:34826:600:Tirban V Calin Andrei:/home/scs/master/an1/gr243/tcbd1265:/bin/bash
+gmsd1281:x:34842:600:Georgiu I.C. Madalina Maria:/home/scs/master/an1/gr244/gmsd1281:/bin/bash
+gcsd1282:x:34843:600:Giurgiu T. Calin:/home/scs/master/an1/gr244/gcsd1282:/bin/bash
+mmsd1293:x:34854:600:Muresan V. Madalina Ioana:/home/scs/master/an1/gr244/mmsd1293:/bin/bash
+hcis1351:x:34922:600:Haidau G. Catalin Horatiu:/home/scs/master/an1/gr248/hcis1351:/bin/bash
+rmis1370:x:34941:600:Rus V Madalina Maria:/home/scs/master/an1/gr248/rmis1370:/bin/bash
+sgis1379:x:34950:600:Stetco G Gheorghe Catalin:/home/scs/master/an1/gr248/sgis1379:/bin/bash
+mbhp1052:x:34987:600:Mursa C Bogdan Eduard Madalin:/home/scs/master/an2/gr252/mbhp1052:/bin/bash
+pmbd0925:x:35012:600:Pop O. M. Mihai Catalin:/home/scs/master/an2/gr253/pmbd0925:/bin/bash
+tibd1090:x:35020:600:Tomus D. Irina Madalina:/home/scs/master/an2/gr253/tibd1090:/bin/bash
+pdic1153:x:35070:600:Pop F.D. Dan Catalin:/home/scs/master/an2/gr256/pdic1153:/bin/bash
+dmis1171:x:35090:600:Diaconu L Madalina Geta:/home/scs/master/an2/gr258/dmis1171:/bin/bash
+ncis1007:x:35105:600:Negreanu O.V.D. Calin Adrian:/home/scs/master/an2/gr258/ncis1007:/bin/bash
+scis1202:x:35117:600:Serbu N Catalina Adriana:/home/scs/master/an2/gr258/scis1202:/bin/bash
+aiar1665:x:35146:600:Albata D Ioana Madalina:/home/scs/licenta/an1/gr311/aiar1665:/bin/bash
+bcar1679:x:35159:600:Bodiu D Catalin:/home/scs/licenta/an1/gr311/bcar1679:/bin/bash
+bear1692:x:35172:600:Buia I Emil Catalin:/home/scs/licenta/an1/gr312/bear1692:/bin/bash
+caar1695:x:35175:600:Catana I Adrian Catalin:/home/scs/licenta/an1/gr312/caar1695:/bin/bash
+ccar1716:x:35195:600:Cristea V Calin Marius:/home/scs/licenta/an1/gr312/ccar1716:/bin/bash
+gcar1737:x:35216:600:Ghiurutan B.M Catalin Marius:/home/scs/licenta/an1/gr313/gcar1737:/bin/bash
+maar1764:x:35242:600:Malina F Andra Teodora:/home/scs/licenta/an1/gr314/maar1764:/bin/bash
+mlar1765:x:35243:600:Manciu P.S. Larisa Madalina:/home/scs/licenta/an1/gr314/mlar1765:/bin/bash
+mcar1769:x:35247:600:Mercea G Catalin Vlad:/home/scs/licenta/an1/gr314/mcar1769:/bin/bash
+ncar1778:x:35256:600:Niculici N. Calin Ioan:/home/scs/licenta/an1/gr314/ncar1778:/bin/bash
+ghar1742:x:35259:600:Groza T Horatiu Calin:/home/scs/licenta/an1/gr315/ghar1742:/bin/bash
+pcar1794:x:35273:600:Posta C.M. Catalin Cristian:/home/scs/licenta/an1/gr315/pcar1794:/bin/bash
+rcar1802:x:35281:600:Roman R.I. Catalin Radu:/home/scs/licenta/an1/gr315/rcar1802:/bin/bash
+sear1814:x:35295:600:Stoica E.G. Eugen Catalin:/home/scs/licenta/an1/gr316/sear1814:/bin/bash
+lmar1401:x:35341:600:Lazar M.L. Mircea Catalin:/home/scs/licenta/an2/gr321/lmar1401:/bin/bash
+uaar1334:x:35345:600:Urcan V. Adrian Catalin:/home/scs/licenta/an2/gr321/uaar1334:/bin/bash
+caar1502:x:35346:600:Calinescu R. Alexandru:/home/scs/licenta/an2/gr322/caar1502:/bin/bash
+ccar1518:x:35350:600:Cius D. Catalin Danut:/home/scs/licenta/an2/gr322/ccar1518:/bin/bash
+miar1585:x:35381:600:Murarasu D.C. Ioana Catalina:/home/scs/licenta/an2/gr323/miar1585:/bin/bash
+omar1599:x:35386:600:Oros M.S. Madalina Cosmina:/home/scs/licenta/an2/gr323/omar1599:/bin/bash
+smar1633:x:35407:600:Sutu I. S. Madalina Paraschiva:/home/scs/licenta/an2/gr324/smar1633:/bin/bash
+slar1637:x:35409:600:Szocs A. Loredan Catalin:/home/scs/licenta/an2/gr324/slar1637:/bin/bash
+cmar1358:x:35441:600:Cadar G. Madalina Camelia:/home/scs/licenta/an3/gr331/cmar1358:/bin/bash
+vcar1464:x:35454:600:Vagu M. Catalin Mihai:/home/scs/licenta/an3/gr331/vcar1464:/bin/bash
+dmar1379:x:35458:600:Deac V. Mihaela Catalina:/home/scs/licenta/an3/gr332/dmar1379:/bin/bash
+mmar1409:x:35476:600:Moga T.T. Madalina Teodora:/home/scs/licenta/an3/gr332/mmar1409:/bin/bash
+mmar1411:x:35489:600:Moldovan M.L. Marius Catalin:/home/scs/licenta/an3/gr333/mmar1411:/bin/bash
+mcar1414:x:35490:600:Murar P. Catalin:/home/scs/licenta/an3/gr333/mcar1414:/bin/bash
+lkmm0136:x:35525:600:Lukacs I. B. Katalin Gizella:/home/scs/licenta/an1/gr411/lkmm0136:/bin/bash
+kkim1633:x:35591:600:Kelemen G Katalin Linda:/home/scs/licenta/an1/gr512/kkim1633:/bin/bash
+nkim1552:x:35714:600:Neda Z. Katalin:/home/scs/licenta/an2/gr523/nkim1552:/bin/bash
+sbim1579:x:35747:600:Szasz CS Balint:/home/scs/licenta/an2/gr524/sbim1579:/bin/bash
+beam0082:x:35891:600:Balint J. Z. Elod:/home/scs/licenta/an3/gr631/beam0082:/bin/bash
+pcig0127:x:35938:600:Pinzar N Catalin:/home/scs/licenta/an1/gr712/pcig0127:/bin/bash
+saig0137:x:35948:600:Serban D Alexandru Catalin:/home/scs/licenta/an1/gr712/saig0137:/bin/bash
+dmig0041:x:35963:600:Dicu P. Madalina:/home/scs/licenta/an2/gr721/dmig0041:/bin/bash
+dhig0042:x:35964:600:Dinea G. Horatiu Catalin:/home/scs/licenta/an2/gr721/dhig0042:/bin/bash
+ccig0008:x:36010:600:Clapa M.O. Catalin:/home/scs/licenta/an3/gr731/ccig0008:/bin/bash
+nmig0026:x:36027:600:Nemes V.A. Madalina Cristina:/home/scs/licenta/an3/gr731/nmig0026:/bin/bash
+bmie2071:x:36052:600:Boca A Madalina Elena:/home/scs/licenta/an1/gr911/bmie2071:/bin/bash
+bmie2078:x:36063:600:Buftea I Madalina Ioana:/home/scs/licenta/an1/gr912/bmie2078:/bin/bash
+ctie2082:x:36067:600:Cadis P.A Tudor Catalin:/home/scs/licenta/an1/gr912/ctie2082:/bin/bash
+cmie2091:x:36076:600:Ciotau Marciuc GV Malina Andreea:/home/scs/licenta/an1/gr912/cmie2091:/bin/bash
+cmie2095:x:36080:600:Coste S.V. Madalina:/home/scs/licenta/an1/gr912/cmie2095:/bin/bash
+ciie2096:x:36081:600:Cota I.C. Ionas Calin:/home/scs/licenta/an1/gr912/ciie2096:/bin/bash
+diie2104:x:36090:600:Dezsi L Imola Katalin:/home/scs/licenta/an1/gr913/diie2104:/bin/bash
+gcie2124:x:36107:600:Galben P Catalin:/home/scs/licenta/an1/gr913/gcie2124:/bin/bash
+ifie2140:x:36124:600:Ilinoiu O Flavius Catalin:/home/scs/licenta/an1/gr914/ifie2140:/bin/bash
+lcie2151:x:36134:600:Lucaciu V M Catalin Mihai:/home/scs/licenta/an1/gr914/lcie2151:/bin/bash
+mmie2169:x:36155:600:Mircea V.D. Maria Madalina:/home/scs/licenta/an1/gr915/mmie2169:/bin/bash
+phie2200:x:36185:600:Podariu H.I. Horea Catalin:/home/scs/licenta/an1/gr916/phie2200:/bin/bash
+pcie2205:x:36190:600:Popa I.A. Catalin:/home/scs/licenta/an1/gr916/pcie2205:/bin/bash
+bsie2073:x:36203:600:Bodica C Septimiu Calin:/home/scs/licenta/an1/gr917/bsie2073:/bin/bash
+paie1985:x:36314:600:Pop R.C. Andra Calina:/home/scs/licenta/an2/gr923/paie1985:/bin/bash
+dmie1899:x:36322:600:Dinga F Madalina:/home/scs/licenta/an2/gr924/dmie1899:/bin/bash
+icie1921:x:36330:600:Istrate F. Catalin Flaviu:/home/scs/licenta/an2/gr924/icie1921:/bin/bash
+mmie1941:x:36351:600:Marginean V Madalina Ileana:/home/scs/licenta/an2/gr925/mmie1941:/bin/bash
+maie1946:x:36354:600:Mesesan M.F. Andrei Catalin:/home/scs/licenta/an2/gr925/maie1946:/bin/bash
+ptie1973:x:36371:600:Paval D Teodor Calin:/home/scs/licenta/an2/gr925/ptie1973:/bin/bash
+pcie1982:x:36377:600:Pop I Catalin Mihai:/home/scs/licenta/an2/gr925/pcie1982:/bin/bash
+pcie1990:x:36381:600:Popovici I Catalin:/home/scs/licenta/an2/gr926/pcie1990:/bin/bash
+mcie1780:x:36426:600:Moldovan S Catalin Stefan:/home/scs/licenta/an3/gr931/mcie1780:/bin/bash
+ccie1688:x:36466:600:Cioba S Catalin Adrian:/home/scs/licenta/an3/gr933/ccie1688:/bin/bash
+sbie1819:x:36578:600:Sandy T.L. Balint Matyas:/home/scs/licenta/an3/gr936/sbie1819:/bin/bash
+bbim1196:x:36588:600:Balint Bence Istvan:/home/scs/licenta/prelungire/bbim1196:/bin/bash
+rtmi0029:x:36627:600:Reti Timea Katalin:/home/scs/licenta/prelungire/rtmi0029:/bin/bash
+bcci0005:x:36681:600:Bolba S.C. Catalin Dorian:/home/scs/postuniv/an1/gr1111/bcci0005:/bin/bash
+mcci0023:x:36699:600:Muscan I. Catalin Mihai Ioan:/home/scs/postuniv/an1/gr1111/mcci0023:/bin/bash
+pici0034:x:36710:600:Potra G. Ionut Calin:/home/scs/postuniv/an1/gr1112/pici0034:/bin/bash
+[goie2123@linux lab1]$ grep gal  /etc/passwd --color
+[goie2123@linux lab1]$ grep :Gal  /etc/passwd --color
+gldr0254:x:34143:600:Galazsi N. Lacrimioara Alexandra:/home/scs/master/an1/gr143/gldr0254:/bin/bash
+gmdr0227:x:34185:600:Gal C. Madalina Irina:/home/scs/master/an2/gr153/gmdr0227:/bin/bash
+gdir2106:x:34230:600:Galanton C Darius:/home/scs/licenta/an1/gr211/gdir2106:/bin/bash
+gvir1871:x:34473:600:Galbaza V Vasile:/home/scs/licenta/an2/gr223/gvir1871:/bin/bash
+gnir2022:x:34544:600:Galambosi F. Norbert:/home/scs/licenta/an2/gr226/gnir2022:/bin/bash
+gpar1731:x:35210:600:Gal S Paul Marian:/home/scs/licenta/an1/gr313/gpar1731:/bin/bash
+goar1732:x:35211:600:Galea V.V Olimpiu Vasile:/home/scs/licenta/an1/gr313/goar1732:/bin/bash
+grar1733:x:35212:600:Galea Cuc L Remus Nicolae:/home/scs/licenta/an1/gr313/grar1733:/bin/bash
+gaim1520:x:35679:600:Gal Z. Akos:/home/scs/licenta/an2/gr522/gaim1520:/bin/bash
+gbim1416:x:35781:600:Gal B.E. Beni:/home/scs/licenta/an3/gr531/gbim1416:/bin/bash
+geam0159:x:35841:600:Gal Mate I Eszter:/home/scs/licenta/an1/gr611/geam0159:/bin/bash
+goie2123:x:36106:600:Gal F.O. Oscar:/home/scs/licenta/an1/gr913/goie2123:/bin/bash
+gcie2124:x:36107:600:Galben P Catalin:/home/scs/licenta/an1/gr913/gcie2124:/bin/bash
+gsie1906:x:36309:600:Gal A Stefana:/home/scs/licenta/an2/gr923/gsie1906:/bin/bash
+giie1725:x:36554:600:Galatanu G. Ioana Georgiana:/home/scs/licenta/an3/gr936/giie1725:/bin/bash
+[goie2123@linux lab1]$ grep -i -- color Alin
+grep: Alin: No such file or directory
+[goie2123@linux lab1]$ grep :Alin  /etc/passwd --color
+[goie2123@linux lab1]$ man \>
+No manual entry for >
+[goie2123@linux lab1]$ grep -i \<alin\>  /etc/passwd --color
+[goie2123@linux lab1]$ grep -i "\<alin\>"  /etc/passwd --color
+aamr0334:x:34054:600:Aloman C Alin Cristian:/home/scs/licenta/an1/gr111/aamr0334:/bin/bash
+mama0212:x:34172:600:Mateut D. Alin:/home/scs/master/an2/gr152/mama0212:/bin/bash
+oair2159:x:34333:600:Oancea I Alin Andrei:/home/scs/licenta/an1/gr215/oair2159:/bin/bash
+sair2191:x:34362:600:Sfechis I Alin Catalin:/home/scs/licenta/an1/gr216/sair2191:/bin/bash
+nsir1916:x:34525:600:Nasca V.A. Sergiu Alin:/home/scs/licenta/an2/gr225/nsir1916:/bin/bash
+tfir1774:x:34624:600:Tirla C Florin Alin:/home/scs/licenta/an3/gr231/tfir1774:/bin/bash
+mair1712:x:34719:600:Moldovan M Alin Mihaita:/home/scs/licenta/an3/gr235/mair1712:/bin/bash
+sapc1216:x:34777:600:Scorobete S. Alin Razvan:/home/scs/master/an1/gr241/sapc1216:/bin/bash
+labd1247:x:34808:600:Lupoiu N.C Alin Nicolae:/home/scs/master/an1/gr243/labd1247:/bin/bash
+caid1317:x:34878:600:Costea V Alin Vasile:/home/scs/master/an1/gr245/caid1317:/bin/bash
+cais1347:x:34918:600:Cazan C.D. Alin Cornel:/home/scs/master/an1/gr248/cais1347:/bin/bash
+tasd1140:x:35058:600:Turbut M.I. Alin Romeo:/home/scs/master/an2/gr254/tasd1140:/bin/bash
+iaar1395:x:35468:600:Ilea M. Alin Ovidiu:/home/scs/licenta/an3/gr332/iaar1395:/bin/bash
+paig0129:x:35940:600:Pop VV Alin Valerian:/home/scs/licenta/an1/gr712/paig0129:/bin/bash
+ncie1965:x:36366:600:Nestor D. Cristian Alin:/home/scs/licenta/an2/gr925/ncie1965:/bin/bash
+[goie2123@linux lab1]$ grep -i "\<gr913\>"  /etc/passwd --color
+diie2104:x:36090:600:Dezsi L Imola Katalin:/home/scs/licenta/an1/gr913/diie2104:/bin/bash
+daie2105:x:36091:600:Dobai A.C.G Andrei:/home/scs/licenta/an1/gr913/daie2105:/bin/bash
+doie2107:x:36092:600:Doica D Octavian:/home/scs/licenta/an1/gr913/doie2107:/bin/bash
+ddie2108:x:36093:600:Dolot C. D. Diana Nicole:/home/scs/licenta/an1/gr913/ddie2108:/bin/bash
+ddie2109:x:36094:600:Domide L.V. Denis Bogdan:/home/scs/licenta/an1/gr913/ddie2109:/bin/bash
+daie2110:x:36095:600:Dragodan A. Alexandra Adriana:/home/scs/licenta/an1/gr913/daie2110:/bin/bash
+diie2111:x:36096:600:Dragomir G Ioana Bianca:/home/scs/licenta/an1/gr913/diie2111:/bin/bash
+ddie2112:x:36097:600:Dragos I.V. Diana:/home/scs/licenta/an1/gr913/ddie2112:/bin/bash
+dlie2113:x:36098:600:Duma EL Laurentiu:/home/scs/licenta/an1/gr913/dlie2113:/bin/bash
+dmie2114:x:36099:600:Dumitrascu C Mihai Razvan:/home/scs/licenta/an1/gr913/dmie2114:/bin/bash
+faie2116:x:36100:600:Farcas D Alexandru:/home/scs/licenta/an1/gr913/faie2116:/bin/bash
+frie2117:x:36101:600:Farte V Razvan Dan:/home/scs/licenta/an1/gr913/frie2117:/bin/bash
+fdie2118:x:36102:600:Fovas M Denis Daniel George:/home/scs/licenta/an1/gr913/fdie2118:/bin/bash
+fnie2119:x:36103:600:Fratila M Nicolae:/home/scs/licenta/an1/gr913/fnie2119:/bin/bash
+frie2121:x:36104:600:Fulea N Razvan Dorel:/home/scs/licenta/an1/gr913/frie2121:/bin/bash
+gaie2122:x:36105:600:Gae O.A. Andrada Maria:/home/scs/licenta/an1/gr913/gaie2122:/bin/bash
+goie2123:x:36106:600:Gal F.O. Oscar:/home/scs/licenta/an1/gr913/goie2123:/bin/bash
+gcie2124:x:36107:600:Galben P Catalin:/home/scs/licenta/an1/gr913/gcie2124:/bin/bash
+gsie2126:x:36108:600:Georgescu I.G. Stefan Paul:/home/scs/licenta/an1/gr913/gsie2126:/bin/bash
+gkie2127:x:36109:600:Gergely B.M. Karoly Bela:/home/scs/licenta/an1/gr913/gkie2127:/bin/bash
+giie2129:x:36110:600:Grad V Ionut Adrian:/home/scs/licenta/an1/gr913/giie2129:/bin/bash
+gsie2130:x:36111:600:Grigor I Sebastian Alexandru:/home/scs/licenta/an1/gr913/gsie2130:/bin/bash
+gdie2131:x:36112:600:Grigore F. Dragos Alexandru:/home/scs/licenta/an1/gr913/gdie2131:/bin/bash
+gmie2132:x:36113:600:Grigorovici C Monica Maria:/home/scs/licenta/an1/gr913/gmie2132:/bin/bash
+maie2167:x:36114:600:Mihu I Adrian:/home/scs/licenta/an1/gr913/maie2167:/bin/bash
+miie2173:x:36115:600:Moldovan I.I. Ioan Adrian:/home/scs/licenta/an1/gr913/miie2173:/bin/bash
+ncie2180:x:36116:600:Nacu M Cristian:/home/scs/licenta/an1/gr913/ncie2180:/bin/bash
+rnie2210:x:36117:600:Rachitan M Nichita Mihai:/home/scs/licenta/an1/gr913/rnie2210:/bin/bash
+[goie2123@linux lab1]$ grep -i "\<gr913\>"  /etc/passwd --color -c
+28
+[goie2123@linux lab1]$ grep -i "\<gr913\>"  /etc/passwd --
+Message from gsie2130@linux.scs.ubbcluj.ro on pts/7 at 08:30 ...
+mue
+EOF
+colorq^C
+[goie2123@linux lab1]$ grep -n "\<gr913\>"  /etc/passwd --color
+2373:diie2104:x:36090:600:Dezsi L Imola Katalin:/home/scs/licenta/an1/gr913/diie2104:/bin/bash
+2374:daie2105:x:36091:600:Dobai A.C.G Andrei:/home/scs/licenta/an1/gr913/daie2105:/bin/bash
+2375:doie2107:x:36092:600:Doica D Octavian:/home/scs/licenta/an1/gr913/doie2107:/bin/bash
+2376:ddie2108:x:36093:600:Dolot C. D. Diana Nicole:/home/scs/licenta/an1/gr913/ddie2108:/bin/bash
+2377:ddie2109:x:36094:600:Domide L.V. Denis Bogdan:/home/scs/licenta/an1/gr913/ddie2109:/bin/bash
+2378:daie2110:x:36095:600:Dragodan A. Alexandra Adriana:/home/scs/licenta/an1/gr913/daie2110:/bin/bash
+2379:diie2111:x:36096:600:Dragomir G Ioana Bianca:/home/scs/licenta/an1/gr913/diie2111:/bin/bash
+2380:ddie2112:x:36097:600:Dragos I.V. Diana:/home/scs/licenta/an1/gr913/ddie2112:/bin/bash
+2381:dlie2113:x:36098:600:Duma EL Laurentiu:/home/scs/licenta/an1/gr913/dlie2113:/bin/bash
+2382:dmie2114:x:36099:600:Dumitrascu C Mihai Razvan:/home/scs/licenta/an1/gr913/dmie2114:/bin/bash
+2383:faie2116:x:36100:600:Farcas D Alexandru:/home/scs/licenta/an1/gr913/faie2116:/bin/bash
+2384:frie2117:x:36101:600:Farte V Razvan Dan:/home/scs/licenta/an1/gr913/frie2117:/bin/bash
+2385:fdie2118:x:36102:600:Fovas M Denis Daniel George:/home/scs/licenta/an1/gr913/fdie2118:/bin/bash
+2386:fnie2119:x:36103:600:Fratila M Nicolae:/home/scs/licenta/an1/gr913/fnie2119:/bin/bash
+2387:frie2121:x:36104:600:Fulea N Razvan Dorel:/home/scs/licenta/an1/gr913/frie2121:/bin/bash
+2388:gaie2122:x:36105:600:Gae O.A. Andrada Maria:/home/scs/licenta/an1/gr913/gaie2122:/bin/bash
+2389:goie2123:x:36106:600:Gal F.O. Oscar:/home/scs/licenta/an1/gr913/goie2123:/bin/bash
+2390:gcie2124:x:36107:600:Galben P Catalin:/home/scs/licenta/an1/gr913/gcie2124:/bin/bash
+2391:gsie2126:x:36108:600:Georgescu I.G. Stefan Paul:/home/scs/licenta/an1/gr913/gsie2126:/bin/bash
+2392:gkie2127:x:36109:600:Gergely B.M. Karoly Bela:/home/scs/licenta/an1/gr913/gkie2127:/bin/bash
+2393:giie2129:x:36110:600:Grad V Ionut Adrian:/home/scs/licenta/an1/gr913/giie2129:/bin/bash
+2394:gsie2130:x:36111:600:Grigor I Sebastian Alexandru:/home/scs/licenta/an1/gr913/gsie2130:/bin/bash
+2395:gdie2131:x:36112:600:Grigore F. Dragos Alexandru:/home/scs/licenta/an1/gr913/gdie2131:/bin/bash
+2396:gmie2132:x:36113:600:Grigorovici C Monica Maria:/home/scs/licenta/an1/gr913/gmie2132:/bin/bash
+2397:maie2167:x:36114:600:Mihu I Adrian:/home/scs/licenta/an1/gr913/maie2167:/bin/bash
+2398:miie2173:x:36115:600:Moldovan I.I. Ioan Adrian:/home/scs/licenta/an1/gr913/miie2173:/bin/bash
+2399:ncie2180:x:36116:600:Nacu M Cristian:/home/scs/licenta/an1/gr913/ncie2180:/bin/bash
+2400:rnie2210:x:36117:600:Rachitan M Nichita Mihai:/home/scs/licenta/an1/gr913/rnie2210:/bin/bash
+[goie2123@linux lab1]$ write gsie2130 buna
+write: gsie2130 is not logged in on buna.
+[goie2123@linux lab1]$ man write
+[goie2123@linux lab1]$ write gsie2130
+buna
+ce faci?
+ma auzi ?
+i'm here
+:))
+^C[goie2123@linux lab1]$ grep -n "\<gr913\>"  /etc/passwd --color
+2373:diie2104:x:36090:600:Dezsi L Imola Katalin:/home/scs/licenta/an1/gr913/diie2104:/bin/bash
+2374:daie2105:x:36091:600:Dobai A.C.G Andrei:/home/scs/licenta/an1/gr913/daie2105:/bin/bash
+2375:doie2107:x:36092:600:Doica D Octavian:/home/scs/licenta/an1/gr913/doie2107:/bin/bash
+2376:ddie2108:x:36093:600:Dolot C. D. Diana Nicole:/home/scs/licenta/an1/gr913/ddie2108:/bin/bash
+2377:ddie2109:x:36094:600:Domide L.V. Denis Bogdan:/home/scs/licenta/an1/gr913/ddie2109:/bin/bash
+2378:daie2110:x:36095:600:Dragodan A. Alexandra Adriana:/home/scs/licenta/an1/gr913/daie2110:/bin/bash
+2379:diie2111:x:36096:600:Dragomir G Ioana Bianca:/home/scs/licenta/an1/gr913/diie2111:/bin/bash
+2380:ddie2112:x:36097:600:Dragos I.V. Diana:/home/scs/licenta/an1/gr913/ddie2112:/bin/bash
+2381:dlie2113:x:36098:600:Duma EL Laurentiu:/home/scs/licenta/an1/gr913/dlie2113:/bin/bash
+2382:dmie2114:x:36099:600:Dumitrascu C Mihai Razvan:/home/scs/licenta/an1/gr913/dmie2114:/bin/bash
+2383:faie2116:x:36100:600:Farcas D Alexandru:/home/scs/licenta/an1/gr913/faie2116:/bin/bash
+2384:frie2117:x:36101:600:Farte V Razvan Dan:/home/scs/licenta/an1/gr913/frie2117:/bin/bash
+2385:fdie2118:x:36102:600:Fovas M Denis Daniel George:/home/scs/licenta/an1/gr913/fdie2118:/bin/bash
+2386:fnie2119:x:36103:600:Fratila M Nicolae:/home/scs/licenta/an1/gr913/fnie2119:/bin/bash
+2387:frie2121:x:36104:600:Fulea N Razvan Dorel:/home/scs/licenta/an1/gr913/frie2121:/bin/bash
+2388:gaie2122:x:36105:600:Gae O.A. Andrada Maria:/home/scs/licenta/an1/gr913/gaie2122:/bin/bash
+2389:goie2123:x:36106:600:Gal F.O. Oscar:/home/scs/licenta/an1/gr913/goie2123:/bin/bash
+2390:gcie2124:x:36107:600:Galben P Catalin:/home/scs/licenta/an1/gr913/gcie2124:/bin/bash
+2391:gsie2126:x:36108:600:Georgescu I.G. Stefan Paul:/home/scs/licenta/an1/gr913/gsie2126:/bin/bash
+2392:gkie2127:x:36109:600:Gergely B.M. Karoly Bela:/home/scs/licenta/an1/gr913/gkie2127:/bin/bash
+2393:giie2129:x:36110:600:Grad V Ionut Adrian:/home/scs/licenta/an1/gr913/giie2129:/bin/bash
+2394:gsie2130:x:36111:600:Grigor I Sebastian Alexandru:/home/scs/licenta/an1/gr913/gsie2130:/bin/bash
+2395:gdie2131:x:36112:600:Grigore F. Dragos Alexandru:/home/scs/licenta/an1/gr913/gdie2131:/bin/bash
+2396:gmie2132:x:36113:600:Grigorovici C Monica Maria:/home/scs/licenta/an1/gr913/gmie2132:/bin/bash
+2397:maie2167:x:36114:600:Mihu I Adrian:/home/scs/licenta/an1/gr913/maie2167:/bin/bash
+2398:miie2173:x:36115:600:Moldovan I.I. Ioan Adrian:/home/scs/licenta/an1/gr913/miie2173:/bin/bash
+2399:ncie2180:x:36116:600:Nacu M Cristian:/home/scs/licenta/an1/gr913/ncie2180:/bin/bash
+2400:rnie2210:x:36117:600:Rachitan M Nichita Mihai:/home/scs/licenta/an1/gr913/rnie2210:/bin/bash
+[goie2123@linux lab1]$ grep "\<gr913\>"  /etc/passwd --color | cut -d":" -f5
+Dezsi L Imola Katalin
+Dobai A.C.G Andrei
+Doica D Octavian
+Dolot C. D. Diana Nicole
+Domide L.V. Denis Bogdan
+Dragodan A. Alexandra Adriana
+Dragomir G Ioana Bianca
+Dragos I.V. Diana
+Duma EL Laurentiu
+Dumitrascu C Mihai Razvan
+Farcas D Alexandru
+Farte V Razvan Dan
+Fovas M Denis Daniel George
+Fratila M Nicolae
+Fulea N Razvan Dorel
+Gae O.A. Andrada Maria
+Gal F.O. Oscar
+Galben P Catalin
+Georgescu I.G. Stefan Paul
+Gergely B.M. Karoly Bela
+Grad V Ionut Adrian
+Grigor I Sebastian Alexandru
+Grigore F. Dragos Alexandru
+Grigorovici C Monica Maria
+Mihu I Adrian
+Moldovan I.I. Ioan Adrian
+Nacu M Cristian
+Rachitan M Nichita Mihai
+[goie2123@linux lab1]$ grep "\<gr913\>"  /etc/passwd --color | cut -d":" -f5,1
+diie2104:Dezsi L Imola Katalin
+daie2105:Dobai A.C.G Andrei
+doie2107:Doica D Octavian
+ddie2108:Dolot C. D. Diana Nicole
+ddie2109:Domide L.V. Denis Bogdan
+daie2110:Dragodan A. Alexandra Adriana
+diie2111:Dragomir G Ioana Bianca
+ddie2112:Dragos I.V. Diana
+dlie2113:Duma EL Laurentiu
+dmie2114:Dumitrascu C Mihai Razvan
+faie2116:Farcas D Alexandru
+frie2117:Farte V Razvan Dan
+fdie2118:Fovas M Denis Daniel George
+fnie2119:Fratila M Nicolae
+frie2121:Fulea N Razvan Dorel
+gaie2122:Gae O.A. Andrada Maria
+goie2123:Gal F.O. Oscar
+gcie2124:Galben P Catalin
+gsie2126:Georgescu I.G. Stefan Paul
+gkie2127:Gergely B.M. Karoly Bela
+giie2129:Grad V Ionut Adrian
+gsie2130:Grigor I Sebastian Alexandru
+gdie2131:Grigore F. Dragos Alexandru
+gmie2132:Grigorovici C Monica Maria
+maie2167:Mihu I Adrian
+miie2173:Moldovan I.I. Ioan Adrian
+ncie2180:Nacu M Cristian
+rnie2210:Rachitan M Nichita Mihai
+[goie2123@linux lab1]$ grep "\<gr913\>"  /etc/passwd --color | cut -d":" -f5,2
+x:Dezsi L Imola Katalin
+x:Dobai A.C.G Andrei
+x:Doica D Octavian
+x:Dolot C. D. Diana Nicole
+x:Domide L.V. Denis Bogdan
+x:Dragodan A. Alexandra Adriana
+x:Dragomir G Ioana Bianca
+x:Dragos I.V. Diana
+x:Duma EL Laurentiu
+x:Dumitrascu C Mihai Razvan
+x:Farcas D Alexandru
+x:Farte V Razvan Dan
+x:Fovas M Denis Daniel George
+x:Fratila M Nicolae
+x:Fulea N Razvan Dorel
+x:Gae O.A. Andrada Maria
+x:Gal F.O. Oscar
+x:Galben P Catalin
+x:Georgescu I.G. Stefan Paul
+x:Gergely B.M. Karoly Bela
+x:Grad V Ionut Adrian
+x:Grigor I Sebastian Alexandru
+x:Grigore F. Dragos Alexandru
+x:Grigorovici C Monica Maria
+x:Mihu I Adrian
+x:Moldovan I.I. Ioan Adrian
+x:Nacu M Cristian
+x:Rachitan M Nichita Mihai
+[goie2123@linux lab1]$ ls
+123  haha  hello  hello.c  program1.c
+[goie2123@linux lab1]$ vi problemabc.txt
+[goie2123@linux lab1]$ write gsie2130
+ops
+ops
+what ???
+^C[goie2123@linux lab1]pwd
+/home/scs/licenta/an1/gr913/goie2123/os/lab1
+[goie2123@linux lab1]$ ./../
+-bash: ./../: is a directory
+[goie2123@linux lab1]$ grep "\<gr913\>"  ./..  --color | cut -d" " -f5,2
+grep: ./..: Is a directory
+[goie2123@linux lab1]$ write gkie2127
+omg
+^C[goie2123@linux lab1]grep "\<gr913\>"  /etc/passwd --color | cut -d":" -f5,2
+x:Dezsi L Imola Katalin
+x:Dobai A.C.G Andrei
+x:Doica D Octavian
+x:Dolot C. D. Diana Nicole
+x:Domide L.V. Denis Bogdan
+x:Dragodan A. Alexandra Adriana
+x:Dragomir G Ioana Bianca
+x:Dragos I.V. Diana
+x:Duma EL Laurentiu
+x:Dumitrascu C Mihai Razvan
+x:Farcas D Alexandru
+x:Farte V Razvan Dan
+x:Fovas M Denis Daniel George
+x:Fratila M Nicolae
+x:Fulea N Razvan Dorel
+x:Gae O.A. Andrada Maria
+x:Gal F.O. Oscar
+x:Galben P Catalin
+x:Georgescu I.G. Stefan Paul
+x:Gergely B.M. Karoly Bela
+x:Grad V Ionut Adrian
+x:Grigor I Sebastian Alexandru
+x:Grigore F. Dragos Alexandru
+x:Grigorovici C Monica Maria
+x:Mihu I Adrian
+x:Moldovan I.I. Ioan Adrian
+x:Nacu M Cristian
+x:Rachitan M Nichita Mihai
+[goie2123@linux lab1]$ grep " "  ./../ --color | cut -d":" -f5,1
+grep: ./../: Is a directory
+[goie2123@linux lab1]$ grep "^.*123\>"  ./../problemabc --color
+grep: ./../problemabc: No such file or directory
+[goie2123@linux lab1]$ ls
+123  haha  hello  hello.c  problemabc.txt  program1.c
+[goie2123@linux lab1]$ grep "^.*123\>"  problemabc --color
+grep: problemabc: No such file or directory
+[goie2123@linux lab1]$ grep "^.*123\>"  problemabc.txt --color
+abc 123
+ab123
+ ab123 a b
+123 12
+[goie2123@linux lab1]$ grep "^[a-z A-Z 0-9]*123\>"  problemabc.txt --color
+abc 123
+ab123
+ ab123 a b
+123 12
+[goie2123@linux lab1]$ grep "^[a-z A-Z 0-9]+123\>"  problemabc.txt --color
+[goie2123@linux lab1]$ grep "^[a-z A-Z 0-9].*123\>"  problemabc.txt --color
+abc 123
+ab123
+ ab123 a b
+[goie2123@linux lab1]$ grep "^[a-z,A-Z,0-9]*123\>"  problemabc.txt --color
+ab123
+123 12
+[goie2123@linux lab1]$ man grep
+[goie2123@linux lab1]$ grep -c “^\(..\)\+$”file
+	something
+[goie2123@linux lab1]$  ls -l
+[goie2123@linux lab1]$ touch 3.txt
+[goie2123@linux lab1]$  ls -l
+[goie2123@linux lab1]$ chmod 744 3.txt
+Last login: Wed Mar  8 08:03:51 on ttys001
+Gals-MacBook-Pro:~ galoscar$ ls
+Desktop		Downloads	Movies		Pictures
+Documents	Library		Music		Public
+Gals-MacBook-Pro:~ galoscar$ grep
+usage: grep [-abcDEFGHhIiJLlmnOoqRSsUVvwxZ] [-A num] [-B num] [-C[num]]
+	[-e pattern] [-f file] [--binary-files=value] [--color=when]
+	[--context[=num]] [--directories=action] [--label] [--line-buffered]
+	[--null] [pattern] [file ...]
+Gals-MacBook-Pro:~ galoscar$ ssh goie2123@linux.scs.ubbcluj.ro
+ssh: Could not resolve hostname linux.scs.ubbcluj.ro: nodename nor servname provided, or not known
+Gals-MacBook-Pro:~ galoscar$ ssh goie2123@linux.scs.ubbcluj.ro
+ssh: Could not resolve hostname linux.scs.ubbcluj.ro: nodename nor servname provided, or not known
+Gals-MacBook-Pro:~ galoscar$ ssh goie2123@linux.scs.ubbcluj.ro
+goie2123@linux.scs.ubbcluj.ro's password:
+Last login: Wed Mar  8 08:05:27 2017 from 172.30.118.196
+-bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+[goie2123@linux ~]$ ls
+mail  os
+[goie2123@linux ~]$ cd os
+[goie2123@linux os]$ cd
+[goie2123@linux ~]$ ls
+mail  os
+[goie2123@linux ~]$ cd os
+[goie2123@linux os]$ ls
+lab1
+[goie2123@linux os]$ cd lab1
+[goie2123@linux lab1]$ ls
+123  haha  hello  hello.c  problemabc.txt  program1.c
+[goie2123@linux lab1]$ touch 3.txt
+[goie2123@linux lab1]$ ls
+123  3.txt  haha  hello  hello.c  problemabc.txt  program1.c
+[goie2123@linux lab1]$ chmod 744 3.txt
+[goie2123@linux lab1]$ ls
+123  3.txt  haha  hello  hello.c  problemabc.txt  program1.c
+[goie2123@linux lab1]$ ls -l
+total 28
+drwxr-xr-x 2 goie2123 student 4096 Mar  1 08:47 123
+-rwxr--r-- 1 goie2123 student    0 Mar  8 09:09 3.txt
+-rw-r--r-- 1 goie2123 student   12 Mar  1 08:40 haha
+-rwxr-xr-x 1 goie2123 student 6427 Mar  1 09:42 hello
+-rw-r--r-- 1 goie2123 student   72 Mar  1 09:45 hello.c
+-rw-r--r-- 1 goie2123 student   41 Mar  8 08:38 problemabc.txt
+-rw-r--r-- 1 goie2123 student  290 Mar  8 08:15 program1.c
+[goie2123@linux lab1]$ ls -l | grep "^...x.*"
+drwxr-xr-x 2 goie2123 student 4096 Mar  1 08:47 123
+-rwxr--r-- 1 goie2123 student    0 Mar  8 09:09 3.txt
+-rwxr-xr-x 1 goie2123 student 6427 Mar  1 09:42 hello
+[goie2123@linux lab1]$ man sed
+[goie2123@linux lab1]$ vi nume.txt
+[goie2123@linux lab1]$ sed s/a/A/ nume.txt
+Ana
+Ana ana
+mihAi
+ionut
+blA bla
+[goie2123@linux lab1]$ sed s/a/A/g nume.txt
+AnA
+AnA AnA
+mihAi
+ionut
+blA blA
+[goie2123@linux lab1]$ sed "s/\<ana\>/Ana/g" nume.txt
+Ana
+Ana Ana
+mihai
+ionut
+bla bla
+[goie2123@linux lab1]$ clear
+
+[goie2123@linux lab1]$
+[goie2123@linux lab1]$ sed y/abc/123/ nume.txt
+1n1
+1n1 1n1
+mih1i
+ionut
+2l1 2l1
+[goie2123@linux lab1]$ so all a's were replaced by 1, b by 2, c by 3
+> ^C
+[goie2123@linux lab1]$ sed s/^/123/ nume.txt
+123ana
+123ana ana
+123mihai
+123ionut
+123bla bla
+[goie2123@linux lab1]$
+Broadcast message from baie2079@linux.scs.ubbcluj.ro (pts/20) (Wed Mar  8 09:19:15 2017):
+
+mihai
+
+Broadcast message from ciie2096@linux.scs.ubbcluj.ro (pts/1) (Wed Mar  8 09:19:21 2017):
+
+Salut lume
+
+Broadcast message from ciie2096@linux.scs.ubbcluj.ro (pts/1) (Wed Mar  8 09:19:26 2017):
+
+ce faceti?
+
+Broadcast message from baie2079@linux.scs.ubbcluj.ro (pts/20) (Wed Mar  8 09:19:29 2017):
+
+sorry
+
+Broadcast message from amie2055@linux.scs.ubbcluj.ro (pts/32) (Wed Mar  8 09:19:43 2017):
+
+cf
+
+Broadcast message from ciie2096@linux.scs.ubbcluj.ro (pts/1) (Wed Mar  8 09:19:51 2017):
+
+Mihai did nothwall Mihai did nothing wrong
+
+Broadcast message from baie2081@linux.scs.ubbcluj.ro (pts/52) (Wed Mar  8 09:20:03 2017):
+
+peste
+
+[goie2123@linux lab1]$ sed y/1ab/b1a/g nume.txt
+sed: -e expression #1, char 11: extra characters after command
+[goie2123@linux lab1]$ sed y/1ab/b1a/ nume.txt
+1n1
+1n1 1n1
+mih1i
+ionut
+al1 al1
+[goie2123@linux lab1]$
+[goie2123@linux lab1]$ sed "s/\<\([0-9]\)\([a-z]\)\([a-z]\)\>/\3\1\2/g"
+^C
+[goie2123@linux lab1]$ sed "s/\<\([0-9]\)\([a-z]\)\([a-z]\)\>/\3\1\2/g" nume.txt
+ana
+ana ana
+mihai
+ionut
+bla bla
+[goie2123@linux lab1]$
+{NF, NR, FNR, FS
+length(s)
+begin{}
+end{}
+}
+[goie2123@linux lab1]$ man awk
+[goie2123@linux lab1]$
+
+[goie2123@linux lab1]$ ls
+123  3.txt  haha  hello  hello.c  nume.txt  problemabc.txt  program1.c
+[goie2123@linux lab1]$ vi 1.txt
+[goie2123@linux lab1]$ awk '{print $1}' 1.txt
+name
+dan
+oscar
+[goie2123@linux lab1]$
+[goie2123@linux lab1]$ awk '{print NF,$1}' 1.txt
+5 name
+3 dan
+3 oscar
+[goie2123@linux lab1]$ vi 1.awk
+[goie2123@linux lab1]$ create a file with only print in in print dolar 1
+-bash: create: command not found
+[goie2123@linux lab1]$ awk -f 1.awk 1.txt
+name
+dan
+oscar
+[goie2123@linux lab1]$ vi 2.awk
+[goie2123@linux lab1]$ awk -f 2.awk 1.txt
+namehas average04
+danhas average02
+oscarhas average02
+[goie2123@linux lab1]$ vi 2.awk
+[goie2123@linux lab1]$ awk -f 2.awk 1.txt 3.txt
+namehas average04
+danhas average02
+oscarhas average02
+end
+[goie2123@linux lab1]$ vi 3.awk
+[goie2123@linux lab1]$ awk -f 3.awk 1.txt
+word name appears 5times
+word oscar appears 3times
+word dan appears 3times
+[goie2123@linux lab1]$
+
+
+
+Matrice tridimensionala
+	v[i][j][k]
+	int ***v;
+
+[goie2123@linux ~]$ date
+Wed Mar 15 08:09:27 EET 2017
+[goie2123@linux ~]$ echo taday is date
+taday is date
+[goie2123@linux ~]$ echo "taday is date"
+taday is date
+[goie2123@linux ~]$ echo "today is date"
+today is date
+[goie2123@linux ~]$ echo "today is ‘date’”
+
+[goie2123@linux ~]$ a=1
+[goie2123@linux ~]$ echo $a
+1
+[goie2123@linux ~]$ a = 1 '+' 1
+-bash: a: command not found
+[goie2123@linux ~]$ a = expr 1+1
+-bash: a: command not found
+[goie2123@linux ~]$ a = ‘expr 1 + 1’
+
+[goie2123@linux ~]$ a = ‘expr $a + 1’
+
+if [cond]; then
+fi else elif
+fi
+comparison for numbers
+-lt
+-gt
+-lq
+-ne
+-le
+ge
+comparison for string
+==
+!=
+
+script:
+#!/bin/bash
+if [ $1 -gt $2 ]; then
+	echo $1
+else
+	echo $2
+fi
+
+[goie2123@linux ~]$ exit 1
+logout
+Connection to linux.scs.ubbcluj.ro closed.
+[goie2123@linux ~]$ vi 1.sh
+[goie2123@linux ~]$ chmod 700 1.sh
+[goie2123@linux ~]$ ./1.sh 4 5
+./1.sh: line 1: syntax error near unexpected token `then'
+./1.sh: line 1: `f [ $1 -gt $2 ]; then'
+[goie2123@linux ~]$
+
+
+for syntax
+for var in list; do
+…
+done
+ex: for i in 1 2 3 ; do
+	echo $i
+done
+
+
+1.write a shell program or a linux command that prints on the screen the number of processes that prints the statistics of number of processes run by each user.
+
+2.write a linux command or bash script that print of the screen the number of group of student that have a dan and this dan must have an even register number
+
+1:
+[goie2123@linux ~]$ ps -ef | sed 's/\s.*$//' | sort | uniq -c
+     17 11770
+      2 68
+      1 UID
+      2 aaie2051
+      6 aaie2053
+      8 amie2055
+     20 apache
+      4 baie2079
+      2 baie2080
+      4 baie2081
+      2 bcsd1276
+      2 bmie2078
+      2 boic1323
+      3 bradu
+      2 brie2060
+      4 caie2090
+      2 clam
+      2 cmie2087
+      2 cpie2088
+      4 csie2086
+      2 ctie2083
+      1 dbus
+      1 dhcpd
+      2 dovecot
+     13 dovenull
+      5 faim1623
+      2 frie2121
+      2 gaie2122
+      3 gaie2128
+      2 gaim1323
+     10 gcie2124
+      8 gdie2131
+     14 giie2129
+     17 gkie2127
+      9 goie2123
+      2 gsie2126
+      4 gsie2130
+      1 jenkins
+      6 klim1640
+      6 kyim1641
+     11 laim1642
+      2 lrim1645
+      2 lsim1643
+     32 maim1648
+     10 mbim1652
+     14 mcim1651
+      8 miie2173
+      1 mongodb
+     11 mpim1650
+      1 mregex
+      5 msim1646
+      1 mysql
+      9 ncie2180
+     13 ngim1658
+     11 nrim1655
+     16 nrim1657
+      1 ntp
+      8 oaim1660
+      4 oeim1661
+      9 ozim1662
+      5 pcim1663
+      3 postfix
+      2 rares
+      2 rhie1810
+      3 rnie2210
+    297 root
+      1 rpc
+      1 rpcuser
+      1 sa-milt
+      1 smmsp
+      8 stsd1133
+      1 teie2037
+      1 vvir2220
+
+[goie2123@linux ~]$ grep "^.\{7\}[0 2 4 6 8]" /etc/passwd
+	return all the stuff from passwd that have at the 8th digit an even digit
+[goie2123@linux ~]$ grep "^.\{7\}[0 2 4 6 8]" /etc/passwd | grep "\<Dan\>"
+dan:x:2470:575:Cojocar Dan:/home/cs/cadre/dan:/bin/bash
+cdmr0340:x:34060:600:Cojoc Dan:/home/scs/licenta/an1/gr111/cdmr0340:/bin/bash
+ddir2088:x:34266:600:Dan V.T. David:/home/scs/licenta/an1/gr213/ddir2088:/bin/bash
+sdir2192:x:34363:600:Simula O.D. Dan:/home/scs/licenta/an1/gr216/sdir2192:/bin/bash
+btir2010:x:34408:600:Balas DT Tudor Dan:/home/scs/licenta/an2/gr221/btir2010:/bin/bash
+dsir1852:x:34458:600:Dan P Sergiu Corneliu:/home/scs/licenta/an2/gr223/dsir1852:/bin/bash
+trir1978:x:34597:600:Tunduc D.D. Raul Dan:/home/scs/licenta/an2/gr227/trir1978:/bin/bash
+zdir1806:x:34626:600:Zaharie I. Dan Alexandru:/home/scs/licenta/an3/gr231/zdir1806:/bin/bash
+ldir1698:x:34701:600:Lupse T Dan Calin:/home/scs/licenta/an3/gr234/ldir1698:/bin/bash
+pdir1736:x:34736:600:Pop F Dan Razvan:/home/scs/licenta/an3/gr235/pdir1736:/bin/bash
+vdir1790:x:34745:600:Vatamaniuc I. Dan Alexandru:/home/scs/licenta/an3/gr235/vdir1790:/bin/bash
+smhp1234:x:34795:600:Suceveanu M S Mircea Dan Sandu:/home/scs/master/an1/gr242/smhp1234:/bin/bash
+uabd1270:x:34831:600:Ulici D Alex Dan:/home/scs/master/an1/gr243/uabd1270:/bin/bash
+mlhp1050:x:34985:600:Marcuta D Lucian Dan:/home/scs/master/an2/gr252/mlhp1050:/bin/bash
+iaar1750:x:35228:600:Irimies F.V. Antonio Dan:/home/scs/licenta/an1/gr313/iaar1750:/bin/bash
+dmar1534:x:35355:600:Dan N. Maria Diana:/home/scs/licenta/an2/gr322/dmar1534:/bin/bash
+raar1612:x:35392:600:Rad I. Andrei Dan:/home/scs/licenta/an2/gr323/raar1612:/bin/bash
+rdar1616:x:35395:600:Roman M. Dan Stefan:/home/scs/licenta/an2/gr323/rdar1616:/bin/bash
+idig0054:x:35982:600:Iordan O. E. Dan Cristian Victor:/home/scs/licenta/an2/gr722/idig0054:/bin/bash
+hdie1738:x:36312:600:Hosu A Dan Marian:/home/scs/licenta/an2/gr923/hdie1738:/bin/bash
+ndie1968:x:36343:600:Noane D Dan Dumitru:/home/scs/licenta/an2/gr924/ndie1968:/bin/bash
+psie1996:x:36385:600:Puscas T Sergiu Dan:/home/scs/licenta/an2/gr926/psie1996:/bin/bash
+bmie1672:x:36410:600:Bora A. Mircea Dan:/home/scs/licenta/an3/gr931/bmie1672:/bin/bash
+pdie1446:x:36428:600:Patiu C Dan Adrian:/home/scs/licenta/an3/gr931/pdie1446:/bin/bash
+tdie1838:x:36435:600:Trif D. Dan:/home/scs/licenta/an3/gr931/tdie1838:/bin/bash
+adie1654:x:36438:600:Antal F Dan:/home/scs/licenta/an3/gr932/adie1654:/bin/bash
+cdci0008:x:36684:600:Corsatea I. Dan Gheorghe:/home/scs/postuniv/an1/gr1111/cdci0008:/bin/bash
+ddci0010:x:36686:600:Dan I. Daniela Rahela:/home/scs/postuniv/an1/gr1111/ddci0010:/bin/bash
+gdci0014:x:36690:600:Gheorghita D. Dan:/home/scs/postuniv/an1/gr1111/gdci0014:/bin/bash
+idci0018:x:36694:600:Iosif N. Dan:/home/scs/postuniv/an1/gr1111/idci0018:/bin/bash
+sdci0046:x:36722:600:Szabo G. Dan Mircea:/home/scs/postuniv/an1/gr1112/sdci0046:/bin/bash
+
+grep "^.\{7\}[0 2 4 6 8]" /etc/passwd | grep "\<Dan\>" | sed "" | uniq -c
+
+
+to make a shell runnable
+	chmod +x <name of the shell>
+to run it:
+	./<NameShell>.sh (with space parameters and files in “”)
+
+
+problem: ls | wc -l (do this is c)
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int main(){
+        imp p[2];
+        pipe(p);
+        if(fork()==0){
+                dup2(p[],1);
+                close(p[0]);
+                execlp("ls","ls",NULL);
+        }
+        if(fork()==0){
+                dup2(p[0],0);
+                close(p[1]);
+                execlp("wc","wc","-l".NULL);)
+        }
+        close(p[0]);
+        close(p[1]);
+        wait(0);
+        wait(0);
+        return 0;
+}
+
+To run it: gcc -Wall 1.c -o 1.out
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/type.h>
+#include <sys/stst.h>
+#include <fcntl.h>
+#include <string.h>
+#include <sys/wait.h>
+int main(){
+        int a,b,v = 2;
+        mkfifo("./a", 600);
+        mkfifo("./b", 600);
+        a = open("./a", O_WRONLY);
+        b = open("./b", O_RDONLY);
+        write(a, &v, sizeof(int));
+        read(b, &v, sizeof(int));
+        printf("v = %d \n", v);
+        close(a);
+        close(b);
+        unlink("./a");
+        unlink("./b");
+return 0;
+}

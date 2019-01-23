@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/oscar.iml" filepath="$PROJECT_DIR$/.idea/modules/oscar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/oscar-core/oscar-core.iml" filepath="$PROJECT_DIR$/.idea/modules/oscar-core/oscar-core.iml" group="oscar-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/oscar-core/oscar-core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/oscar-core/oscar-core_main.iml" group="oscar-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/oscar-core/oscar-core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/oscar-core/oscar-core_test.iml" group="oscar-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/oscar-web/oscar-web.iml" filepath="$PROJECT_DIR$/.idea/modules/oscar-web/oscar-web.iml" group="oscar-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/oscar-web/oscar-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/oscar-web/oscar-web_main.iml" group="oscar-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/oscar-web/oscar-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/oscar-web/oscar-web_test.iml" group="oscar-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/oscar_main.iml" filepath="$PROJECT_DIR$/.idea/modules/oscar_main.iml" group="oscar" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/oscar_test.iml" filepath="$PROJECT_DIR$/.idea/modules/oscar_test.iml" group="oscar" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+2018-05-12 20:44:29.957 EEST [27561] LOG:  listening on IPv6 address "::1", port 5432
+2018-05-12 20:44:29.957 EEST [27561] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-05-12 20:44:29.958 EEST [27561] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-05-12 20:44:29.975 EEST [27562] LOG:  database system was shut down at 2018-05-12 20:44:29 EEST
+2018-05-12 20:44:29.984 EEST [27561] LOG:  database system is ready to accept connections
+2018-05-12 21:54:16.205 EEST [27567] LOG:  stats_timestamp 2018-05-12 21:54:16.453+03 is later than collector's time 2018-05-12 21:54:16.205592+03 for database 13267
+2018-05-12 23:53:58.394 EEST [27567] LOG:  stats_timestamp 2018-05-12 23:53:58.429781+03 is later than collector's time 2018-05-12 23:53:58.394766+03 for database 0
+2018-05-13 13:54:18.055 EEST [27561] LOG:  received fast shutdown request
+2018-05-13 13:54:18.056 EEST [27561] LOG:  aborting any active transactions
+2018-05-13 13:54:18.058 EEST [27561] LOG:  worker process: logical replication launcher (PID 27568) exited with exit code 1
+2018-05-13 13:54:18.058 EEST [27563] LOG:  shutting down
+2018-05-13 13:54:18.072 EEST [27561] LOG:  database system is shut down

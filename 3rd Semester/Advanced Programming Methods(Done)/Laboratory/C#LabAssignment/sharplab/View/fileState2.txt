@@ -1,0 +1,75 @@
+﻿
+***Execution Stack***
+Opening: D:\ubb\MAP\sharplab\sharplab\View\file1.txt;Reading from: f;print(g);Closing file;
+***Symbol Table***
+
+***Out***
+
+***File Table***
+
+--------------------------------------------------------
+
+***Execution Stack***
+Reading from: f;print(g);Closing file;
+***Symbol Table***
+f->1;
+***Out***
+
+***File Table***
+1 D:\ubb\MAP\sharplab\sharplab\View\file1.txt
+
+--------------------------------------------------------
+
+***Execution Stack***
+Reading from: f;print(g);Closing file;
+***Symbol Table***
+f->1;
+***Out***
+
+***File Table***
+1 D:\ubb\MAP\sharplab\sharplab\View\file1.txt
+
+--------------------------------------------------------
+
+***Execution Stack***
+print(g);Closing file;
+***Symbol Table***
+f->1;g->2;
+***Out***
+
+***File Table***
+1 D:\ubb\MAP\sharplab\sharplab\View\file1.txt
+
+--------------------------------------------------------
+
+***Execution Stack***
+print(g);Closing file;
+***Symbol Table***
+f->1;g->2;
+***Out***
+
+***File Table***
+1 D:\ubb\MAP\sharplab\sharplab\View\file1.txt
+
+--------------------------------------------------------
+
+***Execution Stack***
+Closing file;
+***Symbol Table***
+f->1;g->2;
+***Out***
+2;
+***File Table***
+1 D:\ubb\MAP\sharplab\sharplab\View\file1.txt
+
+--------------------------------------------------------
+
+***Execution Stack***
+
+***Symbol Table***
+f->1;g->2;
+***Out***
+2;
+***File Table***
+
+--------------------------------------------------------

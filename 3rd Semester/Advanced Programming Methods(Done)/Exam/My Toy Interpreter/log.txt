@@ -1,0 +1,387 @@
+Thread ID: 1
+ExeStack:
+a = 1; b = 2; c = a ? 100 : 200; print(c); c = b - 2 ? 100 : 200; print(c)
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+a = 1
+b = 2; c = a ? 100 : 200; print(c); c = b - 2 ? 100 : 200; print(c)
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+a = 1
+b = 2; c = a ? 100 : 200; print(c); c = b - 2 ? 100 : 200; print(c)
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+b = 2; c = a ? 100 : 200; print(c); c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+b = 2; c = a ? 100 : 200; print(c); c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+b = 2
+c = a ? 100 : 200; print(c); c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+b = 2
+c = a ? 100 : 200; print(c); c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+c = a ? 100 : 200; print(c); c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+b -> 2
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+c = a ? 100 : 200; print(c); c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+b -> 2
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+c = a ? 100 : 200
+print(c); c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+b -> 2
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+c = a ? 100 : 200
+print(c); c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+b -> 2
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+if(a) then c = 100 else c = 200 end
+print(c); c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+b -> 2
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+if(a) then c = 100 else c = 200 end
+print(c); c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+b -> 2
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+c = 100
+print(c); c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+b -> 2
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+c = 100
+print(c); c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+b -> 2
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+print(c); c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+b -> 2
+c -> 100
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+print(c); c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+b -> 2
+c -> 100
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+print(c)
+c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+b -> 2
+c -> 100
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+print(c)
+c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+b -> 2
+c -> 100
+Out:
+
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+b -> 2
+c -> 100
+Out:
+100
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+c = b - 2 ? 100 : 200; print(c)
+SymTable:
+a -> 1
+b -> 2
+c -> 100
+Out:
+100
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+c = b - 2 ? 100 : 200
+print(c)
+SymTable:
+a -> 1
+b -> 2
+c -> 100
+Out:
+100
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+c = b - 2 ? 100 : 200
+print(c)
+SymTable:
+a -> 1
+b -> 2
+c -> 100
+Out:
+100
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+if(b - 2) then c = 100 else c = 200 end
+print(c)
+SymTable:
+a -> 1
+b -> 2
+c -> 100
+Out:
+100
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+if(b - 2) then c = 100 else c = 200 end
+print(c)
+SymTable:
+a -> 1
+b -> 2
+c -> 100
+Out:
+100
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+c = 200
+print(c)
+SymTable:
+a -> 1
+b -> 2
+c -> 100
+Out:
+100
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+c = 200
+print(c)
+SymTable:
+a -> 1
+b -> 2
+c -> 100
+Out:
+100
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+print(c)
+SymTable:
+a -> 1
+b -> 2
+c -> 200
+Out:
+100
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+print(c)
+SymTable:
+a -> 1
+b -> 2
+c -> 200
+Out:
+100
+FileTable:
+
+Heap:
+
+Thread ID: 1
+ExeStack:
+
+SymTable:
+a -> 1
+b -> 2
+c -> 200
+Out:
+100
+200
+FileTable:
+
+Heap:
+

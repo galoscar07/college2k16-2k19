@@ -1,0 +1,13 @@
+INSTUPsrc.store.domain.testValidators
+/Users/oscar/Documents/College/Fundamentals of Programming/Eclipse1/Movie_Rental/src/store/domain/testValidators.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&2|6|2|1&&1|7|2|0&&2|3|2|7&&3|4|2|8&&2|6|2|7&&1|9|2|0&&2|3|2|9&&3|4|2|10&&2|6|2|9
+TestValidatorRental=9
+__validators=4
+test_validate=6
+TestValidatorClient=7
+TestValidatorClient.setUp=8
+setUp=3
+TestValidatorRental.setUp=10
+TestValidatorsMovie.setUp=5
+TestValidatorsMovie=1
+src.store.domain.testValidators=2

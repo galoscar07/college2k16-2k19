@@ -1,0 +1,6 @@
+1;Popescu Ion;Mures;Targu-Mures;Agarbiceanu 77
+2;Pop Ioanas;Cluj;Cluj-Napoca;Plopilor 67b
+3;Muresan Ionut;Ploiesti;Ploiesti;Victoriei 44
+4;Ungureanu Clara;Tulcea;Tulcea; Marii 1
+5;Cosma Aline;Cluj;Turda;Clujului 4
+6;Puric Dana;Bihor;Oradea;Calea Aradului 16

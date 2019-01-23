@@ -1,0 +1,9 @@
+DEADLINE: week 23-29 April
+
+Documentation can be found at: 
+1) http://www.cs.ubbcluj.ro/~forest/wp 
+2) http://docs.jquery.com/Tutorials 
+3) http://www.w3schools.com/jquery/default.asp
+
+Problems
+Solve the following task using only the jQuery library (production version, jquery.min.js, or developement version, jquery.js); YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY, PLUGIN OR EXTENSION BESIDES THE JQUERY LIBRARY. Write a web page which contains a stack of divs displayed one on top of each other. All divs has to have the same size. The user should be able to change the order of the divs in the stack by drag and drop operations. When the user drags a div outside the stack all other divs on top of it should fall down (using animated transition) to fill the empty space created by removing that div. Conversly, when the user inserts a div in the stack, some divs should shift up in order to make place for the new div.

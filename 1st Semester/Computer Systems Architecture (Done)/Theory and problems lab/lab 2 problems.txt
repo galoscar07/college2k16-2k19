@@ -1,0 +1,36 @@
+Laboratory 2 - problems
+
+Solve on paper and explain the following exercises:
+1. Convert from base 10 into base 2 then in base 16 the following numbers: 4,10,15,32
+
+2. Convert from base 10 into base 16 then in base 2 the following numbers: 3,11,16,17
+
+3. Convert from base 2 into 16 the following numbers:
+
+1010
+0111
+1111
+10001010
+110101111
+4. Convert from base 16 into base 2 the following numbers:
+
+3
+A
+F
+2B
+2F8
+5. Complete the following operations in base 2 (without converting in base 10):
+
+1+1
+10+10
+111+1
+1010-1
+1000-10
+6. Complete the following operations in base 16 (without converting in base 10):
+
+9+1
+B+2
+F+1
+10+A
+10-2
+B-3

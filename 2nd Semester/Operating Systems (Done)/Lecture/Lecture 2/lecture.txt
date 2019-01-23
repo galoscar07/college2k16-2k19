@@ -1,0 +1,26 @@
+Redirectari Shell
+-----------------
+| - transfera iesirea standard a programului anterior ca intrare standard a programului urmator
+> a.txt - transfera iesirea standard a programului anterior in fisierul a.txt
+< a.txt - foloseste continutul fisierului a.txt ca intrare standard a comenzii anterioare
+
+>> a.txt - concateneaza iesirea standard a comenzii precedente la fisierul a.txt
+
+cat > d <<BLABLA
+ewrt
+dsfg
+teyu
+sdf
+BLABLA
+
+Mai multe comenzi pe aceeasi linie
+----------------------------------
+; - separa comenzile intre ele
+
+|| - sau logic intre comenzi
+&& - si logic intre comenzi
+
+() - grupeaza comenzi fara ca efectele lor sa se propage in sesiunea parinte
+{} - grupeaza comenzi si efectele lor se propaga in sesiunea parinte
+
+

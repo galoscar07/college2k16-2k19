@@ -1,0 +1,115 @@
+Threads
+-------
+
+- a thread is an execution unit that executes a function
+
+- there many thread implementations, mostly every OS has a native flavor
+  of threads, but there are also libraries that are ported accross
+  OSes. In LInux the standard are the POSIX threads, aka pthreads
+
+- API: pthread_create (kinda' like fork)
+       pthread_join (like wait)
+       pthread_self (like getpid)
+
+- about communication, threads do it using the common global variables
+  and heap
+
+- there is always a main thread, which is _not_ a parent for the other
+  threads, it's just the main thread. however, when the main thread
+  ends, all other threads end (unless they are detached)
+
+- pthread_create, does _not_ wait for the thread function to finish. it
+  comes back right away, after it created the thread, and the function
+  will be executed concurrently (at the same time) with the main thread
+
+- the OS is responsible for choosing which of your threads get the CPU
+  and when and for how long. so ther eis is no way to predict or rely on
+  a certain order of execution for your threads
+
+- since all threads share the same memory space and can modify the same
+  variables or memory locations, it is possible to get corrupted results
+  or data. this is mostly caused by two or more threads reading and
+  writing the same memory location. this is called a race condition
+
+One possible execution scenarion for t2
+---------------------------------------
+
+Consider M as the main thread, and T0 - T9 the other 10 threads.
+
+M gets CPU -> arg= 0,0 -> creates T1
+M taken off the CPU
+OS has to chose between M and T1
+OS chooses M
+
+M gets CPU -> arg= 1,1 -> creates T2
+M taken off the CPU
+OS has to chose between M, T1, and T2
+OS chooses M
+
+M gets CPU -> arg= 2,2 -> creates T3
+M taken off the CPU
+OS has to chose between M, T1, T2, and T3
+OS chooses T1
+
+T1 gets CPU -> prints out 4
+T1 taken off the CPU
+OS has to chose between M, T2, and T3
+OS chooses T3
+
+T3 gets CPU -> prints out 4
+...
+
+
+Mutexes
+-------
+- used for synchornization (mutual exclusion)
+
+- API: pthread_mutex_init
+       pthread_mutex_destroy
+       pthread_mutex_lock
+       pthread_mutex_unlock
+
+- whenever data gets corrupted, you will be _tempted_ to add delays in
+  your program to fix it. DO NOT DO THAT EVER! Either use different
+  memory locations or us synchronization mechanism (like the mutexes)
+
+- why am I saying DO NOT DO THAT EVER? Because, given the
+  undeterministic nature of thread execution, every now and then it will
+  go bad. The delays will decrease the chances of errors, but the errors
+  are still possible.
+
+- the delays (using sleep) that appear in the lecture examples, are
+  meant to slow down execution so that we can see various behaviors,
+  nothing else!
+
+- mutexes act as locks around a fragment of code. only one thread can
+  execute that code at a time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

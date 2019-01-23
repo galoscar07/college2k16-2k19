@@ -1,0 +1,2 @@
+class StoreException(object):
+    pass

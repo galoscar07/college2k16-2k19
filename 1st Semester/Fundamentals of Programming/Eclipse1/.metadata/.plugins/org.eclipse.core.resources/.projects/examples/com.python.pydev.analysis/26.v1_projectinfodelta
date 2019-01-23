@@ -1,0 +1,14 @@
+INSTUPui.console
+/Users/oscar/Documents/College/Fundamentals of Programming/Lecture/examples/studentsGUI/ui/console.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&2|6|2|1&&2|7|2|1&&2|8|2|1&&2|9|2|1&&2|10|2|1&&2|11|2|1
+ConsoleUI.__init__=5
+ui.console=2
+__searchStudent=9
+__ctr=4
+__readUserCommand=6
+__init__=3
+__updateStudent=10
+__removeStudent=8
+startUI=11
+ConsoleUI=1
+__createdStudent=7

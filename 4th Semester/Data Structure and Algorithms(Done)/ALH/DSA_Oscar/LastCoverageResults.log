@@ -1,0 +1,64 @@
+[2017-07-12 19:59:23] [info] Start Program:
+Path:"./Debug/DSA_Oscar.exe"
+Arguments:
+Working directory: not set.
+Modules: Selected: * Excluded: 
+Sources: Selected: DSA_Oscar Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Html 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+
+[2017-07-12 19:59:24] [info] Module: D:\Dropbox\Coding On Dropbox Like A Baws\Oscar\DSA_Oscar\Debug\DSA_Oscar.exe is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [info] Module: C:\Windows\System32\ntdll.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\System32\ntdll.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\SysWOW64\ntdll.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\SysWOW64\ntdll.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\System32\wow64.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\System32\wow64.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\System32\wow64win.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\System32\wow64win.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\System32\kernel32.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\System32\kernel32.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\SysWOW64\kernel32.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\SysWOW64\kernel32.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\System32\kernel32.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\System32\kernel32.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\System32\user32.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\System32\user32.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\System32\wow64cpu.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\System32\wow64cpu.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\SysWOW64\kernel32.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\SysWOW64\kernel32.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\SysWOW64\KernelBase.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\SysWOW64\KernelBase.dll
+[2017-07-12 19:59:24] [info] Module: C:\Program Files\Bitdefender Antivirus Free\atcuf\262860814792126909\atcuf32.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Program Files\Bitdefender Antivirus Free\atcuf\262860814792126909\atcuf32.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\SysWOW64\msvcp140d.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\SysWOW64\msvcp140d.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\SysWOW64\vcruntime140d.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\SysWOW64\vcruntime140d.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\SysWOW64\ucrtbased.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\SysWOW64\ucrtbased.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\SysWOW64\kernel.appcore.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\SysWOW64\kernel.appcore.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\SysWOW64\msvcrt.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\SysWOW64\msvcrt.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\SysWOW64\rpcrt4.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\SysWOW64\rpcrt4.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\SysWOW64\sspicli.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\SysWOW64\sspicli.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\SysWOW64\cryptbase.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\SysWOW64\cryptbase.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\SysWOW64\bcryptprimitives.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\SysWOW64\bcryptprimitives.dll
+[2017-07-12 19:59:24] [info] Module: C:\Windows\SysWOW64\sechost.dll is selected because it matches selected pattern: *
+[2017-07-12 19:59:24] [warning] Cannot find pdb for C:\Windows\SysWOW64\sechost.dll
+[2017-07-12 19:59:24] [info] ----------------------------------------------------
+[2017-07-12 19:59:24] [info] Coverage generated in Folder D:\Dropbox\Coding On Dropbox Like A Baws\Oscar\DSA_Oscar\CoverageReport-2017-07-12-19h59m24s
+[2017-07-12 19:59:24] [info] ----------------------------------------------------

@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8000EF451EC73AC100F87794 /* RepositoryExceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8000EF431EC73AC100F87794 /* RepositoryExceptions.cpp */; };
+		8000EF481EC743A700F87794 /* Basket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8000EF461EC743A700F87794 /* Basket.cpp */; };
+		8000EF4C1EC7959200F87794 /* Tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8000EF4A1EC7959200F87794 /* Tests.cpp */; };
+		8000EF501EC9AC3500F87794 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8000EF4E1EC9AC3500F87794 /* Utils.cpp */; };
+		8000EF561EC9E76800F87794 /* Validators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8000EF541EC9E76800F87794 /* Validators.cpp */; };
+		8000EF591EC9F00B00F87794 /* FileBasket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8000EF571EC9F00B00F87794 /* FileBasket.cpp */; };
+		8000EF5C1EC9F01B00F87794 /* CSVBasket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8000EF5A1EC9F01B00F87794 /* CSVBasket.cpp */; };
+		8000EF5F1EC9F02700F87794 /* HTMLBasket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8000EF5D1EC9F02700F87794 /* HTMLBasket.cpp */; };
+		80F7138D1EC2267D00DCA1E5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80F7138C1EC2267D00DCA1E5 /* main.cpp */; };
+		80F713991EC2273400DCA1E5 /* Coat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80F713971EC2273400DCA1E5 /* Coat.cpp */; };
+		80F7139C1EC2273E00DCA1E5 /* Repository.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80F7139A1EC2273E00DCA1E5 /* Repository.cpp */; };
+		80F7139F1EC2274900DCA1E5 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80F7139D1EC2274900DCA1E5 /* Controller.cpp */; };
+		80F713A21EC2276600DCA1E5 /* Ui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80F713A01EC2276600DCA1E5 /* Ui.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		80F713871EC2267D00DCA1E5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8000EF431EC73AC100F87794 /* RepositoryExceptions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RepositoryExceptions.cpp; sourceTree = "<group>"; };
+		8000EF441EC73AC100F87794 /* RepositoryExceptions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RepositoryExceptions.hpp; sourceTree = "<group>"; };
+		8000EF461EC743A700F87794 /* Basket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Basket.cpp; sourceTree = "<group>"; };
+		8000EF471EC743A700F87794 /* Basket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Basket.hpp; sourceTree = "<group>"; };
+		8000EF4A1EC7959200F87794 /* Tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tests.cpp; sourceTree = "<group>"; };
+		8000EF4B1EC7959200F87794 /* Tests.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tests.hpp; sourceTree = "<group>"; };
+		8000EF4E1EC9AC3500F87794 /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		8000EF4F1EC9AC3500F87794 /* Utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Utils.hpp; sourceTree = "<group>"; };
+		8000EF511EC9AE9900F87794 /* Coats.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Coats.txt; sourceTree = "<group>"; };
+		8000EF541EC9E76800F87794 /* Validators.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Validators.cpp; sourceTree = "<group>"; };
+		8000EF551EC9E76800F87794 /* Validators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Validators.hpp; sourceTree = "<group>"; };
+		8000EF571EC9F00B00F87794 /* FileBasket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileBasket.cpp; sourceTree = "<group>"; };
+		8000EF581EC9F00B00F87794 /* FileBasket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FileBasket.hpp; sourceTree = "<group>"; };
+		8000EF5A1EC9F01B00F87794 /* CSVBasket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSVBasket.cpp; sourceTree = "<group>"; };
+		8000EF5B1EC9F01B00F87794 /* CSVBasket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CSVBasket.hpp; sourceTree = "<group>"; };
+		8000EF5D1EC9F02700F87794 /* HTMLBasket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HTMLBasket.cpp; sourceTree = "<group>"; };
+		8000EF5E1EC9F02700F87794 /* HTMLBasket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HTMLBasket.hpp; sourceTree = "<group>"; };
+		80F713891EC2267D00DCA1E5 /* Proper Trench Coats Lab 8-9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Proper Trench Coats Lab 8-9"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F7138C1EC2267D00DCA1E5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		80F713971EC2273400DCA1E5 /* Coat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Coat.cpp; sourceTree = "<group>"; };
+		80F713981EC2273400DCA1E5 /* Coat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Coat.hpp; sourceTree = "<group>"; };
+		80F7139A1EC2273E00DCA1E5 /* Repository.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Repository.cpp; sourceTree = "<group>"; };
+		80F7139B1EC2273E00DCA1E5 /* Repository.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Repository.hpp; sourceTree = "<group>"; };
+		80F7139D1EC2274900DCA1E5 /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		80F7139E1EC2274900DCA1E5 /* Controller.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
+		80F713A01EC2276600DCA1E5 /* Ui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ui.cpp; sourceTree = "<group>"; };
+		80F713A11EC2276600DCA1E5 /* Ui.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Ui.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80F713861EC2267D00DCA1E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80F713801EC2267D00DCA1E5 = {
+			isa = PBXGroup;
+			children = (
+				80F7138B1EC2267D00DCA1E5 /* Proper Trench Coats Lab 8-9 */,
+				80F7138A1EC2267D00DCA1E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80F7138A1EC2267D00DCA1E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80F713891EC2267D00DCA1E5 /* Proper Trench Coats Lab 8-9 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80F7138B1EC2267D00DCA1E5 /* Proper Trench Coats Lab 8-9 */ = {
+			isa = PBXGroup;
+			children = (
+				80F7138C1EC2267D00DCA1E5 /* main.cpp */,
+				80F713971EC2273400DCA1E5 /* Coat.cpp */,
+				80F713981EC2273400DCA1E5 /* Coat.hpp */,
+				8000EF461EC743A700F87794 /* Basket.cpp */,
+				8000EF471EC743A700F87794 /* Basket.hpp */,
+				80F7139A1EC2273E00DCA1E5 /* Repository.cpp */,
+				80F7139B1EC2273E00DCA1E5 /* Repository.hpp */,
+				8000EF431EC73AC100F87794 /* RepositoryExceptions.cpp */,
+				8000EF441EC73AC100F87794 /* RepositoryExceptions.hpp */,
+				8000EF541EC9E76800F87794 /* Validators.cpp */,
+				8000EF551EC9E76800F87794 /* Validators.hpp */,
+				80F7139D1EC2274900DCA1E5 /* Controller.cpp */,
+				80F7139E1EC2274900DCA1E5 /* Controller.hpp */,
+				80F713A01EC2276600DCA1E5 /* Ui.cpp */,
+				80F713A11EC2276600DCA1E5 /* Ui.hpp */,
+				8000EF4E1EC9AC3500F87794 /* Utils.cpp */,
+				8000EF4F1EC9AC3500F87794 /* Utils.hpp */,
+				8000EF4A1EC7959200F87794 /* Tests.cpp */,
+				8000EF4B1EC7959200F87794 /* Tests.hpp */,
+				8000EF511EC9AE9900F87794 /* Coats.txt */,
+				8000EF571EC9F00B00F87794 /* FileBasket.cpp */,
+				8000EF581EC9F00B00F87794 /* FileBasket.hpp */,
+				8000EF5A1EC9F01B00F87794 /* CSVBasket.cpp */,
+				8000EF5B1EC9F01B00F87794 /* CSVBasket.hpp */,
+				8000EF5D1EC9F02700F87794 /* HTMLBasket.cpp */,
+				8000EF5E1EC9F02700F87794 /* HTMLBasket.hpp */,
+			);
+			path = "Proper Trench Coats Lab 8-9";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80F713881EC2267D00DCA1E5 /* Proper Trench Coats Lab 8-9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80F713901EC2267D00DCA1E5 /* Build configuration list for PBXNativeTarget "Proper Trench Coats Lab 8-9" */;
+			buildPhases = (
+				80F713851EC2267D00DCA1E5 /* Sources */,
+				80F713861EC2267D00DCA1E5 /* Frameworks */,
+				80F713871EC2267D00DCA1E5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Proper Trench Coats Lab 8-9";
+			productName = "Proper Trench Coats Lab 8-9";
+			productReference = 80F713891EC2267D00DCA1E5 /* Proper Trench Coats Lab 8-9 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80F713811EC2267D00DCA1E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Gal Oscar";
+				TargetAttributes = {
+					80F713881EC2267D00DCA1E5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 80F713841EC2267D00DCA1E5 /* Build configuration list for PBXProject "Proper Trench Coats Lab 8-9" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80F713801EC2267D00DCA1E5;
+			productRefGroup = 80F7138A1EC2267D00DCA1E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80F713881EC2267D00DCA1E5 /* Proper Trench Coats Lab 8-9 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80F713851EC2267D00DCA1E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8000EF591EC9F00B00F87794 /* FileBasket.cpp in Sources */,
+				8000EF481EC743A700F87794 /* Basket.cpp in Sources */,
+				80F713A21EC2276600DCA1E5 /* Ui.cpp in Sources */,
+				8000EF451EC73AC100F87794 /* RepositoryExceptions.cpp in Sources */,
+				8000EF5C1EC9F01B00F87794 /* CSVBasket.cpp in Sources */,
+				80F713991EC2273400DCA1E5 /* Coat.cpp in Sources */,
+				8000EF5F1EC9F02700F87794 /* HTMLBasket.cpp in Sources */,
+				8000EF501EC9AC3500F87794 /* Utils.cpp in Sources */,
+				80F7138D1EC2267D00DCA1E5 /* main.cpp in Sources */,
+				8000EF4C1EC7959200F87794 /* Tests.cpp in Sources */,
+				80F7139C1EC2273E00DCA1E5 /* Repository.cpp in Sources */,
+				8000EF561EC9E76800F87794 /* Validators.cpp in Sources */,
+				80F7139F1EC2274900DCA1E5 /* Controller.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		80F7138E1EC2267D00DCA1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		80F7138F1EC2267D00DCA1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		80F713911EC2267D00DCA1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = "/Users/galoscar/Documents/College/Semester 2/Object Oriented Programming/Laboratory/Proper Trench Coats Lab 8-9";
+				"INSTALL_PATH[sdk=*]" = "/Users/galoscar/Documents/College/Semester 2/Object Oriented Programming/Laboratory/Proper Trench Coats Lab 8-9";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80F713921EC2267D00DCA1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = "/Users/galoscar/Documents/College/Semester 2/Object Oriented Programming/Laboratory/Proper Trench Coats Lab 8-9";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80F713841EC2267D00DCA1E5 /* Build configuration list for PBXProject "Proper Trench Coats Lab 8-9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F7138E1EC2267D00DCA1E5 /* Debug */,
+				80F7138F1EC2267D00DCA1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80F713901EC2267D00DCA1E5 /* Build configuration list for PBXNativeTarget "Proper Trench Coats Lab 8-9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F713911EC2267D00DCA1E5 /* Debug */,
+				80F713921EC2267D00DCA1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80F713811EC2267D00DCA1E5 /* Project object */;
+}
