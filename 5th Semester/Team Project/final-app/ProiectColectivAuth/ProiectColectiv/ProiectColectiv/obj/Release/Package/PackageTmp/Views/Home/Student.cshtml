@@ -1,0 +1,52 @@
+﻿@model ProiectColectiv.Models.ViewModels.AttendancesVM
+
+@{
+	ViewBag.Title = "Student";
+}
+@foreach (var subjectId in Model.Attendances.Select(s => s.SubjectID).Distinct().ToList())
+{
+
+	<header class="major">
+		<h2 style="width:100%;text-align:center">@Model.SubjectName[subjectId]</h2>
+	</header>
+
+
+
+	foreach (var type in Model.Attendances.Where(a => a.SubjectID == subjectId).Select(a => a.TypeOf).Distinct().ToList())
+	{
+
+		<h3 style="color:#e44c65;width:100%;text-align:center">@type</h3>
+		<table class="table table-dark">
+			<thead>
+				<tr>
+					<th>Week Number</th>
+					<th>Teacher</th>
+					<th>Grade</th>
+				</tr>
+			</thead>
+			<tbody>
+
+				@foreach (var item in Model.Attendances.Where(a => a.SubjectID == subjectId && a.TypeOf == type).OrderBy(a => a.WeekNumber).ToList())
+				{
+					<tr>
+						<td>@item.WeekNumber)</td>
+						<td>@Model.TeacherInfo[item.TeacherID]</td>
+						@if (item.grade == 0)
+						{
+							<td>-</td>
+						}
+						@if (item.grade != 0)
+						{
+							<td>@item.grade</td>
+						}
+					</tr>
+				}
+
+			</tbody>
+		</table>
+	}
+
+	<br /><br />
+	<hr />
+}
+

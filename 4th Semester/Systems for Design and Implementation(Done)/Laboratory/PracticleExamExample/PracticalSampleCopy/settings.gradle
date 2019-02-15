@@ -1,4 +1,0 @@
-rootProject.name = 'PracticalSample'
-include 'core'
-include 'web'
-

@@ -1,0 +1,4 @@
+rootProject.name = 'oscar'
+include 'oscar-core'
+include 'oscar-web'
+

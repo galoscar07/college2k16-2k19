@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "AddSubject";
+}
+<p id="result" style="display:none"></p>
+<header class="major">
+    <h2 style="width:100%;text-align:center">Add Subject</h2>
+</header>
+
+<script type="text/javascript">
+
+    function pressed() {
+        var sbj = document.getElementById("subject").value;
+        var str = "http://ubbacademicinfo.azurewebsites.net/api/subject";
+        $.ajax({
+            url: str,
+            method: "POST",
+            data: {
+                Title: sbj,
+            },
+            beforeSend: function (request) {
+                request.setRequestHeader("Authorization", "Bearer " + localStorage.getItem('access_token'));
+            },
+            success: function (data) {
+                $("#result").css("display", "none");
+                setSnackBar("Successfully  added!");
+
+
+            },
+            error: function (data) {
+                $("#result").text(data);
+                $("#result").css("display", "inline");
+                $("#result").css("color", "red");
+            }
+
+
+
+        });
+    }
+
+
+    function setSnackBar(text) {
+        var x = document.getElementById("snackbar");
+        x.className = "show";
+        x.innerHTML = text;
+        setTimeout(function () { x.className = x.className.replace("show", ""); }, 2000);
+    }
+
+</script>
+
+<div id="snackbar">Some text some message..</div>
+<p id="result"></p>
+<input id="subject" type="text" value="" placeholder="Subject">
+<button style="background-color: #e44c65; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 90%;
+  position:relative;
+  margin-top: 5%;
+  left: +5%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;" type="button" onclick="pressed()">
+    Add  Subject
+</button>

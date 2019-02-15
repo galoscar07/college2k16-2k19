@@ -1,0 +1,7 @@
+main {
+int a2w = 6;
+int b22 = 5;
+char cww = '#';
+sum = (a2w + b22);
+print(sum);
+}

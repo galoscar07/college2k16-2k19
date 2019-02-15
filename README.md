@@ -2,15 +2,15 @@
 
 ## First Semester
 
-* [Computational Logic](https://github.com/galoscar07/college2k16-2k19/tree/master/1st%20Semester/Computational%20Logic%20(Done))
-* [Computer System Architecture](https://github.com/galoscar07/college2k16-2k19/tree/master/1st%20Semester/Computer%20Systems%20Architecture%20(Done))
+* [Computational Logic](https://github.com/galoscar07/college2k16-2k19/tree/master/1st%20Semester/Computational%20Logic)
+* [Computer System Architecture](https://github.com/galoscar07/college2k16-2k19/tree/master/1st%20Semester/Computer%20Systems%20Architecture)
 * [Fundamentals of Programming](https://github.com/galoscar07/college2k16-2k19/tree/master/1st%20Semester/Fundamentals%20of%20Programming)
-* [Mathematics Algebra](https://github.com/galoscar07/college2k16-2k19/tree/master/1st%20Semester/Mathematics%20Algebra(Failed))
-* [Mathematics Analysis](https://github.com/galoscar07/college2k16-2k19/tree/master/1st%20Semester/Mathematics%20Analysis(Failed))
+* [Mathematics Algebra](https://github.com/galoscar07/college2k16-2k19/tree/master/1st%20Semester/Mathematics%20Algebra)
+* [Mathematics Analysis](https://github.com/galoscar07/college2k16-2k19/tree/master/1st%20Semester/Mathematics%20Analysis)
 
 ## Second Semester
 
-* Analytic Geometry
+* [Analytic Geometry]()
 * Data Structures and Algorithms
 * Dynamical Systems
 * Graph Algorithmics 

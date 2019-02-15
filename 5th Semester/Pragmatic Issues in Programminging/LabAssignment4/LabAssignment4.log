@@ -1,0 +1,348 @@
+INFO:logger:Start the loads process
+INFO:logger:Loads the string {"foo":{"bar":[1,2,3]}}
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:logger:Start the loads process
+INFO:logger:Loads the string {"name":"John","age":30,"city":"New York"} from the file example_json.txt
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the dump process by deciding what type of object it is
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+INFO:root:Start the dump process by deciding what type of object it is
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:logger:Start the loads process
+INFO:logger:Loads the string {"foo":{"bar":[1,2,3]}}
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:logger:Start the loads process
+INFO:logger:Loads the string {"name":"John","age":30,"city":"New York"} from the file example_json.txt
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the dump process by deciding what type of object it is
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+INFO:root:Start the dump process by deciding what type of object it is
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:logger:Start the loads process
+INFO:logger:Loads the string {"foo":{"bar":[1,2,3]}}
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:logger:Start the loads process
+INFO:logger:Loads the string {"name":"John","age":30,"city":"New York"} from the file example_json.txt
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the dump process by deciding what type of object it is
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+INFO:root:Start the dump process by deciding what type of object it is
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:logger:Start the loads process
+INFO:logger:Loads the string {"foo":{"bar":[1,2,3]}}
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:logger:Start the loads process
+INFO:logger:Loads the string {"name":"John","age":30,"city":"New York"} from the file example_json.txt
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the dump process by deciding what type of object it is
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+INFO:root:Start the dump process by deciding what type of object it is
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:logger:Start the loads process
+INFO:logger:Loads the string {"foo":{"bar":[1,2,3]}}
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:logger:Start the loads process
+INFO:logger:Loads the string {"name":"John","age":30,"city":"New York"} from the file example_json.txt
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the dump process by deciding what type of object it is
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+INFO:root:Start the dump process by deciding what type of object it is
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:logger:Start the loads process
+INFO:logger:Loads the string {"foo":{"bar":[1,2,3]}}
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:logger:Start the loads process
+INFO:logger:Loads the string {"name":"John","age":30,"city":"New York"} from the file example_json.txt
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the breaking into token process
+INFO:root:Start the dump process by deciding what type of object it is
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+INFO:root:Start the dump process by deciding what type of object it is
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+WARNING:root:Could break index out of range
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is
+INFO:root:Start the dump process by deciding what type of object it is

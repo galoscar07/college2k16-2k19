@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment3 (C++)/ThreadPool.h
+vector
+-
+queue
+-
+memory
+-
+thread
+-
+mutex
+-
+condition_variable
+-
+future
+-
+functional
+-
+stdexcept
+-
+
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment3 (C++)/async.cpp
+iostream
+-
+ThreadPool.h
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment3 (C++)/ThreadPool.h
+fstream
+-
+vector
+-
+

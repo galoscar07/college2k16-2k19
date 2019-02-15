@@ -1,0 +1,51 @@
+/Users/galoscar/Downloads/ExamREST/ExamREST/bin/Debug/netstandard2.0/ExamREST.deps.json
+/Users/galoscar/Downloads/ExamREST/ExamREST/bin/Debug/netstandard2.0/ExamREST.dll
+/Users/galoscar/Downloads/ExamREST/ExamREST/bin/Debug/netstandard2.0/ExamREST.pdb
+/Users/galoscar/Downloads/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.csprojAssemblyReference.cache
+/Users/galoscar/Downloads/ExamREST/ExamREST/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/galoscar/Downloads/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/ChooseSection.xaml.g.cs
+/Users/galoscar/Downloads/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/FirstSectionExamItemListPage.xaml.g.cs
+/Users/galoscar/Downloads/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/FirstSectionHistory.xaml.g.cs
+/Users/galoscar/Downloads/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/SecondSectionExamItemPage.xaml.g.cs
+/Users/galoscar/Downloads/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/SecondSectionExamListPage.xaml.g.cs
+/Users/galoscar/Downloads/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.csproj.CoreCompileInputs.cache
+/Users/galoscar/Downloads/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.AssemblyInfoInputs.cache
+/Users/galoscar/Downloads/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.AssemblyInfo.cs
+/Users/galoscar/Downloads/ExamREST/ExamREST/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/galoscar/Downloads/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.dll
+/Users/galoscar/Downloads/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.pdb
+/Users/galoscar/Documents/University&Shits/Mobile Applications/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/bin/Debug/netstandard2.0/ExamREST.deps.json
+/Users/galoscar/Documents/University&Shits/Mobile Applications/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/bin/Debug/netstandard2.0/ExamREST.dll
+/Users/galoscar/Documents/University&Shits/Mobile Applications/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/bin/Debug/netstandard2.0/ExamREST.pdb
+/Users/galoscar/Documents/University&Shits/Mobile Applications/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.csprojAssemblyReference.cache
+/Users/galoscar/Documents/University&Shits/Mobile Applications/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/galoscar/Documents/University&Shits/Mobile Applications/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/ChooseSection.xaml.g.cs
+/Users/galoscar/Documents/University&Shits/Mobile Applications/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/FirstSectionExamItemListPage.xaml.g.cs
+/Users/galoscar/Documents/University&Shits/Mobile Applications/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/FirstSectionHistory.xaml.g.cs
+/Users/galoscar/Documents/University&Shits/Mobile Applications/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/SecondSectionExamItemPage.xaml.g.cs
+/Users/galoscar/Documents/University&Shits/Mobile Applications/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/SecondSectionExamListPage.xaml.g.cs
+/Users/galoscar/Documents/University&Shits/Mobile Applications/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.csproj.CoreCompileInputs.cache
+/Users/galoscar/Documents/University&Shits/Mobile Applications/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.AssemblyInfoInputs.cache
+/Users/galoscar/Documents/University&Shits/Mobile Applications/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.AssemblyInfo.cs
+/Users/galoscar/Documents/University&Shits/Mobile Applications/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/galoscar/Documents/University&Shits/Mobile Applications/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.dll
+/Users/galoscar/Documents/University&Shits/Mobile Applications/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.pdb
+/Users/galoscar/Documents/University&Shits/Mobile Applications/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/FirstSectionExamItemPage.xaml.g.cs
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/bin/Debug/netstandard2.0/ExamREST.deps.json
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/bin/Debug/netstandard2.0/ExamREST.dll
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/bin/Debug/netstandard2.0/ExamREST.pdb
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.csprojAssemblyReference.cache
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/ChooseSection.xaml.g.cs
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/FirstSectionExamItemListPage.xaml.g.cs
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/FirstSectionExamItemPage.xaml.g.cs
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/FirstSectionHistory.xaml.g.cs
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/SecondSectionExamItemPage.xaml.g.cs
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/SecondSectionExamListPage.xaml.g.cs
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.csproj.CoreCompileInputs.cache
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.AssemblyInfoInputs.cache
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.AssemblyInfo.cs
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.dll
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/ExamREST.pdb
+/Users/galoscar/Documents/University&Shits/Mobile Applications/ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/obj/Debug/netstandard2.0/Views/FirstSectionExamItemHistoryPage.xaml.g.cs

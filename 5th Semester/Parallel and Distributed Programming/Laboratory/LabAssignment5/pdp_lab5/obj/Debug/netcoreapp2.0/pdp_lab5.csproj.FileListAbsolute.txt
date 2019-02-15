@@ -1,0 +1,33 @@
+/Users/karolygergely/Desktop/lab5/pdp_lab5/bin/Debug/netcoreapp2.0/pdp_lab5.deps.json
+/Users/karolygergely/Desktop/lab5/pdp_lab5/bin/Debug/netcoreapp2.0/pdp_lab5.runtimeconfig.json
+/Users/karolygergely/Desktop/lab5/pdp_lab5/bin/Debug/netcoreapp2.0/pdp_lab5.runtimeconfig.dev.json
+/Users/karolygergely/Desktop/lab5/pdp_lab5/bin/Debug/netcoreapp2.0/pdp_lab5.dll
+/Users/karolygergely/Desktop/lab5/pdp_lab5/bin/Debug/netcoreapp2.0/pdp_lab5.pdb
+/Users/karolygergely/Desktop/lab5/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.csprojAssemblyReference.cache
+/Users/karolygergely/Desktop/lab5/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.csproj.CoreCompileInputs.cache
+/Users/karolygergely/Desktop/lab5/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.AssemblyInfoInputs.cache
+/Users/karolygergely/Desktop/lab5/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.AssemblyInfo.cs
+/Users/karolygergely/Desktop/lab5/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.dll
+/Users/karolygergely/Desktop/lab5/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.pdb
+/Users/karolygergely/Desktop/lab5ppd/pdp_lab5/bin/Debug/netcoreapp2.0/pdp_lab5.deps.json
+/Users/karolygergely/Desktop/lab5ppd/pdp_lab5/bin/Debug/netcoreapp2.0/pdp_lab5.runtimeconfig.json
+/Users/karolygergely/Desktop/lab5ppd/pdp_lab5/bin/Debug/netcoreapp2.0/pdp_lab5.runtimeconfig.dev.json
+/Users/karolygergely/Desktop/lab5ppd/pdp_lab5/bin/Debug/netcoreapp2.0/pdp_lab5.dll
+/Users/karolygergely/Desktop/lab5ppd/pdp_lab5/bin/Debug/netcoreapp2.0/pdp_lab5.pdb
+/Users/karolygergely/Desktop/lab5ppd/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.csprojAssemblyReference.cache
+/Users/karolygergely/Desktop/lab5ppd/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.csproj.CoreCompileInputs.cache
+/Users/karolygergely/Desktop/lab5ppd/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.AssemblyInfoInputs.cache
+/Users/karolygergely/Desktop/lab5ppd/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.AssemblyInfo.cs
+/Users/karolygergely/Desktop/lab5ppd/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.dll
+/Users/karolygergely/Desktop/lab5ppd/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.pdb
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment5/pdp_lab5/bin/Debug/netcoreapp2.0/pdp_lab5.deps.json
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment5/pdp_lab5/bin/Debug/netcoreapp2.0/pdp_lab5.runtimeconfig.json
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment5/pdp_lab5/bin/Debug/netcoreapp2.0/pdp_lab5.runtimeconfig.dev.json
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment5/pdp_lab5/bin/Debug/netcoreapp2.0/pdp_lab5.dll
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment5/pdp_lab5/bin/Debug/netcoreapp2.0/pdp_lab5.pdb
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment5/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.csprojAssemblyReference.cache
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment5/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.csproj.CoreCompileInputs.cache
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment5/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.AssemblyInfoInputs.cache
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment5/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.AssemblyInfo.cs
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment5/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.dll
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment5/pdp_lab5/obj/Debug/netcoreapp2.0/pdp_lab5.pdb

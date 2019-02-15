@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/galoscar/Documents/uni&shit/Parallel and Distributed Programming/Laboratory/LabAssignment2/main.cpp
+iostream
+-
+

@@ -1,0 +1,9 @@
+Laboratory Assignment 3
+
+As corner cases I've noticed:
+- if a class has attributes that are dictionary
+- if a class has attributes that are lists
+- if there are nested dictionaries
+- if there are nested lists
+- inside dictionary there are items that are custom classes
+- inside lists there are custom classes

@@ -1,0 +1,6 @@
+LabAssignment 5
+
+I made a quick research on the web and found out that there are 3 types of vulnerabilities when working with JSONs:
+- SQL Injection Detection
+- Local File Inclusion Detection
+- PHP Command Injection Detection

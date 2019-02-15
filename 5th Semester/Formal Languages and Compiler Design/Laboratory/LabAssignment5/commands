@@ -1,0 +1,4 @@
+>lex specif.lxi
+>yacc -d parser.y
+>cc lex.yy.c y.tab.c -o rezultat 
+>rezultat<fis_intrare

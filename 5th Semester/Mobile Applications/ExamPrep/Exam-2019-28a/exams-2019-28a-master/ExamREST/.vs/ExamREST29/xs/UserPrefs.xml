@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{F02DD4C4-B48C-4574-8D30-7734B5CAACD3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExamREST/Data/RestService.cs">
+    <Files>
+      <File FileName="ExamREST/Views/SecondSectionExamListPage.xaml.cs" Line="23" Column="67" />
+      <File FileName="ExamREST/Data/ExamItemManager.cs" Line="47" Column="49" />
+      <File FileName="ExamREST/Data/RestService.cs" Line="116" Column="1" />
+      <File FileName="ExamREST/Data/IRestService.cs" Line="21" Column="1" />
+      <File FileName="ExamREST/Views/SecondSectionExamListPage.xaml" Line="51" Column="15" />
+      <File FileName="ExamREST/Views/SecondSectionExamItemPage.xaml" Line="27" Column="15" />
+      <File FileName="ExamREST/Views/SecondSectionExamItemPage.xaml.cs" Line="19" Column="37" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ExamREST.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CE66E5DF-3082-43B9-B829-2FB72B1DC071" automaticSigning="False" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ExamREST.Android PreferredExecutionTarget="Android.my_device" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+</Properties>

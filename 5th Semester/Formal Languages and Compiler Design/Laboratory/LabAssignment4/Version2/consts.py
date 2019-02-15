@@ -1,0 +1,5 @@
+NORMAL_STATE = 'q'
+FINAL_STATE = 'f'
+ERROR_STATE = 'e'
+BACK_STATE = 'r'
+STOP_CONDITION = 'epsilon'

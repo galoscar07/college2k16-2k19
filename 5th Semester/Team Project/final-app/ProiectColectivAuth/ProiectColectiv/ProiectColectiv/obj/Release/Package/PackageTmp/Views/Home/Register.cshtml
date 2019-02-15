@@ -1,0 +1,155 @@
+﻿<p id="result" style="display:none"></p>
+<header class="major">
+    <h2 style="width:100%;text-align:center">Register</h2>
+</header>
+
+<script type="text/javascript">
+    function showOrHideInputs(select) {
+        if (select.options[select.selectedIndex].value === "student") {
+            document.getElementById("group").style.display = "inline";
+            document.getElementById("subgroup").style.display = "inline";
+            document.getElementById("year").style.display = "inline";
+            document.getElementById("post").style.display = "none";
+        }
+        else {
+            document.getElementById("post").style.display = "inline";
+            document.getElementById("group").style.display = "none";
+            document.getElementById("subgroup").style.display = "none";
+            document.getElementById("year").style.display = "none";
+        }
+    }
+
+    function pressed() {
+        var e2 = document.getElementById("selectType");
+        var type = e2.options[e2.selectedIndex].value;
+
+        var firstname = document.getElementById("firstname").value;
+        var lastname = document.getElementById("lastname").value;
+        var group = document.getElementById("group").value;
+        var subgroup = document.getElementById("subgroup").value;
+        var year = document.getElementById("year").value;
+        var post = document.getElementById("post").value;
+        var email = document.getElementById("email").value;
+        var pwd = document.getElementById("pwd").value;
+        var pwdc = document.getElementById("pwdc").value;
+        if (pwd === pwdc) {
+            if (type === "student") {
+                var str = "http://ubbacademicinfo.azurewebsites.net/api/student";
+                $.ajax({
+                    url: str,
+                    method: "POST",
+                    data: {
+                        FirstName: firstname,
+                        LastName: lastname,
+                        GroupID: group,
+                        SubGroup: subgroup,
+                        Year: year,
+                        Email: email
+                    },
+                    success: function (data) {
+                        $.ajax({
+                            url: "http://ubbacademicinfo.azurewebsites.net/login",
+                            method: "POST",
+                            data: {
+                                Role: 'Student',
+                                Password: pwd,
+                                Email: email
+                            },
+                            success: function (data) {
+                                $("#result").css("display", "none");
+                                setSnackBar("Successfully  registered!");
+
+
+                            },
+                            error: function (data) {
+                                $("#result").text(data);
+                                $("#result").css("display", "inline");
+                                $("#result").css("color", "red");
+                            }
+                        });
+                    },
+                    error: function (data) {
+                        $("#result").text(data);
+                        $("#result").css("display", "inline");
+                        $("#result").css("color", "red");
+                    }
+
+                });
+            }
+            else {
+                var str = "http://ubbacademicinfo.azurewebsites.net/api/teacher";
+                $.ajax({
+                    url: str,
+                    method: "POST",
+                    data: {
+                        FirstName: firstname,
+                        LastName: lastname,
+                        Post: post,
+                        Email: email
+                    },
+                    success: function (data) {
+                        $.ajax({
+                            url: "http://ubbacademicinfo.azurewebsites.net/login",
+                            method: "POST",
+                            data: {
+                                Role: 'Teacher',
+                                Password: pwd,
+                                Email: email
+                            },
+                            success: function (data) { alert("Account created"); },
+                            error: function (data) { alert(data.status); }
+                        });
+                    },
+                    error: function (data) { alert(data.status); }
+
+                });
+            }
+        }
+        else { alert("Passwords must match"); }
+    }
+
+
+    function setSnackBar(text) {
+        var x = document.getElementById("snackbar");
+        x.className = "show";
+        x.innerHTML = text;
+        setTimeout(function () { x.className = x.className.replace("show", ""); }, 2000);
+    }
+
+</script>
+
+<div id="snackbar">Some text some message..</div>
+<p id="result"></p>
+<input id="firstname" type="text" value="" placeholder="First Name">
+<input id="lastname" type="text" value="" placeholder="Last Name" />
+<select id="selectType" onchange="showOrHideInputs(this)">
+    <option value="" selected disabled hidden>Choose role</option>
+    <option value="student">Student</option>
+    <option value="teacher">Teacher</option>
+</select>
+<input id="group" type="text" value="" style="display:none" placeholder="Group">
+<input id="subgroup" type="text" value="" style="display:none" placeholder="SubGroup">
+<input id="year" type="text" value="" style="display:none" placeholder="Year">
+<input id="post" type="text" value="" style="display:none" placeholder="Post">
+<input id="email" type="text" value="" placeholder="Email">
+<input id="pwd" type="password" value="" placeholder="Password">
+<input id="pwdc" type="password" value="" placeholder="Confirm Password">
+
+<button style="background-color: #e44c65; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 90%;
+  position:relative;
+  margin-top: 5%;
+  left: +5%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;" type="button" onclick="pressed()">
+    Register
+</button>

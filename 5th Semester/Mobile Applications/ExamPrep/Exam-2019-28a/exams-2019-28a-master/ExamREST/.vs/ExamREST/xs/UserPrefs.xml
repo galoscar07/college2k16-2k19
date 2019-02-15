@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{F02DD4C4-B48C-4574-8D30-7734B5CAACD3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExamREST/Views/FirstSectionExamItemPage.xaml">
+    <Files>
+      <File FileName="ExamREST/Views/ChooseSection.xaml" Line="26" Column="15" />
+      <File FileName="ExamREST/Views/FirstSectionExamItemListPage.xaml" Line="39" Column="15" />
+      <File FileName="ExamREST/Views/FirstSectionHistory.xaml" Line="31" Column="15" />
+      <File FileName="ExamREST/Views/FirstSectionExamItemPage.xaml" Line="32" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ExamREST.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CE66E5DF-3082-43B9-B829-2FB72B1DC071" automaticSigning="False" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ExamREST.Android PreferredExecutionTarget="Android.my_device" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+</Properties>

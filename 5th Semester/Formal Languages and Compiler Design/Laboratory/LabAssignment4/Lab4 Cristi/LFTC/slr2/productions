@@ -1,0 +1,5 @@
+program ::= entryPoint
+entryPoint ::= decl main ( ) stmt
+decl ::= type identifier
+type ::= float | boolean | character
+stmt ::= { identifier = identifier }

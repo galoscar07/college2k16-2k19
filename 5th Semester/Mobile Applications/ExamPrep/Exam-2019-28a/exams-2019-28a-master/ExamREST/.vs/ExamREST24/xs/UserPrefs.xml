@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{F02DD4C4-B48C-4574-8D30-7734B5CAACD3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Exam/exams-2019-29a-master/ExamREST/ExamREST/Utilits/ConnectionManager.cs">
+    <Files>
+      <File FileName="ExamREST/Views/FirstSectionExamItemListPage.xaml.cs" Line="3" Column="23" />
+      <File FileName="../../../../Exam/exams-2019-29a-master/ExamREST/ExamREST/Views/FirstSectionExamItemListPage.xaml.cs" Line="19" Column="44" />
+      <File FileName="../../../../Exam/exams-2019-29a-master/ExamREST/ExamREST/Utilits/ConnectionManager.cs" Line="1" Column="1" />
+      <File FileName="ExamREST/Utilits/ConnectionManager.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ExamREST.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CE66E5DF-3082-43B9-B829-2FB72B1DC071" automaticSigning="False" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ExamREST.Android PreferredExecutionTarget="Android.my_device" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+</Properties>

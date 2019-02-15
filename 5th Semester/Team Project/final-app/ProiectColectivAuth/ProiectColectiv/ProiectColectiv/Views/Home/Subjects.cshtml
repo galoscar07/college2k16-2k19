@@ -1,0 +1,75 @@
+﻿@model ProiectColectiv.Models.ViewModels.TeachersSubjectsVM
+@{
+    ViewBag.Title = "Subjects";
+}
+
+<script type="text/javascript">
+    function showOrHideSubgroup(select) {
+        if (select.options[select.selectedIndex].value === "group")
+            document.getElementById("selectSubgroup").style.display = "inline";
+        else
+            document.getElementById("selectSubgroup").style.display = "none";
+    }
+
+    function pressed(studentId) {
+        var e = document.getElementById("selectSubject");
+        var subjectId = e.options[e.selectedIndex].value;
+
+        var e2 = document.getElementById("selectType");
+        var type = e2.options[e2.selectedIndex].value;
+
+        var value = document.getElementById("input").value;
+        if (type === "year") {
+            console.log("reached");
+			var str = "http://ubbacademicinfo.azurewebsites.net/api/teachersubject/" + @Model.TeacherId + "/subject/" + subjectId + "/year/" + value;
+            $.ajax({
+                url: str,
+				method: "POST",
+				beforeSend: function (request) {
+					request.setRequestHeader("Authorization", "Bearer " + localStorage.getItem('access_token'));
+				},
+                success: function (data) { location.reload();},
+                error: function (data) { alert(data.status); }
+
+            });
+        }
+        else
+        {
+            var e3 = document.getElementById("selectSubgroup");
+            var valueSubgroup = e3.options[e3.selectedIndex].value;
+			var str = "http://ubbacademicinfo.azurewebsites.net/api/teachersubject/" + @Model.TeacherId + "/subject/" + subjectId + "/group/" + value + "/subgroup/" + valueSubgroup;
+            $.ajax({
+                url: str,
+				method: "POST",
+				beforeSend: function (request) {
+					request.setRequestHeader("Authorization", "Bearer " + localStorage.getItem('access_token'));
+				},
+                success: function (data) { location.reload(); },
+                error: function (data) { alert(data.status); }
+
+            });
+            }
+        }
+
+</script>
+
+<header class="major">
+    <h2>Subjects</h2>
+</header>
+
+<!-- Content -->
+<section id="content">
+
+    @foreach (var key in Model.SubjectName.Keys)
+    {
+        <h3 style="width:100%;text-align:center">@Model.SubjectName[key]</h3>
+        <div style="display:inline-block; width:65%;text-align:center">
+            @Html.ActionLink("Seminary", "Teacher", "Home", new { id = Model.TeacherId, subjectId = key, type = "Seminary" }, null)
+        </div>
+        <div style="display:inline;width:65%;text-align:center";>
+            @Html.ActionLink("Laboratory", "Teacher", "Home", new { id = Model.TeacherId, subjectId = key, type = "Laboratory" }, null)
+        </div>
+        <hr />
+    }
+
+</section>

@@ -1,0 +1,8 @@
+ERROR:logger:An error has appeared: expected string or buffer
+ERROR:logger:An error has appeared: Expecting property name: line 1 column 2 (char 1)
+ERROR:logger:An error has appeared: No JSON object could be decoded
+ERROR:logger:An error has appeared: Expecting property name: line 1 column 2 (char 1)
+ERROR:logger:An error has appeared: No JSON object could be decoded
+ERROR:logger:An error has appeared: No JSON object could be decoded
+ERROR:logger:An error has appeared: Expecting property name: line 1 column 2 (char 1)
+ERROR:logger:An error has appeared: No JSON object could be decoded

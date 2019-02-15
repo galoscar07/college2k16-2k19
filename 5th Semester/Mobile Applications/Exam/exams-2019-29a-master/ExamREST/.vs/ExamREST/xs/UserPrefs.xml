@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{F02DD4C4-B48C-4574-8D30-7734B5CAACD3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/Views/FirstSectionHistory.xaml.cs">
+    <Files>
+      <File FileName="ExamREST/Views/SecondSectionExamItemPage.xaml" Line="2" Column="1" />
+      <File FileName="../../../ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/Views/FirstSectionExamItemHistoryPage.xaml" Line="14" Column="43" />
+      <File FileName="ExamREST/Views/SecondSectionExamItemPage.xaml.cs" Line="10" Column="37" />
+      <File FileName="../../../ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/Views/FirstSectionExamItemHistoryPage.xaml.cs" Line="8" Column="57" />
+      <File FileName="../../../ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/Views/FirstSectionHistory.xaml" Line="28" Column="15" />
+      <File FileName="../../../ExamPrep/Exam-2019-28a/exams-2019-28a-master/ExamREST/ExamREST/Views/FirstSectionHistory.xaml.cs" Line="34" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ExamREST.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CE66E5DF-3082-43B9-B829-2FB72B1DC071" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ExamREST.Android PreferredExecutionTarget="Android.my_device" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+</Properties>

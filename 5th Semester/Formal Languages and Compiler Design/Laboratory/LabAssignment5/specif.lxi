@@ -1,0 +1,61 @@
+%{ 	 
+#include <math.h> 
+#include <stdio.h>
+#include "y.tab.h"
+int lines = 0;
+%} 
+%option noyywrap
+
+DIGIT 		[0-9]
+NUMBER		[1-9][0-9]*|0
+BOOL		(true|false|TRUE|FALSE)
+ID 		[a-zA-Z][a-zA-Z0-9]{0,7}
+CST		{NUMBER}|{BOOL}
+
+%% 
+
+"int"	{printf( "Reserved word: %s\n", yytext );  return INT;}
+"bool"	{printf( "Reserved word: %s\n", yytext );  return BOOL;}
+"read"	{printf( "Reserved word: %s\n", yytext );  return READ;}
+"print"	{printf( "Reserved word: %s\n", yytext );  return WRITE;}
+"if"	{printf( "Reserved word: %s\n", yytext );  return IF;}
+"else"	{printf( "Reserved word: %s\n", yytext );  return ELSE;}
+"while"	{printf( "Reserved word: %s\n", yytext );  return WHILE;}
+"main"	{printf( "Reserved word: %s\n", yytext );  return MAIN;}
+"array"	{printf( "Reserved word: %s\n", yytext );  return ARRAY;}
+"true"	{printf( "Reserved word: %s\n", yytext );  return TRUE;}
+"false"	{printf( "Reserved word: %s\n", yytext );  return FALSE;}
+
+{ID}	{printf( "Identifier: %s\n", yytext ); return IDENTIFIER;}
+
+[0-9][0-9]*	{printf( "Constant: %s\n", yytext ); return CONSTANT;}
+
+";"	{printf( "Separator: %s\n", yytext ); return SEMICOLON;}
+"{"	{printf( "Separator: %s\n", yytext ); return LEFTBRACKET;}
+"}"	{printf( "Separator: %s\n", yytext ); return RIGHTBRAKET;}
+"["	{printf( "Separator: %s\n", yytext ); return LEFTSQUAREBRACKET;}
+"]"	{printf( "Separator: %s\n", yytext ); return RIGHTSQUAREBRACKET;}
+"("	{printf( "Separator: %s\n", yytext ); return LEFTPARANTHESIS;}
+")"	{printf( "Separator: %s\n", yytext ); return RIGHTPARANTHESIS;}
+
+"+"	{printf( "Operator: %s\n", yytext ); return PLUS;}
+"-"	{printf( "Operator: %s\n", yytext ); return MINUS;}
+"*"	{printf( "Operator: %s\n", yytext ); return MULTIPLY;}
+"/"	{printf( "Operator: %s\n", yytext ); return DEVIDE;}
+">"	{printf( "Operator: %s\n", yytext ); return GREATER;}
+"<"	{printf( "Operator: %s\n", yytext ); return SMALLER;}
+">="	{printf( "Operator: %s\n", yytext ); return GREATEREQUAL;}
+"<="	{printf( "Operator: %s\n", yytext ); return SMALLEREQUAL;}
+"=="	{printf( "Operator: %s\n", yytext ); return EQUAL;}
+"!="	{printf( "Operator: %s\n", yytext ); return DIFFERENT;}
+"="	{printf( "Operator: %s\n", yytext ); return ASSIGNMENT;}
+
+[ \t]+	/* elimina spatii */  	{}
+
+[\n]+	{++lines;}
+
+[a-zA-Z][a-zA-Z0-9]{8,}	{printf("Illegal size of the identifier at line %d\n", lines); return -1;}
+
+[0-9][a-zA-Z0-9]{0,7}	{printf("Illegal identifier at line %d\n", lines); return -1;}
+		 
+%%  

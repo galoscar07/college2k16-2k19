@@ -1,0 +1,4 @@
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment4/cmake-build-debug/CMakeFiles/App2.dir
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment4/cmake-build-debug/CMakeFiles/App1.dir

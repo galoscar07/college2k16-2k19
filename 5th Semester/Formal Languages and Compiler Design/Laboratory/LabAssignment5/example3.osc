@@ -1,0 +1,10 @@
+main {
+int aw = 6
+int ber = 5
+bool ca = true
+int sum
+sum = aw + 5
+if (6==6) {
+print(0)
+}
+}

@@ -1,0 +1,257 @@
+﻿@model ProiectColectiv.Models.ViewModels.TeacherVM
+
+@{
+    ViewBag.Title = "Teacher";
+}
+@{
+    ; var path = "/home/teacher/" + Model.TeacherId + "/" + Model.SubjectId + "/" + Model.Type + "/";
+}
+<script type="text/javascript">
+	function modifyAttendance(checkboxElem, studentId) {
+        var type = '@Model.Type.ToString()'
+		if (checkboxElem.checked) {
+			$.ajax({
+				url: "http://ubbacademicinfo.azurewebsites.net/api/attendance",
+				method: "POST",
+				beforeSend: function (request) {
+					request.setRequestHeader("Authorization", "Bearer " + localStorage.getItem('access_token'));
+				},
+				data: {
+					StudentID: studentId,
+					TeacherID: @Model.TeacherId,
+					SubjectID: @Model.SubjectId,
+					WeekNumber: @Model.WeekNumber,
+					TypeOf: type,
+					grade: 0
+				},
+				success: function (data) { },
+				error: function (data) { alert(data);}
+			});
+		}
+        else {
+			var str = "http://ubbacademicinfo.azurewebsites.net/api/attendance/" + studentId + "/" + @Model.SubjectId + "/" + @Model.WeekNumber + "/" + type;
+			$.ajax({
+				url: str,
+				method: "DELETE",
+				beforeSend: function (request) {
+					request.setRequestHeader("Authorization", "Bearer " + localStorage.getItem('access_token'));
+				},
+				success: function (data) { document.getElementById(studentId).value = "";}
+			});
+		}
+	}
+
+	function pressed(studentId) {
+		var type = '@Model.Type.ToString()'
+		var gradee = document.getElementById(studentId).value;
+		var str = "http://ubbacademicinfo.azurewebsites.net/api/attendance/" + studentId + "/" + @Model.SubjectId + "/" + @Model.WeekNumber + "/" + type;
+			$.ajax({
+				url: str,
+				method: "DELETE",
+				beforeSend: function (request) {
+					request.setRequestHeader("Authorization", "Bearer " + localStorage.getItem('access_token'));
+				},
+				success: function (data) {
+					$.ajax({
+						url: "http://ubbacademicinfo.azurewebsites.net/api/attendance",
+						method: "POST",
+						beforeSend: function (request) {
+							request.setRequestHeader("Authorization", "Bearer " + localStorage.getItem('access_token'));
+						},
+						data: {
+							StudentID: studentId,
+							TeacherID: @Model.TeacherId,
+							SubjectID: @Model.SubjectId,
+							WeekNumber: @Model.WeekNumber,
+							TypeOf: type,
+							grade: gradee,
+						},
+						success: function (data) { document.getElementById("c" + studentId).checked = true; setSnackBar("Graded"); },
+				   error: function (data) { alert(data.status); }
+
+			});}
+			});
+
+
+    }
+
+
+    function pressedFilter1() {
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("filterName");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("mytable");
+        tr = table.getElementsByTagName("tr");
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+
+    function pressedFilter2() {
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("filterGroup");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("mytable");
+        tr = table.getElementsByTagName("tr");
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[1];
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+	}
+
+
+	function setSnackBar(text) {
+		var x = document.getElementById("snackbar");
+		x.className = "show";
+		x.innerHTML = text;
+        setTimeout(function () { x.className = x.className.replace("show", ""); }, 2000);
+	}
+
+
+
+</script>
+<div id="snackbar">Some text some message..</div>
+<header class="major">
+    <h2>Week #@Model.WeekNumber</h2>
+</header>
+
+
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+    >
+    <option selected disabled hidden>Select another week number</option>
+    <option value=@String.Concat(path,"1")>Week 1</option>
+    <option value=@String.Concat(path,"2")>Week 2</option>
+    <option value=@String.Concat(path,"3")>Week 3</option>
+    <option value=@String.Concat(path,"4")>Week 4</option>
+    <option value=@String.Concat(path,"5")>Week 5</option>
+    <option value=@String.Concat(path,"6")>Week 6</option>
+    <option value=@String.Concat(path,"7")>Week 7</option>
+    <option value=@String.Concat(path,"8")>Week 8</option>
+    <option value=@String.Concat(path,"9")>Week 9</option>
+    <option value=@String.Concat(path,"10")>Week 10</option>
+    <option value=@String.Concat(path,"11")>Week 11</option>
+    <option value=@String.Concat(path,"12")>Week 12</option>
+    <option value=@String.Concat(path,"13")>Week 13</option>
+    <option value=@String.Concat(path,"14")>Week 14</option>
+</select>
+
+<br />
+
+<input type="text" style="width:40%;display:inline" onkeyup="pressedFilter1()" id="filterName" placeholder="Filter by Name">
+
+<input type="text" style="width:40%;display:inline" onkeyup="pressedFilter2()" id="filterGroup" placeholder="Filter by Group">
+<br /><br /><br /><br />
+<table id="mytable" style="width:100%">
+    <tr>
+        <th>Fullname</th>
+        <th>Group</th>
+        <th>SubGroup</th>
+        <th>Year</th>
+        <th>Is Present</th>
+        <th>Grade</th>
+    </tr>
+
+    @foreach (var student in Model.Students)
+    {
+        string fullname = student.FirstName + " " + student.LastName;
+        var attend = Model.Attendances.Where(a => a.StudentID == student.StudentID).FirstOrDefault();
+        <tr>
+            <td>@Html.ActionLink(fullname, "Student", "Home", new { id = student.StudentID }, null)</td>
+            <td>@student.GroupID</td>
+            <td>@student.SubGroup</td>
+            <td>@student.Year</td>
+            @if (attend != null)
+            {
+                <td><input type="checkbox" id=@String.Concat("c",student.StudentID) checked onchange="modifyAttendance(this,@student.StudentID)" /></td>
+                if (attend.grade != 0)
+                {
+                    <td>
+                        <input type="text" style="width:64%;display:inline" id=@student.StudentID value=@attend.grade>
+                        <button type="button" onclick="pressed(@student.StudentID)" style="background-color: #e44c65; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 30%;
+  position:relative;
+  left: +5%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;">
+                            Grade student!
+                        </button>
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        <input style="width:64%;display:inline" id=@student.StudentID type="text" value="">
+                        <button type="button" onclick="pressed(@student.StudentID)" style="background-color: #e44c65; /* Green */
+                                          border: none;
+                                          color: white;
+                                          padding: 15px 32px;
+                                          text-align: center;
+                                          text-decoration: none;
+                                          display: inline;
+                                          font-size: 16px;
+                                          margin: 4px 2px;
+                                          width: 30%;
+                                          position:relative;
+                                          left: +5%;
+                                          cursor: pointer;
+                                          -webkit-transition-duration: 0.4s; /* Safari */
+                                          transition-duration: 0.4s;">
+                            Grade student!
+                        </button>
+                    </td>
+                }
+            }
+            else
+            {
+                <td><input type="checkbox" id=@String.Concat("c",student.StudentID) onchange="modifyAttendance(this,@student.StudentID)" /></td>
+                <td>
+                    <input type="text" style="width:64%;display:inline" id=@student.StudentID value=""><button style="background-color: #e44c65; /* Green */
+                                                                                                              border: none;
+                                                                                                              color: white;
+                                                                                                              padding: 15px 32px;
+                                                                                                              text-align: center;
+                                                                                                              text-decoration: none;
+                                                                                                              display: inline;
+                                                                                                              font-size: 16px;
+                                                                                                              margin: 4px 2px;
+                                                                                                              width: 30%;
+                                                                                                              position:relative;
+                                                                                                              left: +5%;
+                                                                                                              cursor: pointer;
+                                                                                                              -webkit-transition-duration: 0.4s; /* Safari */
+                                                                                                              transition-duration: 0.4s;"
+                                                                                                               type="button" onclick="pressed(@student.StudentID)">
+                        Grade student!
+                    </button>
+                </td>
+
+            }
+        </tr>
+    }
+
+</table>
+

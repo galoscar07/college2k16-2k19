@@ -1,0 +1,4 @@
+/Users/galoscar/Documents/uni&shit/Parallel and Distributed Programming/Laboratory/LabAssignment2/cmake-build-debug/CMakeFiles/MultMat.dir
+/Users/galoscar/Documents/uni&shit/Parallel and Distributed Programming/Laboratory/LabAssignment2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/galoscar/Documents/uni&shit/Parallel and Distributed Programming/Laboratory/LabAssignment2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/galoscar/Documents/uni&shit/Parallel and Distributed Programming/Laboratory/LabAssignment2/cmake-build-debug/CMakeFiles/AddMat.dir

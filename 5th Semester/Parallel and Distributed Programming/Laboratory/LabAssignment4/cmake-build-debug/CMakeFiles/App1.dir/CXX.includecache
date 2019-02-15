@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/galoscar/Documents/University&Shits/Parallel and Distributed Programming/Laboratory/LabAssignment4/v1.cpp
+mutex
+-
+condition_variable
+-
+thread
+-
+iostream
+-
+fstream
+-
+queue
+-
+tuple
+-
+chrono
+-
+string
+-
+

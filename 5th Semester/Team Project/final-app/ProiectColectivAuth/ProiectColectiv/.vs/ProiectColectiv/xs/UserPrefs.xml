@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{25A692A3-9D85-4FD2-98CA-5081DCCE2777}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProiectColectiv/Views/Home/Login.cshtml">
+    <Files>
+      <File FileName="ProiectColectiv/Views/Home/Login.cshtml" Line="35" Column="53" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ProiectColectiv PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "LoginVew";
+}
+
+<script type="text/javascript">
+    
+    function pressed(studentId) {
+		var user = document.getElementById("email").value;
+		var pwd = document.getElementById("password").value;
+		var str = "http://ubbacademicinfo.azurewebsites.net/token";
+            $.ajax({
+                url: str,
+				method: "POST",
+				data: {
+					username: user,
+					password: pwd,
+					grant_type:'password'
+				},
+				success: function (data) {
+					localStorage.setItem('access_token', data['access_token']);
+					$.ajax({
+						url: "http://ubbacademicinfo.azurewebsites.net/login",
+						method: "GET",
+						beforeSend: function (request) {
+							request.setRequestHeader("Authorization", "Bearer " + localStorage.getItem('access_token'));
+						},
+						success: function (data) {
+							localStorage.setItem('user', data['username'])
+							localStorage.setItem('id', data['Id'])
+							localStorage.setItem('role', data['Role'])
+							window.location = "http://ubbacademicinfo.azurewebsites.net/Home";
+
+						},
+						error: function (data) { alert(data.status); }
+
+					});
+
+				},
+                error: function (data) { alert(data.status); }
+
+            });
+        }
+
+</script>
+
+<header class="major">
+	<h2 style="width:100%;text-align:center">Login</h2>
+</header>
+
+<input id="email" type="text" value="" placeholder="Email">
+<input id="password" type="password" value="" placeholder="Password">
+<button style="background-color: #e44c65; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 90%;
+  position:relative;
+  margin-top: 5%;
+  left: +5%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;" type="button" onclick="pressed()">
+	Login
+</button>
+<p>Don't have an account? <a href="http://ubbacademicinfo.azurewebsites.net/Home/Register">Register here</a></p>

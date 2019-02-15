@@ -1,0 +1,30 @@
+N = { PROGRAM, COMPOUNDSTMT, TYPE, STMTLIST, STATEMENT, DECLSTMT, ASSIGNSTMT, IOSTMT, LOOPSTMT, IFSTMT, ARRAYDECLSTMT, EXPR, OP, INPUT, OUTPUT, CONDITION, RELATIONOP }
+
+E = { !=, ', (, ), *, +, -, /, ;, <, <=, =, ==, >, >=, [, ], {, }, array, bool, const, else, false, id, if, int, main, read, true, while, write }
+
+S = PROGRAM
+
+P = {
+    PROGRAM -> 9 COMPOUNDSTMT
+    TYPE -> 2 | 3
+    COMPOUNDSTMT -> 12 STMTLIST 13
+    STMTLIST -> STATEMENT | STATEMENT STMTLIST
+    STATEMENT -> DECLSTMT | ASSIGNSTMT | IOSTMT | LOOPSTMT | IFSTMT | ARRAYDECLSTMT
+    DECLSTMT -> TYPE 0 10
+    ARRAYDECLSTMT -> 11 14 1 15
+    ASSIGNSTMT -> 0 28 EXPR | 0 28 29 | 0 28 30 | 0 14 1 15 28 EXPR
+    EXPR -> 0 | 1 | EXPR OP EXPR
+    OP -> 18 | 19 | 20 | 21 
+    IOSTMT -> INPUT | OUTPUT
+    INPUT -> 4 0 10
+    OUTPUT -> 5 0 10
+    LOOPSTMT -> 8 16 CONDITION 17 COMPOUNDSTMT
+    CONDITION -> 0 RELATIONOP 0 | 0 RELATIONOP 1 | 1 RELATIONOP 0 | 1 RELATIONOP 1
+    RELATIONOP -> 22 | 23 | 24 | 25 | 26 | 27
+    IFSTMT -> 6 16 CONDITION 17 COMPOUNDSTMT | 6 16 CONDITION 17 COMPOUNDSTMT 7 COMPOUNDSTMT
+}
+
+id - 0     |   const - 1  |   int - 2     |   bool - 3    |  read - 4  |  write - 5  |   if - 6    |   else - 7  |   while - 8
+main - 9   |    ; - 10    |   array - 11  |   { - 12      |   } - 13   |   [ - 14    |   ] - 15    |   ( - 16    |   ) - 17  
+ + - 18    |    - - 19    |   * - 20      |   / - 21      |   > - 22   |   < - 23    |   >= - 24   |   <= - 25   |   == - 26 
+!= - 27    |    = - 28    |   true - 29   |   false - 30 
