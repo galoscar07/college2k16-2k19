@@ -1,5 +1,8 @@
 # college2k16-2k19
 
+Courses from the Faculty of Mathematics and Computer Science, Babes-Bolyai University
+
+
 ## First Semester
 
 * [Computational Logic](https://github.com/galoscar07/college2k16-2k19/tree/master/1st%20Semester/Computational%20Logic)
