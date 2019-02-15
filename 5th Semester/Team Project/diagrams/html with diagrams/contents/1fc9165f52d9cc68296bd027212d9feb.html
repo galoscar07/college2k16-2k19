@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TeacherSubjects</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>TeacherSubjects</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-ERDEntity"></span>
+          ERDEntity
+        </span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>TeamProject</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='2335c51cf5fe16e464226682207301e0.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>DatabaseDiagram</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='1fc9165f52d9cc68296bd027212d9feb.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>TeacherSubjects</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <p>TeacherSubject is the representation of a link between a Subject which held by a Teacher at TimeStamp.</p>
+
+<p>A Subject is independent from its Teacher. Two different Teachers can hold the same Subject, but the output: TeacherSubject won&#39;t represent the same entity.</p>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+
+      <!-- Operations -->
+
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+      <section>
+        <h3>Columns</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="20%">Name</th>
+            <th width="20%">Type</th>
+            <th width="10%">Primary Key</th>
+            <th width="10%">Foreign Key</th>
+            <th width="20%">Reference To</th>
+            <th width="10%">Nullable</th>
+            <th width="10%">Unique</th>
+          </tr>
+          
+          <tr>
+            <td><a href="61c68465bbebc3d40758c340d6c0b6dd.html">id</a></td>
+            <td>INTEGER(bigint)</td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="853f8e6573b5a68ea0d79159a43759d8.html">GroupId</a></td>
+            <td>INTEGER(bigint)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="9bed78253ad5491ba022c3ad26e6189f.html">SubGroup</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="6a69707d564f0339eb1aa1d6ecdad2e1.html">SubjectId</a></td>
+            <td>INTEGER(bigint)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="5db8e47a0009dd94ea079d79904f5abf.html">TeacherId</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="002011b3a51e41836fcbf0abfe49a904.html">TimeStamp</a></td>
+            <td>TIMESTAMP</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+      <section>
+        <h3>Related Entities</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="25%">Entity</th>
+            <th width="25%">Cardinality</th>
+            <th width="25%">Reference Name</th>
+            <th width="25%">Relationship</th>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='dfeb568533b0f3052dcedca006311a40.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Subjects</a></td>
+            <td>1</td>
+            <td>SubjectId</td>
+            <td><a href='628f1cc10c5cdcd4c68754988a75b219.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Subjects—TeacherSubjects)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='ddaf881f41b00bca76284827d40c7760.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Teachers</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='35bc3020136ba87400d504ac8b9a5cdd.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>TeacherId (Teachers—TeacherSubjects)</a></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>TeacherSubjects</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='628f1cc10c5cdcd4c68754988a75b219.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Subjects—TeacherSubjects)</a></li>
+        
+        <li><a href='35bc3020136ba87400d504ac8b9a5cdd.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>TeacherId (Teachers—TeacherSubjects)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+
+
+    </div>
+  </body>
+</html>
