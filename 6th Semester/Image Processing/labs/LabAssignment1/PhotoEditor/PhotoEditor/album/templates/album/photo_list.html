@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+
+{% block javascript %}
+  <script>
+    $(function () {
+
+      /* SCRIPT TO OPEN THE MODAL WITH THE PREVIEW */
+      $("#id_file").change(function () {
+        if (this.files && this.files[0]) {
+          var reader = new FileReader();
+          reader.onload = function (e) {
+            $("#image").attr("src", e.target.result);
+            $("#modalCrop").modal("show");
+          }
+          reader.readAsDataURL(this.files[0]);
+        }
+      });
+
+      var $image = $("#image");
+
+      /* SCRIPT TO COLLECT THE DATA AND POST TO THE SERVER */
+      $(".js-crop-and-upload").click(function () {
+        $("#formUpload").submit();
+      });
+
+    });
+  </script>
+{% endblock %}
+
+{% block content %}
+    <h1 class="page-header">Album</h1>
+
+    <!-- FORM TO UPLOAD THE IMAGES -->
+    <form method="post" enctype="multipart/form-data" id="formUpload">
+        {% csrf_token %}
+        {{ form }}
+    </form>
+
+    <!-- MODAL TO CROP THE IMAGE -->
+    <div class="modal fade" id="modalCrop">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Photo</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="" id="image" style="max-width: 100%;">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Nevermind</button>
+                    <button type="button" class="btn btn-primary js-crop-and-upload">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% for photo in photos %}
+    <div class="gallery">
+        <a target="_blank" href="{% url 'photo_edit' photo.pk %}">
+            <img src="{{ photo.file.url }}" width="400" height="200">
+        </a>
+    </div>
+    {% endfor %}
+
+{% endblock %}
