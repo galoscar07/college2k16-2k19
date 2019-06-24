@@ -49,6 +49,6 @@ Courses from the Faculty of Mathematics and Computer Science, Babes-Bolyai Unive
 
 ## Sixth Semester
 
-*[Numerical Calculus](https://github.com/galoscar07/college2k16-2k19/tree/master/6th%20Semester/Numerical%20Calculus)
-*[Image Processing](https://github.com/galoscar07/college2k16-2k19/tree/master/6th%20Semester/Image%20Processing)
-*[Software Systems Verification and Validation](https://github.com/galoscar07/college2k16-2k19/tree/master/6th%20Semester/Software%20Systems%20Verification%20and%20Validation)
+* [Numerical Calculus](https://github.com/galoscar07/college2k16-2k19/tree/master/6th%20Semester/Numerical%20Calculus)
+* [Image Processing](https://github.com/galoscar07/college2k16-2k19/tree/master/6th%20Semester/Image%20Processing)
+* [Software Systems Verification and Validation](https://github.com/galoscar07/college2k16-2k19/tree/master/6th%20Semester/Software%20Systems%20Verification%20and%20Validation)
