@@ -1,6 +1,6 @@
 # college2k16-2k19
 
-Courses from the Faculty of Mathematics and Computer Science, Babes-Bolyai University
+Courses from the Faculty of Mathematics and Computer Science, Babes-Bolyai University. Also here you can find my laboratories  and projects and also laboratories and projects from my collegues.
 
 
 ## First Semester
