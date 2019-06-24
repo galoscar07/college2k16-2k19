@@ -1,0 +1,6 @@
+LaboratoryAssignment - LectureForInformation - Deadline
+lab1 - (L1) - S1/2
+lab2 - (L2, L3) Tr. Pct. - S3/4
+lab3 - (L4, L5) Tr. Spatiale - S6/7
+lab4 - (L6, contour, schelet, subtire) - S8/9
+lab5 - L(L7, L8) Tr. Morfologice - S10/11 

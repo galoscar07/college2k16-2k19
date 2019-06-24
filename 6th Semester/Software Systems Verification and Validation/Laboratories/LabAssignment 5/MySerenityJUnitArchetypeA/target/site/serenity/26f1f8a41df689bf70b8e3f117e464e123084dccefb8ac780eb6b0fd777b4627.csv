@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search by keyword story","Searching by keyword car should display the corresponding article","SUCCESS","2019-05-08T10:39:57.60354+03:00[Europe/Bucharest]","0.0","8.9"
+"Search by keyword story","Searching by keyword spaceship should display the corresponding article","SUCCESS","2019-05-08T10:40:06.563362+03:00[Europe/Bucharest]","0.0","6.62"
+"Search by keyword story","Searching by keyword banana should display the corresponding article","SUCCESS","2019-05-08T10:40:13.205645+03:00[Europe/Bucharest]","0.0","5.64"
+"Search by keyword story","Searching by keyword apple should display the corresponding article","SUCCESS","2019-05-08T10:40:18.895494+03:00[Europe/Bucharest]","0.0","5.89"

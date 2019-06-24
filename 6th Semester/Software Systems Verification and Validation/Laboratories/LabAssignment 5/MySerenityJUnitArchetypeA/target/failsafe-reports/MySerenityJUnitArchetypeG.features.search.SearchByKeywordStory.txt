@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------------
+Test set: MySerenityJUnitArchetypeG.features.search.SearchByKeywordStory
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 7.159 sec <<< FAILURE! - in MySerenityJUnitArchetypeG.features.search.SearchByKeywordStory
+searching_by_keyword_banana_should_display_the_corresponding_article(MySerenityJUnitArchetypeG.features.search.SearchByKeywordStory)  Time elapsed: 2.941 sec  <<< ERROR!
+net.thucydides.core.webdriver.UnsupportedDriverException: 
+Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'Karolys-MacBook-Pro.local', ip: 'fe80:0:0:0:1cd9:be7d:58e:528f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '11.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010c9728e9 chromedriver + 3594473
+1   chromedriver                        0x000000010c902543 chromedriver + 3134787
+2   chromedriver                        0x000000010c6ae29f chromedriver + 692895
+3   chromedriver                        0x000000010c61c72b chromedriver + 96043
+4   chromedriver                        0x000000010c6187d8 chromedriver + 79832
+5   chromedriver                        0x000000010c6446db chromedriver + 259803
+6   chromedriver                        0x000000010c641d13 chromedriver + 249107
+7   chromedriver                        0x000000010c61e78a chromedriver + 104330
+8   chromedriver                        0x000000010c61f7d5 chromedriver + 108501
+9   chromedriver                        0x000000010c931555 chromedriver + 3327317
+10  chromedriver                        0x000000010c93ce60 chromedriver + 3374688
+11  chromedriver                        0x000000010c93cbf8 chromedriver + 3374072
+12  chromedriver                        0x000000010c910d39 chromedriver + 3194169
+13  chromedriver                        0x000000010c93d6d8 chromedriver + 3376856
+14  chromedriver                        0x000000010c924f27 chromedriver + 3276583
+15  chromedriver                        0x000000010c95a064 chromedriver + 3493988
+16  chromedriver                        0x000000010c978617 chromedriver + 3618327
+17  libsystem_pthread.dylib             0x00007fff5a7a42eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5a7a7249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5a7a340d thread_start + 13
+
+	at MySerenityJUnitArchetypeG.features.search.SearchByKeywordStory.searching_by_keyword_banana_should_display_the_corresponding_article(SearchByKeywordStory.java:45)
+
+searching_by_keyword_apple_should_display_the_corresponding_article(MySerenityJUnitArchetypeG.features.search.SearchByKeywordStory)  Time elapsed: 2.497 sec  <<< ERROR!
+net.thucydides.core.webdriver.UnsupportedDriverException: 
+Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'Karolys-MacBook-Pro.local', ip: 'fe80:0:0:0:1cd9:be7d:58e:528f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '11.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001042558e9 chromedriver + 3594473
+1   chromedriver                        0x00000001041e5543 chromedriver + 3134787
+2   chromedriver                        0x0000000103f9129f chromedriver + 692895
+3   chromedriver                        0x0000000103eff72b chromedriver + 96043
+4   chromedriver                        0x0000000103efb7d8 chromedriver + 79832
+5   chromedriver                        0x0000000103f276db chromedriver + 259803
+6   chromedriver                        0x0000000103f24d13 chromedriver + 249107
+7   chromedriver                        0x0000000103f0178a chromedriver + 104330
+8   chromedriver                        0x0000000103f027d5 chromedriver + 108501
+9   chromedriver                        0x0000000104214555 chromedriver + 3327317
+10  chromedriver                        0x000000010421fe60 chromedriver + 3374688
+11  chromedriver                        0x000000010421fbf8 chromedriver + 3374072
+12  chromedriver                        0x00000001041f3d39 chromedriver + 3194169
+13  chromedriver                        0x00000001042206d8 chromedriver + 3376856
+14  chromedriver                        0x0000000104207f27 chromedriver + 3276583
+15  chromedriver                        0x000000010423d064 chromedriver + 3493988
+16  chromedriver                        0x000000010425b617 chromedriver + 3618327
+17  libsystem_pthread.dylib             0x00007fff5a7a42eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5a7a7249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5a7a340d thread_start + 13
+
+	at MySerenityJUnitArchetypeG.features.search.SearchByKeywordStory.searching_by_keyword_apple_should_display_the_corresponding_article(SearchByKeywordStory.java:37)
+

@@ -1,0 +1,4 @@
+For tis lab assignment I am supposed to implement:
+c) Binarization of images
+e) Operations of type window
+h) Differenting images

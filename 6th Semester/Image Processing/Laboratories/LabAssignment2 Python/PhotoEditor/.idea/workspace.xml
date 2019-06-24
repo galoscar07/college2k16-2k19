@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a7d87cb-764d-4c4d-b75e-545f4f10d011" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/.idea/PhotoEditor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/album/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/album/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/album/effects.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/album/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/album/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/album/migrations/0002_auto_20170302_1434.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/album/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/album/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/album/templates/album/photo_edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/album/templates/album/photo_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/album/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/static/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/static/css/cropper.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/static/js/cropper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/static/js/jquery-3.1.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/templates/includes/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/PhotoEditor/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/asdasd.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/media/image_not_found.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/media/jpeg2000-home.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/media/jpeg2000-home_gJiEa93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/media/jpeg2000-home_iHr0m24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/media/jpeg2000-home_iHr0m24.jpggray" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/media/jpeg2000-home_iHr0m24_fXwwSkV.jpggray" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/out.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LabAssignment1/PhotoEditor/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Numerical Calculus/Labs/LabAssignment1/LabAssignment2.m" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PhotoEditorPython$main.coverage" NAME="main Coverage Results" MODIFIED="1552838838801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PhotoEditorPython$photo_editor.coverage" NAME="photo_editor Coverage Results" MODIFIED="1552838391302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PhotoEditor$main.coverage" NAME="main Coverage Results" MODIFIED="1555587344351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/photo_editor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="179" column="27" lean-forward="true" selection-start-line="179" selection-end-line="180" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img_modifier/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/img_modifier/color_filter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img_modifier/img_helper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>action_tabs</find>
+      <find>self.action_tabs</find>
+      <find>logo.p</find>
+      <find>operations</find>
+      <find>log</find>
+      <find>USers</find>
+      <find>&lt;span</find>
+      <find>&lt;i</find>
+      <find>place_preview_img</find>
+      <find>FiltersTab</find>
+      <find>ActionTabs</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/img_modifier/__init__.py" />
+        <option value="$PROJECT_DIR$/img_modifier/img_helper.py" />
+        <option value="$PROJECT_DIR$/photo_editor.py" />
+        <option value="$PROJECT_DIR$/img_modifier/color_filter.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PhotoEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhotoEditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhotoEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhotoEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhotoEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhotoEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="img_modifier" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PhotoEditorPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="photo_editor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PhotoEditorPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/photo_editor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.photo_editor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a7d87cb-764d-4c4d-b75e-545f4f10d011" name="Default Changelist" comment="" />
+      <created>1552815579297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552815579297</updated>
+      <workItem from="1552815581450" duration="1680000" />
+      <workItem from="1552835205427" duration="151000" />
+      <workItem from="1552835504987" duration="3380000" />
+      <workItem from="1552838983066" duration="616000" />
+      <workItem from="1552940554529" duration="1053000" />
+      <workItem from="1553006899991" duration="475000" />
+      <workItem from="1553017758682" duration="80000" />
+      <workItem from="1553170186723" duration="630000" />
+      <workItem from="1553276522757" duration="475000" />
+      <workItem from="1554987131138" duration="50000" />
+      <workItem from="1554987200783" duration="451000" />
+      <workItem from="1555575907682" duration="3712000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12753000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.28898427" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="4" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.26746988" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/img_modifier.py" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/-1468932158/PyQt5/QtWidgets/QApplication.py" />
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/-1468932158/PyQt5/QtWidgets/QWidget.py" />
+    <entry file="file://$PROJECT_DIR$/assets/temp.jpg" />
+    <entry file="file://$PROJECT_DIR$/logging_config.ini" />
+    <entry file="file://$PROJECT_DIR$/assets/logo.png" />
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/-1468932158/PyQt5/QtWidgets/QLabel.py" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img_modifier/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/functools.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/882052973/PyQt5/QtWidgets/QWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="713" column="8" selection-start-line="713" selection-start-column="8" selection-end-line="713" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img_modifier/img_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photo_editor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="179" column="27" lean-forward="true" selection-start-line="179" selection-end-line="180" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img_modifier/color_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

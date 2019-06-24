@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MySerenityJUnitArchetypeG.features.search.SearchByKeywordStory" time="7.159" tests="3" errors="2" skipped="1" failures="0">
+  <properties>
+    <property name="idea.version" value="2018.2.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.2+9"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/karolygergely/Documents/Faculty/MySerenityJUnitArchetypeA"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/karolygergely/Documents/Faculty/MySerenityJUnitArchetypeA"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.2+9"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/_w/r5v62pqx5f73nhy3rsbxp_hm0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/karolygergely/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.4"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/karolygergely"/>
+    <property name="user.timezone" value="Europe/Bucharest"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="karolygergely"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.5 install"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="searching_by_keyword_banana_should_display_the_corresponding_article" classname="MySerenityJUnitArchetypeG.features.search.SearchByKeywordStory" time="2.941">
+    <error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 75&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;Karolys-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1cd9:be7d:58e:528f%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;11.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 0   chromedriver                        0x000000010c9728e9 chromedriver + 3594473&#10;1   chromedriver                        0x000000010c902543 chromedriver + 3134787&#10;2   chromedriver                        0x000000010c6ae29f chromedriver + 692895&#10;3   chromedriver                        0x000000010c61c72b chromedriver + 96043&#10;4   chromedriver                        0x000000010c6187d8 chromedriver + 79832&#10;5   chromedriver                        0x000000010c6446db chromedriver + 259803&#10;6   chromedriver                        0x000000010c641d13 chromedriver + 249107&#10;7   chromedriver                        0x000000010c61e78a chromedriver + 104330&#10;8   chromedriver                        0x000000010c61f7d5 chromedriver + 108501&#10;9   chromedriver                        0x000000010c931555 chromedriver + 3327317&#10;10  chromedriver                        0x000000010c93ce60 chromedriver + 3374688&#10;11  chromedriver                        0x000000010c93cbf8 chromedriver + 3374072&#10;12  chromedriver                        0x000000010c910d39 chromedriver + 3194169&#10;13  chromedriver                        0x000000010c93d6d8 chromedriver + 3376856&#10;14  chromedriver                        0x000000010c924f27 chromedriver + 3276583&#10;15  chromedriver                        0x000000010c95a064 chromedriver + 3493988&#10;16  chromedriver                        0x000000010c978617 chromedriver + 3618327&#10;17  libsystem_pthread.dylib             0x00007fff5a7a42eb _pthread_body + 126&#10;18  libsystem_pthread.dylib             0x00007fff5a7a7249 _pthread_start + 66&#10;19  libsystem_pthread.dylib             0x00007fff5a7a340d thread_start + 13&#10;" type="net.thucydides.core.webdriver.UnsupportedDriverException">net.thucydides.core.webdriver.UnsupportedDriverException: 
+Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'Karolys-MacBook-Pro.local', ip: 'fe80:0:0:0:1cd9:be7d:58e:528f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '11.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010c9728e9 chromedriver + 3594473
+1   chromedriver                        0x000000010c902543 chromedriver + 3134787
+2   chromedriver                        0x000000010c6ae29f chromedriver + 692895
+3   chromedriver                        0x000000010c61c72b chromedriver + 96043
+4   chromedriver                        0x000000010c6187d8 chromedriver + 79832
+5   chromedriver                        0x000000010c6446db chromedriver + 259803
+6   chromedriver                        0x000000010c641d13 chromedriver + 249107
+7   chromedriver                        0x000000010c61e78a chromedriver + 104330
+8   chromedriver                        0x000000010c61f7d5 chromedriver + 108501
+9   chromedriver                        0x000000010c931555 chromedriver + 3327317
+10  chromedriver                        0x000000010c93ce60 chromedriver + 3374688
+11  chromedriver                        0x000000010c93cbf8 chromedriver + 3374072
+12  chromedriver                        0x000000010c910d39 chromedriver + 3194169
+13  chromedriver                        0x000000010c93d6d8 chromedriver + 3376856
+14  chromedriver                        0x000000010c924f27 chromedriver + 3276583
+15  chromedriver                        0x000000010c95a064 chromedriver + 3493988
+16  chromedriver                        0x000000010c978617 chromedriver + 3618327
+17  libsystem_pthread.dylib             0x00007fff5a7a42eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5a7a7249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5a7a340d thread_start + 13
+
+	at MySerenityJUnitArchetypeG.features.search.SearchByKeywordStory.searching_by_keyword_banana_should_display_the_corresponding_article(SearchByKeywordStory.java:45)
+</error>
+    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - &amp#27;[36m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+&amp#27;[0m
+[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Search by keyword story
+[main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: searching_by_keyword_banana_should_display_the_corresponding_article
+-------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
+Starting ChromeDriver 75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}) on port 47984
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[main] WARN net.serenitybdd.core.webdriver.servicepools.ChromeServicePool - Remote driver creation failed (session not created: This version of ChromeDriver only supports Chrome version 75), falling back on default driver creation
+Starting ChromeDriver 75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}) on port 2414
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[main] ERROR net.thucydides.core.webdriver.WebDriverFacade - FAILED TO CREATE NEW WEBDRIVER_DRIVER INSTANCE class org.openqa.selenium.chrome.ChromeDriver: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'Karolys-MacBook-Pro.local', ip: 'fe80:0:0:0:1cd9:be7d:58e:528f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '11.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010c9728e9 chromedriver + 3594473
+1   chromedriver                        0x000000010c902543 chromedriver + 3134787
+2   chromedriver                        0x000000010c6ae29f chromedriver + 692895
+3   chromedriver                        0x000000010c61c72b chromedriver + 96043
+4   chromedriver                        0x000000010c6187d8 chromedriver + 79832
+5   chromedriver                        0x000000010c6446db chromedriver + 259803
+6   chromedriver                        0x000000010c641d13 chromedriver + 249107
+7   chromedriver                        0x000000010c61e78a chromedriver + 104330
+8   chromedriver                        0x000000010c61f7d5 chromedriver + 108501
+9   chromedriver                        0x000000010c931555 chromedriver + 3327317
+10  chromedriver                        0x000000010c93ce60 chromedriver + 3374688
+11  chromedriver                        0x000000010c93cbf8 chromedriver + 3374072
+12  chromedriver                        0x000000010c910d39 chromedriver + 3194169
+13  chromedriver                        0x000000010c93d6d8 chromedriver + 3376856
+14  chromedriver                        0x000000010c924f27 chromedriver + 3276583
+15  chromedriver                        0x000000010c95a064 chromedriver + 3493988
+16  chromedriver                        0x000000010c978617 chromedriver + 3618327
+17  libsystem_pthread.dylib             0x00007fff5a7a42eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5a7a7249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5a7a340d thread_start + 13
+
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'Karolys-MacBook-Pro.local', ip: 'fe80:0:0:0:1cd9:be7d:58e:528f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '11.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010c9728e9 chromedriver + 3594473
+1   chromedriver                        0x000000010c902543 chromedriver + 3134787
+2   chromedriver                        0x000000010c6ae29f chromedriver + 692895
+3   chromedriver                        0x000000010c61c72b chromedriver + 96043
+4   chromedriver                        0x000000010c6187d8 chromedriver + 79832
+5   chromedriver                        0x000000010c6446db chromedriver + 259803
+6   chromedriver                        0x000000010c641d13 chromedriver + 249107
+7   chromedriver                        0x000000010c61e78a chromedriver + 104330
+8   chromedriver                        0x000000010c61f7d5 chromedriver + 108501
+9   chromedriver                        0x000000010c931555 chromedriver + 3327317
+10  chromedriver                        0x000000010c93ce60 chromedriver + 3374688
+11  chromedriver                        0x000000010c93cbf8 chromedriver + 3374072
+12  chromedriver                        0x000000010c910d39 chromedriver + 3194169
+13  chromedriver                        0x000000010c93d6d8 chromedriver + 3376856
+14  chromedriver                        0x000000010c924f27 chromedriver + 3276583
+15  chromedriver                        0x000000010c95a064 chromedriver + 3493988
+16  chromedriver                        0x000000010c978617 chromedriver + 3618327
+17  libsystem_pthread.dylib             0x00007fff5a7a42eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5a7a7249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5a7a340d thread_start + 13
+
+	at net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:133)
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:153)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:144)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:114)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:189)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:184)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:838)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:742)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:730)
+	at MySerenityJUnitArchetypeG.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)
+	at MySerenityJUnitArchetypeG.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$863dffd4.CGLIB$is_the_home_page$0(<generated>)
+	at MySerenityJUnitArchetypeG.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$863dffd4$$FastClassByCGLIB$$e50d3d15.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:426)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:411)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:386)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:63)
+	at MySerenityJUnitArchetypeG.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$863dffd4.is_the_home_page(<generated>)
+	at MySerenityJUnitArchetypeG.features.search.SearchByKeywordStory.searching_by_keyword_banana_should_display_the_corresponding_article(SearchByKeywordStory.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at net.serenitybdd.junit.runners.SerenityStatement.evaluate(SerenityStatement.java:33)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:472)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:447)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'Karolys-MacBook-Pro.local', ip: 'fe80:0:0:0:1cd9:be7d:58e:528f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '11.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010c9728e9 chromedriver + 3594473
+1   chromedriver                        0x000000010c902543 chromedriver + 3134787
+2   chromedriver                        0x000000010c6ae29f chromedriver + 692895
+3   chromedriver                        0x000000010c61c72b chromedriver + 96043
+4   chromedriver                        0x000000010c6187d8 chromedriver + 79832
+5   chromedriver                        0x000000010c6446db chromedriver + 259803
+6   chromedriver                        0x000000010c641d13 chromedriver + 249107
+7   chromedriver                        0x000000010c61e78a chromedriver + 104330
+8   chromedriver                        0x000000010c61f7d5 chromedriver + 108501
+9   chromedriver                        0x000000010c931555 chromedriver + 3327317
+10  chromedriver                        0x000000010c93ce60 chromedriver + 3374688
+11  chromedriver                        0x000000010c93cbf8 chromedriver + 3374072
+12  chromedriver                        0x000000010c910d39 chromedriver + 3194169
+13  chromedriver                        0x000000010c93d6d8 chromedriver + 3376856
+14  chromedriver                        0x000000010c924f27 chromedriver + 3276583
+15  chromedriver                        0x000000010c95a064 chromedriver + 3493988
+16  chromedriver                        0x000000010c978617 chromedriver + 3618327
+17  libsystem_pthread.dylib             0x00007fff5a7a42eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5a7a7249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5a7a340d thread_start + 13
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at net.serenitybdd.core.webdriver.servicepools.ChromeServicePool.newDriverInstance(ChromeServicePool.java:19)
+	at net.serenitybdd.core.webdriver.servicepools.DriverServicePool.newDriver(DriverServicePool.java:77)
+	at net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider.newInstance(ChromeDriverProvider.java:48)
+	at net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:123)
+	... 47 more
+]]></system-err>
+  </testcase>
+  <testcase name="searching_by_ambiguious_keyword_should_display_the_disambiguation_page" classname="MySerenityJUnitArchetypeG.features.search.SearchByKeywordStory" time="0">
+    <skipped/>
+    <system-err><![CDATA[[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Searching by keyword banana should display the corresponding article
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Is the home page
+[main] ERROR net.serenitybdd.core.Serenity - Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+[main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: searching_by_ambiguious_keyword_should_display_the_disambiguation_page
+-------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
+[main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+[main] INFO net.serenitybdd.core.Serenity - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: Searching by ambiguious keyword should display the disambiguation page
+---------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="searching_by_keyword_apple_should_display_the_corresponding_article" classname="MySerenityJUnitArchetypeG.features.search.SearchByKeywordStory" time="2.497">
+    <error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 75&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;Karolys-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1cd9:be7d:58e:528f%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;11.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 0   chromedriver                        0x00000001042558e9 chromedriver + 3594473&#10;1   chromedriver                        0x00000001041e5543 chromedriver + 3134787&#10;2   chromedriver                        0x0000000103f9129f chromedriver + 692895&#10;3   chromedriver                        0x0000000103eff72b chromedriver + 96043&#10;4   chromedriver                        0x0000000103efb7d8 chromedriver + 79832&#10;5   chromedriver                        0x0000000103f276db chromedriver + 259803&#10;6   chromedriver                        0x0000000103f24d13 chromedriver + 249107&#10;7   chromedriver                        0x0000000103f0178a chromedriver + 104330&#10;8   chromedriver                        0x0000000103f027d5 chromedriver + 108501&#10;9   chromedriver                        0x0000000104214555 chromedriver + 3327317&#10;10  chromedriver                        0x000000010421fe60 chromedriver + 3374688&#10;11  chromedriver                        0x000000010421fbf8 chromedriver + 3374072&#10;12  chromedriver                        0x00000001041f3d39 chromedriver + 3194169&#10;13  chromedriver                        0x00000001042206d8 chromedriver + 3376856&#10;14  chromedriver                        0x0000000104207f27 chromedriver + 3276583&#10;15  chromedriver                        0x000000010423d064 chromedriver + 3493988&#10;16  chromedriver                        0x000000010425b617 chromedriver + 3618327&#10;17  libsystem_pthread.dylib             0x00007fff5a7a42eb _pthread_body + 126&#10;18  libsystem_pthread.dylib             0x00007fff5a7a7249 _pthread_start + 66&#10;19  libsystem_pthread.dylib             0x00007fff5a7a340d thread_start + 13&#10;" type="net.thucydides.core.webdriver.UnsupportedDriverException">net.thucydides.core.webdriver.UnsupportedDriverException: 
+Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'Karolys-MacBook-Pro.local', ip: 'fe80:0:0:0:1cd9:be7d:58e:528f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '11.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001042558e9 chromedriver + 3594473
+1   chromedriver                        0x00000001041e5543 chromedriver + 3134787
+2   chromedriver                        0x0000000103f9129f chromedriver + 692895
+3   chromedriver                        0x0000000103eff72b chromedriver + 96043
+4   chromedriver                        0x0000000103efb7d8 chromedriver + 79832
+5   chromedriver                        0x0000000103f276db chromedriver + 259803
+6   chromedriver                        0x0000000103f24d13 chromedriver + 249107
+7   chromedriver                        0x0000000103f0178a chromedriver + 104330
+8   chromedriver                        0x0000000103f027d5 chromedriver + 108501
+9   chromedriver                        0x0000000104214555 chromedriver + 3327317
+10  chromedriver                        0x000000010421fe60 chromedriver + 3374688
+11  chromedriver                        0x000000010421fbf8 chromedriver + 3374072
+12  chromedriver                        0x00000001041f3d39 chromedriver + 3194169
+13  chromedriver                        0x00000001042206d8 chromedriver + 3376856
+14  chromedriver                        0x0000000104207f27 chromedriver + 3276583
+15  chromedriver                        0x000000010423d064 chromedriver + 3493988
+16  chromedriver                        0x000000010425b617 chromedriver + 3618327
+17  libsystem_pthread.dylib             0x00007fff5a7a42eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5a7a7249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5a7a340d thread_start + 13
+
+	at MySerenityJUnitArchetypeG.features.search.SearchByKeywordStory.searching_by_keyword_apple_should_display_the_corresponding_article(SearchByKeywordStory.java:37)
+</error>
+    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: searching_by_keyword_apple_should_display_the_corresponding_article
+-------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 3
+[main] WARN net.serenitybdd.core.webdriver.servicepools.ChromeServicePool - Remote driver creation failed (session not created: This version of ChromeDriver only supports Chrome version 75), falling back on default driver creation
+Starting ChromeDriver 75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}) on port 38053
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[main] ERROR net.thucydides.core.webdriver.WebDriverFacade - FAILED TO CREATE NEW WEBDRIVER_DRIVER INSTANCE class org.openqa.selenium.chrome.ChromeDriver: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'Karolys-MacBook-Pro.local', ip: 'fe80:0:0:0:1cd9:be7d:58e:528f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '11.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001042558e9 chromedriver + 3594473
+1   chromedriver                        0x00000001041e5543 chromedriver + 3134787
+2   chromedriver                        0x0000000103f9129f chromedriver + 692895
+3   chromedriver                        0x0000000103eff72b chromedriver + 96043
+4   chromedriver                        0x0000000103efb7d8 chromedriver + 79832
+5   chromedriver                        0x0000000103f276db chromedriver + 259803
+6   chromedriver                        0x0000000103f24d13 chromedriver + 249107
+7   chromedriver                        0x0000000103f0178a chromedriver + 104330
+8   chromedriver                        0x0000000103f027d5 chromedriver + 108501
+9   chromedriver                        0x0000000104214555 chromedriver + 3327317
+10  chromedriver                        0x000000010421fe60 chromedriver + 3374688
+11  chromedriver                        0x000000010421fbf8 chromedriver + 3374072
+12  chromedriver                        0x00000001041f3d39 chromedriver + 3194169
+13  chromedriver                        0x00000001042206d8 chromedriver + 3376856
+14  chromedriver                        0x0000000104207f27 chromedriver + 3276583
+15  chromedriver                        0x000000010423d064 chromedriver + 3493988
+16  chromedriver                        0x000000010425b617 chromedriver + 3618327
+17  libsystem_pthread.dylib             0x00007fff5a7a42eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5a7a7249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5a7a340d thread_start + 13
+
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'Karolys-MacBook-Pro.local', ip: 'fe80:0:0:0:1cd9:be7d:58e:528f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '11.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001042558e9 chromedriver + 3594473
+1   chromedriver                        0x00000001041e5543 chromedriver + 3134787
+2   chromedriver                        0x0000000103f9129f chromedriver + 692895
+3   chromedriver                        0x0000000103eff72b chromedriver + 96043
+4   chromedriver                        0x0000000103efb7d8 chromedriver + 79832
+5   chromedriver                        0x0000000103f276db chromedriver + 259803
+6   chromedriver                        0x0000000103f24d13 chromedriver + 249107
+7   chromedriver                        0x0000000103f0178a chromedriver + 104330
+8   chromedriver                        0x0000000103f027d5 chromedriver + 108501
+9   chromedriver                        0x0000000104214555 chromedriver + 3327317
+10  chromedriver                        0x000000010421fe60 chromedriver + 3374688
+11  chromedriver                        0x000000010421fbf8 chromedriver + 3374072
+12  chromedriver                        0x00000001041f3d39 chromedriver + 3194169
+13  chromedriver                        0x00000001042206d8 chromedriver + 3376856
+14  chromedriver                        0x0000000104207f27 chromedriver + 3276583
+15  chromedriver                        0x000000010423d064 chromedriver + 3493988
+16  chromedriver                        0x000000010425b617 chromedriver + 3618327
+17  libsystem_pthread.dylib             0x00007fff5a7a42eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5a7a7249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5a7a340d thread_start + 13
+
+	at net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:133)
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:153)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:144)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:114)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:189)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:184)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:838)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:742)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:730)
+	at MySerenityJUnitArchetypeG.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)
+	at MySerenityJUnitArchetypeG.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$863dffd4.CGLIB$is_the_home_page$0(<generated>)
+	at MySerenityJUnitArchetypeG.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$863dffd4$$FastClassByCGLIB$$e50d3d15.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:426)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:411)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:386)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:63)
+	at MySerenityJUnitArchetypeG.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$863dffd4.is_the_home_page(<generated>)
+	at MySerenityJUnitArchetypeG.features.search.SearchByKeywordStory.searching_by_keyword_apple_should_display_the_corresponding_article(SearchByKeywordStory.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at net.serenitybdd.junit.runners.SerenityStatement.evaluate(SerenityStatement.java:33)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:472)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:447)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'Karolys-MacBook-Pro.local', ip: 'fe80:0:0:0:1cd9:be7d:58e:528f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '11.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001042558e9 chromedriver + 3594473
+1   chromedriver                        0x00000001041e5543 chromedriver + 3134787
+2   chromedriver                        0x0000000103f9129f chromedriver + 692895
+3   chromedriver                        0x0000000103eff72b chromedriver + 96043
+4   chromedriver                        0x0000000103efb7d8 chromedriver + 79832
+5   chromedriver                        0x0000000103f276db chromedriver + 259803
+6   chromedriver                        0x0000000103f24d13 chromedriver + 249107
+7   chromedriver                        0x0000000103f0178a chromedriver + 104330
+8   chromedriver                        0x0000000103f027d5 chromedriver + 108501
+9   chromedriver                        0x0000000104214555 chromedriver + 3327317
+10  chromedriver                        0x000000010421fe60 chromedriver + 3374688
+11  chromedriver                        0x000000010421fbf8 chromedriver + 3374072
+12  chromedriver                        0x00000001041f3d39 chromedriver + 3194169
+13  chromedriver                        0x00000001042206d8 chromedriver + 3376856
+14  chromedriver                        0x0000000104207f27 chromedriver + 3276583
+15  chromedriver                        0x000000010423d064 chromedriver + 3493988
+16  chromedriver                        0x000000010425b617 chromedriver + 3618327
+17  libsystem_pthread.dylib             0x00007fff5a7a42eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5a7a7249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5a7a340d thread_start + 13
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at net.serenitybdd.core.webdriver.servicepools.ChromeServicePool.newDriverInstance(ChromeServicePool.java:19)
+	at net.serenitybdd.core.webdriver.servicepools.DriverServicePool.newDriver(DriverServicePool.java:77)
+	at net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider.newInstance(ChromeDriverProvider.java:48)
+	at net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:123)
+	... 47 more
+]]></system-err>
+  </testcase>
+</testsuite>

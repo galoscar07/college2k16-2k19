@@ -1,0 +1,15 @@
+AssignmentValidator:
+	- id shouldn't be smaller than 0
+	- id shouldn't be string
+Grade Validator:
+	- id shouldn't be null
+	- id shouldn't be smaller than 0
+	- id shouldn't be string
+	- student id should be a number
+	- lab id shouldn't be null
+	- lab id shouldn't be alphanumeric
+Student Validator:
+	- id shouldn't be null
+	- id should be a number
+
+
